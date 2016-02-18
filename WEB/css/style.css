@@ -1,0 +1,226 @@
+/***********************************
+	ESTILO VISTA GENERAL
+************************************/
+html, body {
+	font-family: "Arial", sans-serif;
+}
+
+.img-responsive {
+	width: 100%;
+}
+
+.no-padding {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.va{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+
+}
+
+.navbar {
+	border-bottom: 2px solid #0B7DC0;
+	background: #FFF;
+}
+
+ .navbar-default .navbar-toggle .icon-bar {
+	background-color: #0B7DC0;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #0B7DC0;
+}
+
+.logo-navbar{
+	height: 100%;
+}
+
+.logo-navbar img{
+	width:85%;
+}
+
+.iconoheader-buscar{
+	width:85%;
+}
+
+.iconoheader {
+	display:inline-block;
+    margin-right: 5px;
+}
+
+/***********************************
+	ESTILO VISTA MOBILE
+************************************/
+
+@media screen and (min-width: 768px) {
+
+	/*.navbar-header {
+		width: 20%;
+		float: left;
+	}*/
+
+	/*.navbar-collapse {
+		float: right;
+		width: 80%;
+	}*/
+
+	/*.navbar-nav {
+		width: 100%;
+	}*/
+
+	.navbar-nav li {
+		display: inline-block;
+		padding: 0;
+		width: 25%;
+		text-align: center;
+	}
+
+	.navbar-nav li a {
+		text-align: center;
+	}
+
+}
+
+/***********************************
+	ESTILO VISTA DISP. MEDIANOS
+************************************/
+
+	/********************************
+	   Ajuste Elementos Navbar Menu
+	*********************************/
+
+	.menu-list1-li-item1{
+		width: 18%;
+	}
+
+	.menu-list1-li-item2{
+		width: 23%;
+	}
+
+	.menu-list1-icono1{
+		width: 11%;
+	}
+
+	.menu-list1-li-item3{
+		width: 26%;
+	}
+
+	.menu-list1-icono2{
+		width: 8%;
+	}
+
+	.menu-list1-li-item4{
+		width: 33%;
+	}
+
+	.menu-list2-li-item1{
+		width: 18%;
+	}
+
+	.menu-list2-li-item2{
+		width: 22%;
+	}
+
+	.menu-list2-li-item3{
+		width: 33%;
+	}
+
+	.menu-list2-icono1{
+		width: 9%;
+	}
+
+
+	/********************************/
+
+@media screen and (min-width: 992px) {
+
+
+	.navbar{
+		height: 80px;
+		margin: 0px;
+	}
+
+	.c2-menu {
+		height: 100%;
+		padding-left: 30px !important;
+	}
+
+	.menu-list {
+		height: 80%;
+	}
+
+	.menu-list div {
+		height: 50%;
+		padding-left: 30px;
+	}
+
+	.menu-list li {
+		list-style: none;
+		display: inline-block;
+		font-weight: bold;
+	}
+
+	.menu-list1 li a{
+		font-size: 11px;
+    	letter-spacing: 0.1px;
+	}
+
+	.menu-list2 li a{
+		font-size: 12px;
+    	letter-spacing: 1px;
+	}
+
+	.menu-list-form {
+		top: 35%;		
+	}
+
+	.menu-list-form form {
+		height: 100%;
+	}
+
+	.menu-list1{
+		border-bottom: 2px solid #D2BF40;
+	}
+
+	.input-style{
+		padding-left: 8px !important;
+	}
+
+	.collapse{
+		display: block;
+	}
+
+	.btn-busqueda {
+		border: none;
+		background-color: #FFF;
+		padding: 0px ;
+		width: 21px;
+		height: 21px;
+	}
+
+	.fa-search {
+		color: #0878C4;
+    	font-size: 1.55em;
+    	padding: 3px 6px 0px 0px;
+	}
+
+	.input-busqueda{
+		border-radius: 0;
+		height: 23px;
+	}
+
+	.input-busqueda [placeholder] {
+		color: #007EBF;
+	}
+
+	.input-busqueda:focus {
+		box-shadow: none;
+		border-color: none;
+	}
+
+
+
+}
