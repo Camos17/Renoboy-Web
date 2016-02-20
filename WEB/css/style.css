@@ -1,8 +1,17 @@
 /***********************************
 	ESTILO VISTA GENERAL
 ************************************/
+
 html, body {
 	font-family: "Helvetica", sans-serif;
+}
+
+.centrado-porcentual {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 .img-responsive {
@@ -26,7 +35,7 @@ html, body {
 	background: #FFF;
 }
 
- .navbar-default .navbar-toggle .icon-bar {
+.navbar-default .navbar-toggle .icon-bar {
 	background-color: #0B7DC0;
 }
 
@@ -39,8 +48,10 @@ html, body {
 }
 
 .logo-navbar img{
-	width:85%;
+	width: 56%;
+	margin: 0px;
 }
+
 
 .iconoheader-buscar{
 	width:85%;
@@ -71,6 +82,11 @@ html, body {
 		width: 100%;
 	}*/
 
+	.logo-navbar img{
+		width: 56%;
+    	float: left;
+	}
+
 	.navbar-nav li {
 		display: inline-block;
 		padding: 0;
@@ -83,6 +99,8 @@ html, body {
 	}
 
 }
+
+@media screen and (min-width: 992px) {
 
 /***********************************
 	ESTILO VISTA DISP. MEDIANOS
@@ -135,17 +153,21 @@ html, body {
 
 	/********************************/
 
-@media screen and (min-width: 992px) {
-
 
 	.navbar{
 		height: 80px;
 		margin: 0px;
 	}
 
+	.logo-navbar img{
+		width:85%;
+	}	
+
 	.c2-menu {
 		height: 100%;
 		padding-left: 30px !important;
+		float: left;
+		margin-top: 14px;
 	}
 
 	.menu-list {

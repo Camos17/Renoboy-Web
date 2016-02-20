@@ -1,0 +1,143 @@
+
+
+/********************************************
+	ESTILO VISTA GENERAL -- Mobiles Pequenos
+*********************************************/
+
+.no-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.img-responsive {
+	width: 100%;
+}
+
+.img-height-responsive{
+	width: auto;
+	height: 100%;
+}
+
+.navbar{
+	border-bottom: 2px solid #1B71A1;
+	background-color: #FFF;
+}
+
+.navbar-brand {
+    padding: 7px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #1975AA;
+}
+
+.navbar-nav li a{
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #1B71A1;
+}
+
+.navbar-default .navbar-nav > li:active, .navbar-default .navbar-nav > li:focus{
+	background-color: #1B71A1;
+}
+
+.navbar-default .navbar-nav > li:active > a, .navbar-default .navbar-nav > li:focus > a {
+	color: #FFF;
+}
+
+.content-wrapper{
+	margin-top: 50px;
+	border-bottom: 3px solid #DFBB05;
+}
+
+.icon-header{
+	width: 20px;
+	height: auto;
+	margin-right: 5px;
+}
+
+
+
+/********************************************
+	ESTILO VISTA GENERAL -- Mobiles Medianos
+*********************************************/
+
+
+@media screen and (min-width: 768px) {
+
+	.navbar .container-fluid {
+		padding-right: 0px;
+	}
+
+	.navbar-nav {
+		padding-top: 7px;
+		padding-bottom: 3px;
+
+	}
+
+	.navbar-header {
+		width: 22%;
+	}
+
+	.navbar-collapse {
+		width: 78%;
+		float: right;
+	}
+
+	.navbar li {
+		font-size: 0.8em;
+	}
+
+	.navbar li a{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	.navbar hr{
+		margin-top: 1px;
+		margin-bottom: 1px;
+		width: 100%;
+		float: right;
+		border-color: #DFBB05;
+	}
+
+}
+
+/*
+
+.centrado-p {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+
+
+.navbar-header {
+	height: 100%;
+}
+
+
+
+.menu-desplegable {
+    position: relative;
+    float: right;
+    padding: 10px 10px;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 6%;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 1px;
+}
+
+
+
+*/
