@@ -135,9 +135,11 @@
 					Calle 17A N° 69F - 58 Zona Industrial Montevideo<br>
 					Tel: (+571) 742 2779<br><br>
 				</div>
-				<button id="btn-mas-sedes" class="btn">
-					<span class="glyphicon glyphicon-chevron-down"></span>
-				</button>	
+				<div class="col-xs-12">			
+					<button id="btn-mas-sedes" class="col-xs-offset-5 btn center-block">
+						<span class="glyphicon glyphicon-chevron-down"></span>
+					</button>
+				</div>
 			</div>
 		</footer>
 
@@ -147,8 +149,8 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$( "#btn-mas-sedes" ).click(function() {
-					// $("#mas-sedes").slideToggle();
-			    	$("#mas-sedes").fadeToggle( 1000 );
+					$("#mas-sedes").slideToggle(1000);
+			    	// $("#mas-sedes").fadeToggle( 1000 );
 				});
 			});
 		</script>
