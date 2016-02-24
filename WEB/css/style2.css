@@ -1,143 +1,287 @@
 
-
 /********************************************
-	ESTILO VISTA GENERAL -- Mobiles Pequenos
-*********************************************/
-
-.no-padding {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-.img-responsive {
-	width: 100%;
-}
-
-.img-height-responsive{
-	width: auto;
-	height: 100%;
-}
-
-.navbar{
-	border-bottom: 2px solid #1B71A1;
-	background-color: #FFF;
-}
-
-.navbar-brand {
-    padding: 7px;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-	background-color: #1975AA;
-}
-
-.navbar-nav li a{
-	text-align: center;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-.navbar-default .navbar-nav > li > a {
-	color: #1B71A1;
-}
-
-.navbar-default .navbar-nav > li:active, .navbar-default .navbar-nav > li:focus{
-	background-color: #1B71A1;
-}
-
-.navbar-default .navbar-nav > li:active > a, .navbar-default .navbar-nav > li:focus > a {
-	color: #FFF;
-}
-
-.content-wrapper{
-	margin-top: 50px;
-	border-bottom: 3px solid #DFBB05;
-}
-
-.icon-header{
-	width: 20px;
-	height: auto;
-	margin-right: 5px;
-}
-
-
-
-/********************************************
-	ESTILO VISTA GENERAL -- Mobiles Medianos
+*********************************************
+				ESTILO HEADER
+*********************************************	
 *********************************************/
 
 
-@media screen and (min-width: 768px) {
+	/********************************************
+		ESTILO VISTA -- Mobiles Pequenos
+	*********************************************/
 
-	.navbar .container-fluid {
+
+
+	.no-padding {
+		padding-left: 0px;
 		padding-right: 0px;
 	}
 
-	.navbar-nav {
-		padding-top: 7px;
-		padding-bottom: 3px;
+	.img-responsive {
+		width: 100%;
+	}
 
+	.img-height-responsive{
+		width: auto;
+		height: 100%;
+	}
+
+	.center-block {
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	.navbar{
+		border-bottom: 2px solid #1B71A1;
+		background-color: #FFF;
 	}
 
 	.navbar-header {
-		width: 22%;
+		height: 50px;
 	}
 
-	.navbar-collapse {
-		width: 78%;
-		float: right;
+	.navbar-brand {
+		padding: 7px;
 	}
 
-	.navbar li {
-		font-size: 0.8em;
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #1975AA;
 	}
 
-	.navbar li a{
-		padding-top: 0px;
-		padding-bottom: 0px;
+	.navbar-nav li a{
+		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
 	}
 
-	.navbar hr{
-		margin-top: 1px;
-		margin-bottom: 1px;
-		width: 100%;
-		float: right;
-		border-color: #DFBB05;
+	.navbar-default .navbar-nav > li > a {
+		color: #1B71A1;
 	}
 
-}
+	.navbar-default .navbar-nav > li:active, .navbar-default .navbar-nav > li:focus{
+		background-color: #1B71A1;
+	}
 
-/*
+	.navbar-default .navbar-nav > li:active > a, .navbar-default .navbar-nav > li:focus > a {
+		color: #FFF;
+	}
 
-.centrado-p {
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-}
+	.content-wrapper{
+		margin-top: 50px;
+		border-bottom: 3px solid #DFBB05;
+	}
 
+	.icon-header{
+		width: 20px;
+		height: auto;
+		margin-right: 5px;
+	}
 
+	.va{
+		position: relative;
+		top: 50%;
+		-ms-transform: translateY(-50%); /* IE 9 */
+		-webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
 
-.navbar-header {
-	height: 100%;
-}
-
-
-
-.menu-desplegable {
-    position: relative;
-    float: right;
-    padding: 10px 10px;
-    margin-top: 5%;
-    margin-right: 5%;
-    margin-bottom: 6%;
-    background-color: transparent;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 1px;
-}
+	/********************************************
+		ESTILO VISTA GENERAL -- Mobiles Medianos
+	*********************************************/
 
 
 
-*/
+	@media screen and (min-width: 768px) {
+
+		
+		.navbar .container-fluid {
+			padding-right: 0px;
+		}
+
+		.navbar-nav {
+			padding-top: 7px;
+			padding-bottom: 3px;
+		}
+
+		.navbar-header {
+			width: 22%;
+			height: 67px;
+		}
+
+		.navbar-brand {
+			padding: 5px 5px 5px 5%;
+		}
+
+		.navbar .container-fluid .navbar-brand {
+			margin-left: -22px
+		}
+
+		.navbar-collapse {
+			width: 78%;
+			float: right;
+		}
+
+		.navbar li {
+			font-size: 0.8em;
+		}
+
+		.navbar li a{
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
+
+		.navbar hr{
+			margin-top: 1px;
+			margin-bottom: 1px;
+			width: 100%;
+			float: right;
+			border-color: #DFBB05;
+		}
+
+		.navbar-nav li:nth-child(n+5){
+			padding-top:5px;
+			padding-bottom:5px;	
+		}
+
+		.navbar-default .navbar-nav > li:active, .navbar-default .navbar-nav > li:focus{
+			background-color: #FFF;
+		}
+
+		.navbar-default .navbar-nav > li:active > a, .navbar-default .navbar-nav > li:focus > a {
+			color: #1B71A1;
+		}
+
+		.content-wrapper{
+			margin-top: 67px;
+			border-bottom: 3px solid #DFBB05;
+		}
+
+	}
+
+	/********************************************
+		ESTILO VISTA GENERAL -- Mobiles Medianos
+			Posición: Horizontal;
+	*********************************************/
+
+	@media screen and (min-width: 992px) {
+
+
+		.navbar-header {
+			width: 22%;
+			height: 69px;
+		}
+
+		.navbar-brand {
+			padding: 1px 5px 1px 5%;
+		}
+
+	}
+
+	@media screen and (min-width: 1200px) {
+
+
+		.navbar-brand {
+			height: 67px;
+			padding: 4px 5px 4px 5%;
+		}
+
+		.navbar-nav {
+		    padding-top: 10px;
+		    padding-bottom: 3px;
+		}
+
+		.searchinput{
+			padding-left: 0;
+		}
+
+		.btn-header-busqueda{
+			padding: 0;
+			height: 20px;
+			width: 16px;
+			border: none;
+		}
+
+		.searchinput input, .searchinput input:focus, .searchinput input:active, .searchinput input:hover{
+			position: relative;
+			top: -3px;
+			right: -12px;
+			padding: 0 0 0;
+			height: 24px;
+			border-color: transparent;
+			box-shadow:none;
+			background-color: #f0f0f0;
+			border-radius: 0;
+		}
+	}
+
+
+/********************************************
+*********************************************
+				ESTILO FOOTER
+*********************************************	
+*********************************************/
+
+
+	/********************************************
+		ESTILO VISTA -- Mobiles Pequenos
+	*********************************************/
+
+	.texto-sedes{
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	.texto-sedes2{
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	.texto-sedes p{
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+		font-size: 0.85em;
+		color: #1975AA;
+	}
+
+	.texto-sedes2 p{
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+		font-size: 0.85em;
+		color: #FFF;
+	}
+
+	.texto-sedes p:nth-child(1) {
+		font-weight: bold;
+		font-size: 1em;
+	}
+
+	.estilo-footer div:nth-child(2) {
+		background-color: #1975AA;
+	}
+
+	.carousel {
+		height: 165px;
+	}
+
+	.carousel-legal .carousel-inner {
+		height: 165px;
+	}
+
+	.carousel-control.left, .carousel-control.right {
+		background-image: none;
+	}
+
+	.icono-legal{
+		height: 165px;
+	}
+
+	.icono-legal img{
+		width: 56px;
+	}
+
+	.icono-legal .icono-iqnet {
+		width: 68px;
+	}
