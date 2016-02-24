@@ -12,7 +12,7 @@
 
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style2.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top">
@@ -121,9 +121,6 @@
 					Calle 17A N° 69F - 58 Zona Industrial Montevideo<br>
 					Tel: (+571) 742 2779</p>
 				</div>
-				<button id="btn-mas-sedes" class="btn">
-					<span class="glyphicon glyphicon-chevron-down"></span>
-				</button>
 				<div id="mas-sedes" class="col-xs-12 no-padding texto-sedes2" style="display:none";>
 					<p class="text-center"><strong>Planta Renoboy Bogotá</strong><br>
 					Calle 17A N° 69F - 58 Zona Industrial Montevideo<br>
@@ -138,7 +135,9 @@
 					Calle 17A N° 69F - 58 Zona Industrial Montevideo<br>
 					Tel: (+571) 742 2779<br><br>
 				</div>
-
+				<button id="btn-mas-sedes" class="btn">
+					<span class="glyphicon glyphicon-chevron-down"></span>
+				</button>	
 			</div>
 		</footer>
 
@@ -146,13 +145,15 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script type="text/javascript">
-			$( "#btn-mas-sedes" ).click(function() {
-			    $("#mas-sedes").fadeToggle( 1000 );
+			$(document).ready(function(){
+				$( "#btn-mas-sedes" ).click(function() {
+					// $("#mas-sedes").slideToggle();
+			    	$("#mas-sedes").fadeToggle( 1000 );
+				});
 			});
 		</script>
 
 	</body>
-
 	
 
 	
