@@ -146,7 +146,7 @@
 				$( "#btn-mas-sedes" ).click(function() {
 					var $contenedor = $('#mas-sedes')
 					$("#mas-sedes").slideToggle(1000);
-					$('#ancla').animate({scrollTop: $("#ancla").offset().top}, 2000);
+					$('html,body').animate({scrollTop: $("#ancla").offset().top}, 1000);
 					$("#btn-mas-sedes .glyphicon-chevron-up").toggle();
 			    	$("#btn-mas-sedes .glyphicon-chevron-down").toggle();
 				});
