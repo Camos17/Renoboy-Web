@@ -57,63 +57,59 @@
 				<source src="http://d2bptzq05weps4.cloudfront.net/assets/video_headers/homepage/home_video_03_2015_lumia-9ec94a53ca64078e60d0f2a09491b35a.webm" type="video/webm">
 				Your browser does not support the video tag.
 			</video> 
-			<img class="hidden-lg img-responsive " src="img/fondohome.jpg" alt="...">
+			<img class="hidden-lg img-responsive " src="http://placehold.it/768x524" alt="...">
 		</div>
 
 		<footer class="col-xs-12 no-padding estilo-footer">
-			<div class="col-xs-12 no-padding texto-sedes">
+			<div class="col-xs-12 col-md-2 col-md-push-4 no-padding texto-sedes">
 				<p class="text-center"><strong>Planta Renoboy Bogotá</strong><br>
 				   Calle 17A N° 69F - 58 Zona Industrial Montevideo<br>
 				   Tel: (+571) 742 2779</p>
 			</div>
-			<div class="col-xs-12 no-padding">
-				<div id="carousel-example-generic" class="carousel slide carousel-legal" data-ride="carousel" data-interval="false">
-				  <!-- Indicators -->
-					<ol class="hidden-xs carousel-indicators">
-						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-					</ol>
-				 
-				  <!-- Wrapper for slides -->
-					<div class="carousel-inner">
-						<div class="item active">
-						 	<div class="col-xs-6">
-						 		<div class="col-xs-6 col-xs-offset-6 no-padding icono-legal">
-						 			<img class="va pull-right" src="img/iso14001.svg" alt="">	
-						 		</div>
-						 	</div>
-						 	<div class="col-xs-6">
-						 		<div class="col-xs-6 no-padding icono-legal">
-						 			<img class="va pull-left" src="img/iso9001.svg" alt="">	
-						 		</div>
-						 	</div>
-						</div>
-						<div class="item">
-							<div class="col-xs-6">
-								<div class="col-xs-6 col-xs-offset-6 no-padding icono-legal">
-						 			<img class="va pull-right" src="img/procesos.svg" alt="">	
-						 		</div>
-						 	</div>
-						 	<div class="col-xs-6">
-						 		<div class="col-xs-6 col-xs-offste-6 no-padding icono-legal">
-						 			<img class="va pull-left icono-iqnet" src="img/iqnet.svg" alt="">
-						 		</div>
-						 	</div>
-						</div>
-					</div>
-				 
-					<!-- Controls -->
-					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left"></span>
-					</a>
-					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right"></span>
-					</a>
-				</div> <!-- Carousel -->
 
-				<div class="col-xs-12 no-padding texto-sedes2">
+			<div id="carousel-example-generic" class="carousel slide carousel-legal col-xs-12 col-md-4 col-md-pull-2" data-ride="carousel" data-interval="false">
+			 
+			  <!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+					 	<div class="col-xs-6">
+					 		<div class="col-xs-6 col-xs-offset-6 no-padding icono-legal">
+					 			<img class="va pull-right" src="img/iso14001.svg" alt="">	
+					 		</div>
+					 	</div>
+					 	<div class="col-xs-6">
+					 		<div class="col-xs-6 no-padding icono-legal">
+					 			<img class="va pull-left" src="img/iso9001.svg" alt="">	
+					 		</div>
+					 	</div>
+					</div>
+					<div class="item">
+						<div class="col-xs-6">
+							<div class="col-xs-6 col-xs-offset-6 no-padding icono-legal">
+					 			<img class="va pull-right" src="img/procesos.svg" alt="">	
+					 		</div>
+					 	</div>
+					 	<div class="col-xs-6">
+					 		<div class="col-xs-6 col-xs-offste-6 no-padding icono-legal">
+					 			<img class="va pull-left icono-iqnet" src="img/iqnet.svg" alt="">
+					 		</div>
+					 	</div>
+					</div>
+				</div>
+			 
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div> <!-- Carousel -->
+
+			<div class="col-xs-12 col-md-6 no-padding">
+				
+			
+				<div class="col-xs-12 col-md-8 no-padding texto-sedes2">
 					<p class="text-center"><strong>Planta Renoboy Bogotá</strong><br>
 					Calle 17A N° 69F - 58 Zona Industrial Montevideo<br>
 					Tel: (+571) 742 2779<br><br>
@@ -121,11 +117,8 @@
 					Calle 17A N° 69F - 58 Zona Industrial Montevideo<br>
 					Tel: (+571) 742 2779</p>
 				</div>
-				<div id="mas-sedes" class="col-xs-12 no-padding texto-sedes2" style="display:none";>
+				<div id="mas-sedes" class="col-xs-12 no-padding texto-sedes2">
 					<p class="text-center"><strong>Planta Renoboy Bogotá</strong><br>
-					Calle 17A N° 69F - 58 Zona Industrial Montevideo<br>
-					Tel: (+571) 742 2779<br><br>
-					<strong>Planta Renoboy Bogotá</strong><br>
 					Calle 17A N° 69F - 58 Zona Industrial Montevideo<br>
 					Tel: (+571) 742 2779<br><br>
 					<strong>Planta Renoboy Bogotá</strong><br>
@@ -138,8 +131,10 @@
 				<div class="col-xs-12">			
 					<button id="btn-mas-sedes" class="col-xs-offset-5 btn center-block">
 						<span class="glyphicon glyphicon-chevron-down"></span>
+						<span class="glyphicon glyphicon-chevron-up"></span>
 					</button>
 				</div>
+
 			</div>
 		</footer>
 
@@ -150,7 +145,8 @@
 			$(document).ready(function(){
 				$( "#btn-mas-sedes" ).click(function() {
 					$("#mas-sedes").slideToggle(1000);
-			    	// $("#mas-sedes").fadeToggle( 1000 );
+					$("#btn-mas-sedes .glyphicon-chevron-up").toggle();
+			    	$("#btn-mas-sedes .glyphicon-chevron-down").toggle();
 				});
 			});
 		</script>

@@ -1,3 +1,7 @@
+html, body{
+	height:100%;
+}
+
 
 /********************************************
 *********************************************
@@ -68,8 +72,8 @@
 	}
 
 	.content-wrapper{
+		min-height:80%;
 		margin-top: 50px;
-		border-bottom: 3px solid #DFBB05;
 	}
 
 	.icon-header{
@@ -154,7 +158,6 @@
 
 		.content-wrapper{
 			margin-top: 67px;
-			border-bottom: 3px solid #DFBB05;
 		}
 
 	}
@@ -228,8 +231,9 @@
 	*********************************************/
 
 	.texto-sedes {
-		margin-top: 40px;
-		margin-bottom: 40px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		background-color: #FFF;
 	}
 
 	.texto-sedes2 {
@@ -255,9 +259,14 @@
 
 	#mas-sedes {
 		margin-top: 0px;
+		display: none;
 	}
 
-	.estilo-footer div:nth-child(2) {
+	footer{
+		border-top: 3px solid #DFBB05;
+	}
+
+	.estilo-footer {
 		background-color: #1975AA;
 	}
 
@@ -291,3 +300,6 @@
 		font-size: 1.7em;
 	}
 
+	#btn-mas-sedes .glyphicon-chevron-up {
+		display: none;
+	}
