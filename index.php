@@ -57,7 +57,7 @@
 				<source src="http://d2bptzq05weps4.cloudfront.net/assets/video_headers/homepage/home_video_03_2015_lumia-9ec94a53ca64078e60d0f2a09491b35a.webm" type="video/webm">
 				Your browser does not support the video tag.
 			</video> 
-			<img class="hidden-lg img-responsive " src="http://placehold.it/768x524" alt="...">
+			<img class="hidden-lg img-responsive " src="http://placehold.it/320x460" alt="...">
 		</div>
 
 		<footer class="col-xs-12 no-padding estilo-footer">
@@ -128,7 +128,7 @@
 					Calle 17A N° 69F - 58 Zona Industrial Montevideo<br>
 					Tel: (+571) 742 2779<br><br>
 				</div>
-				<div class="col-xs-12">			
+				<div id="ancla" class="col-xs-12">			
 					<button id="btn-mas-sedes" class="col-xs-offset-5 btn center-block">
 						<span class="glyphicon glyphicon-chevron-down"></span>
 						<span class="glyphicon glyphicon-chevron-up"></span>
@@ -144,7 +144,9 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$( "#btn-mas-sedes" ).click(function() {
+					var $contenedor = $('#mas-sedes')
 					$("#mas-sedes").slideToggle(1000);
+					$('html,body').animate({scrollTop: $("#ancla").offset().top}, 2000);
 					$("#btn-mas-sedes .glyphicon-chevron-up").toggle();
 			    	$("#btn-mas-sedes .glyphicon-chevron-down").toggle();
 				});

@@ -38,6 +38,14 @@ a, button{
   		margin-right: auto;
 	}
 
+	.va{
+		position: relative;
+		top: 50%;
+		-ms-transform: translateY(-50%); /* IE 9 */
+		-webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+
 	.navbar{
 		border-bottom: 2px solid #1B71A1;
 		background-color: #FFF;
@@ -59,6 +67,10 @@ a, button{
 		text-align: center;
 		font-weight: bold;
 		text-transform: uppercase;
+	}
+
+	.navbar-nav li {
+		margin: 6px 0px;
 	}
 
 	.navbar-default .navbar-nav > li > a {
@@ -84,13 +96,7 @@ a, button{
 		margin-right: 5px;
 	}
 
-	.va{
-		position: relative;
-		top: 50%;
-		-ms-transform: translateY(-50%); /* IE 9 */
-		-webkit-transform: translateY(-50%);
-		transform: translateY(-50%);
-	}
+	
 
 	/********************************************
 		ESTILO VISTA GENERAL -- Mobiles Medianos
@@ -166,7 +172,6 @@ a, button{
 
 	/********************************************
 		ESTILO VISTA GENERAL -- Mobiles Medianos
-			Posición: Horizontal;
 	*********************************************/
 
 	@media screen and (min-width: 992px) {
@@ -247,7 +252,7 @@ a, button{
 		text-align: center;
 		padding: 0px;
 		margin: 0px;
-		font-size: 0.85em;
+		font-size: 0.95em;
 		color: #1975AA;
 	}
 
