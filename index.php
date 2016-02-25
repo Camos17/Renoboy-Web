@@ -126,13 +126,13 @@
 						Carrera 47 E N° 78C Sur - 95 Ciudadela Industrial ACIC<br>
 						<a href="tel: (+574) 604 0368">Tel: (+574) 604 0368</a><br><br></p>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 texto-sedes2 texto-sedes3">
 						<p class="text-center"><strong>Planta Renoboy Tubará</strong><br>
 						Vía Tubará Kilómetro 11 Diagonal Relleno AAA<br>
 						<a href="tel: (+575) 385 6034">Tel: (+575) 385 6034</a><br><br></p>
 					</div>					
 				</div>
-				<div id="mas-sedes" class="col-xs-12 hidden-md no-padding texto-sedes2">
+				<div id="mas-sedes" class="col-xs-12 hidden-md hidden-lg no-padding texto-sedes2">
 					<p class="text-center"><strong>Planta Renoboy Yumbo</strong><br>
 					Carrera 20G N° 14B - 36 Cencar Yumbo<br>
 					<a href="tel: (+572) 485 3453">Tel: (+572) 485 3453</a><br><br>
@@ -143,7 +143,7 @@
 					Vía Tubará Kilómetro 11 Diagonal Relleno AAA<br>
 					<a href="tel: (+575) 385 6034">Tel: (+575) 385 6034</a><br><br>
 				</div>
-				<div id="ancla" class="col-xs-12 hidden-md">			
+				<div id="ancla" class="col-xs-12 hidden-md hidden-lg">			
 					<button id="btn-mas-sedes" class="col-xs-offset-5 btn center-block">
 						<span class="glyphicon glyphicon-chevron-down"></span>
 						<span class="glyphicon glyphicon-chevron-up"></span>

@@ -321,7 +321,6 @@ a, button{
 		display: none;
 	}
 
-k
 
 
 	/********************************************
@@ -336,8 +335,38 @@ k
 			background-color: #FFF;
 		}
 
-		/*.carousel-legal {
+		.carousel-legal {
 			background-color: #1975AA;
-		}*/
+			height: 190px;
+			padding-top: 5px; 
+		}
 
+		.texto-sedes {
+			padding-left: 25px;
+		}
+
+		.texto-sedes p{
+			text-align: left;	
+			font-size: 0.85em;
+		}
+
+		.texto-sedes2 {
+			margin-top: 40px;
+			margin-bottom: 20px;
+		}
+
+		.texto-sedes2 p{
+			color: #1975AA;
+			text-align: left;
+			font-size: 0.65em;
+		}
+
+		.texto-sedes2 a {
+			color: #1975AA;
+			text-decoration: none;
+		}
+	
+		.texto-sedes3 {
+			margin-top: 0px;
+		}
 	}
