@@ -256,6 +256,16 @@ a, button{
 		color: #1975AA;
 	}
 
+	.texto-sedes a {
+		color: #1975AA;
+		text-decoration: none;
+	}
+
+	.texto-sedes2 a {
+		color: #FFF;
+		text-decoration: none;
+	}
+
 	.texto-sedes2 p{
 		text-align: center;
 		padding: 0px;
@@ -311,15 +321,23 @@ a, button{
 		display: none;
 	}
 
+k
 
-
-	@media screen and (min-width: 780px) {
-
-		
-
-
-	}
 
 	/********************************************
 		ESTILO VISTA GENERAL -- Disp. Grandes
 	*********************************************/
+
+
+
+	@media screen and (min-width: 992px) {
+
+		.estilo-footer {
+			background-color: #FFF;
+		}
+
+		/*.carousel-legal {
+			background-color: #1975AA;
+		}*/
+
+	}
