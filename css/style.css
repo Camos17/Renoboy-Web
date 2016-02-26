@@ -118,7 +118,7 @@ a, button{
 
 		.navbar-header {
 			width: 22%;
-			height: 67px;
+			height: 92px;
 		}
 
 		.navbar-brand {
@@ -179,7 +179,7 @@ a, button{
 
 		.navbar-header {
 			width: 22%;
-			height: 69px;
+
 		}
 
 		.navbar-brand {
@@ -225,6 +225,14 @@ a, button{
 		}
 	}
 
+
+	@media screen and (min-width: 1600px) {
+
+		.navbar-header {
+			padding-left: 5%;
+		}
+
+	}
 
 /********************************************
 *********************************************
@@ -331,6 +339,11 @@ a, button{
 
 	@media screen and (min-width: 992px) {
 
+		.content-wrapper {
+		    margin-top: 93px;
+		    min-height: 60%;
+		}	
+
 		.estilo-footer {
 			background-color: #FFF;
 		}
@@ -341,13 +354,17 @@ a, button{
 			padding-top: 5px; 
 		}
 
+		.icono-legal {
+			height: 186px;
+		}
+
 		.texto-sedes {
-			padding-left: 25px;
+			padding-left: 40px;
 		}
 
 		.texto-sedes p{
 			text-align: left;	
-			font-size: 0.85em;
+			font-size: 0.80em;
 		}
 
 		.texto-sedes2 {
@@ -368,5 +385,21 @@ a, button{
 	
 		.texto-sedes3 {
 			margin-top: 0px;
+		}
+	}
+
+
+	@media screen and (min-width: 1200px) {
+
+		.texto-sedes p {
+			font-size: 0.75em;
+		}
+
+		.texto-sedes2 p {
+			font-size: 0.75em;
+		}
+
+		.c2-footer {
+			margin-left: 5%;
 		}
 	}
