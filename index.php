@@ -50,7 +50,7 @@
 						</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
-		</nav>		
+		</nav>	
 		<div class="col-xs-12 no-padding content-wrapper">
 			<video class="hidden-xs hidden-sm img-responsive"  preload="auto" poster="http://d2bptzq05weps4.cloudfront.net/assets/video_headers/homepage/home_video_03_2015_lumia-2cd50778d61e6b93b83bfc963a2ecb07.jpg" autoplay loop>
 				<source src="http://d2bptzq05weps4.cloudfront.net/assets/video_headers/homepage/home_video_03_2015_lumia-9ec94a53ca64078e60d0f2a09491b35a.mp4" type="video/mp4">
