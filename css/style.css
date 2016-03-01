@@ -135,29 +135,6 @@ a, button{
 		background-color: #1975AA;
 	}
 
-	.nav-iconos-fijos {
-		background-color: rgba(30, 30, 30, 0.45);
-		position: fixed;
-		bottom: 0;
-		z-index: 1030;
-		height: 50px;
-	}
-
-	.nav-iconos-fijos ul {
-		margin-bottom: 0;
-	}
-
-	.nav-iconos-fijos ul li {
-		list-style: none;
-		padding-top: 12px;
-		padding-bottom: 10px;
-	}
-
-	.icono-fijo {
-		width: 30px;
-		height: auto;
-	}
-
 	.content-wrapper{
 		min-height:80%;
 		margin-top: 55px;
@@ -298,6 +275,65 @@ a, button{
 
 	}
 
+
+
+
+/********************************************
+*********************************************
+				ESTILO ICONOS FIJOS
+*********************************************	
+*********************************************/
+
+
+	.nav-iconos-fijos {
+		background-color: rgba(30, 30, 30, 0.45);
+		position: fixed;
+		bottom: 0;
+		z-index: 1030;
+		height: 50px;
+	}
+
+	.nav-iconos-fijos ul {
+		margin-bottom: 0;
+	}
+
+	.nav-iconos-fijos ul li {
+		list-style: none;
+		text-align: center;
+		padding-top: 12px;
+		padding-bottom: 10px;
+	}
+
+	.icono-fijo {
+		width: 30px;
+		height: auto;
+	}
+
+
+	@media screen and (min-width: 992px) {
+
+		.nav-iconos-fijos {
+			background-color: rgba(30, 30, 30, 0.45);
+			position: fixed;
+			z-index: 1030;
+			width: 65px;
+			height: auto;
+			right: 0;
+			bottom: auto;
+			top: 160px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+
+		.icono-fijo {
+			width: 45px;
+			height: auto;
+		}
+	}
+
+
+
+
 /********************************************
 *********************************************
 				ESTILO FOOTER
@@ -308,6 +344,11 @@ a, button{
 	/********************************************
 		ESTILO VISTA -- Mobiles Pequenos
 	*********************************************/
+
+
+	.estilo-footer {
+		padding-bottom: 65px;
+	}
 
 	.texto-sedes {
 		padding-top: 40px;
@@ -410,6 +451,7 @@ a, button{
 
 		.estilo-footer {
 			background-color: #FFF;
+			padding-bottom: 0px;
 		}
 
 		.carousel-legal {

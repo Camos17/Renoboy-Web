@@ -61,30 +61,29 @@
 		<div class="hidden-md hidden-lg content-wrapper">
 			<img class="hidden-md hidden-lg img-responsive" src="http://placehold.it/320x460" alt="...">
 		</div>
-		<nav class="col-xs-12 nav-iconos-fijos">
-			<div id="carousel-example-generic" class="carousel slide carousel-legal col-xs-12 col-md-3 col-md-pull-3 col-lg-3 col-lg-pull-3" data-ride="carousel" data-interval="false">
-				<ul class="col-xs-12 no-padding">
-					<li class="col-xs-2">
-						<a href="#" title=""><img class="icono-fijo" src="img/botonmenuderecha1.svg" alt=""></a>
-					</li>
-					<li class="col-xs-2">
-						<a href="#" title=""><img class="icono-fijo" src="img/botonmenuderecha2.svg" alt=""></a>
-					</li>
-					<li class="col-xs-2">
-						<a href="#" title=""><img class="icono-fijo" src="img/botonmenuderecha3.svg" alt=""></a>
-					</li>
-					<li class="col-xs-2">
-						<a href="#" title=""><img class="icono-fijo" src="img/botonmenuderecha4.svg" alt=""></a>
-					</li>
-					<li class="col-xs-2">
-						<a href="#" title=""><img class="icono-fijo" src="img/botonmenuderecha5.svg" alt=""></a>
-					</li>
-					<li class="col-xs-2">
-						<a href="#" title=""><img class="icono-fijo" src="img/botonmenuderecha6.svg" alt=""></a>
-					</li>
-				</ul>
-			</div>
+		<nav class="col-xs-12 no-padding nav-iconos-fijos">
+			<ul class="col-xs-12 no-padding">
+				<li class="col-xs-2 col-md-12">
+					<a href="#" title=""><img class="icono-fijo" src="img/botonmenuderecha1.svg" alt=""></a>
+				</li>
+				<li class="col-xs-2 col-md-12">
+					<a href="#" title=""><img class="icono-fijo" src="img/botonmenuderecha2.svg" alt=""></a>
+				</li>
+				<li class="col-xs-2 col-md-12">
+					<a href="#" title=""><img class="icono-fijo" src="img/botonmenuderecha3.svg" alt=""></a>
+				</li>
+				<li class="col-xs-2 col-md-12">
+					<a href="#" title=""><img class="icono-fijo" src="img/botonmenuderecha4.svg" alt=""></a>
+				</li>
+				<li class="col-xs-2 col-md-12">
+					<a href="#" title=""><img class="icono-fijo" src="img/botonmenuderecha5.svg" alt=""></a>
+				</li>
+				<li class="col-xs-2 col-md-12">
+					<a href="#" title=""><img class="icono-fijo" src="img/botonmenuderecha6.svg" alt=""></a>
+				</li>
+			</ul>
 		</nav>
+
 		<footer class="col-xs-12 no-padding estilo-footer">
 			<div class="col-xs-12 col-md-3 col-md-push-3 col-lg-3 col-lg-push-3 no-padding texto-sedes">
 				<p class="text-center"><strong>Planta Renoboy Bogotá</strong><br>
