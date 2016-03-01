@@ -1,10 +1,30 @@
-html, body{
-	height:100%;
+
+html, body {
+	height: 100%;
 }
 
 a, button{
 	outline:0 !important;
 }
+
+/*video {
+    background-size: cover;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    bottom: 0;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    right: 0;
+    width: auto;
+    z-index: -100;
+}*/
+
+
+
+
 /********************************************
 *********************************************
 				ESTILO HEADER
@@ -41,7 +61,7 @@ a, button{
 	.va{
 		position: relative;
 		top: 50%;
-		-ms-transform: translateY(-50%); /* IE 9 */
+		-ms-transform: translateY(-50%);  IE 9 
 		-webkit-transform: translateY(-50%);
 		transform: translateY(-50%);
 	}
@@ -115,10 +135,34 @@ a, button{
 		background-color: #1975AA;
 	}
 
+	.nav-iconos-fijos {
+		background-color: rgba(30, 30, 30, 0.45);
+		position: fixed;
+		bottom: 0;
+		z-index: 1030;
+		height: 50px;
+	}
+
+	.nav-iconos-fijos ul {
+		margin-bottom: 0;
+	}
+
+	.nav-iconos-fijos ul li {
+		list-style: none;
+		padding-top: 12px;
+		padding-bottom: 10px;
+	}
+
+	.icono-fijo {
+		width: 30px;
+		height: auto;
+	}
+
 	.content-wrapper{
 		min-height:80%;
 		margin-top: 55px;
 	}
+
 
 	/********************************************
 		ESTILO VISTA GENERAL -- Mobiles Medianos
@@ -154,6 +198,7 @@ a, button{
 		}
 
 		.navbar li {
+
 			font-size: 0.8em;
 		}
 
@@ -319,7 +364,7 @@ a, button{
 	}
 
 	.carousel-legal .carousel-inner {
-		height: 165px;
+		height: 200px;
 	}
 
 	.carousel-control.left, .carousel-control.right {
@@ -360,7 +405,7 @@ a, button{
 
 		.content-wrapper {
 		    margin-top: 93px;
-		    min-height: 60%;
+		    min-height: 100%;
 		}	
 
 		.estilo-footer {
@@ -369,12 +414,12 @@ a, button{
 
 		.carousel-legal {
 			background-color: #1975AA;
-			height: 190px;
+			height: 210px;
 			padding-top: 5px; 
 		}
 
 		.icono-legal {
-			height: 186px;
+			height: 200px;
 		}
 
 		.texto-sedes {
@@ -419,6 +464,6 @@ a, button{
 		}
 
 		.c2-footer {
-			margin-left: 5%;
+			margin-left: 0%;
 		}
 	}
