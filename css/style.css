@@ -304,6 +304,26 @@ a, button{
 		padding-bottom: 10px;
 	}
 
+	.nav-iconos-fijos div {
+		position: absolute;
+		right: 64px;
+		bottom: 0px;
+		background-color: rgb(25, 117, 170);
+		height: 55px;
+		width: 135px;
+		color: #FFF;
+		vertical-align: middle;
+		display: table;			
+	}
+
+	.nav-iconos-fijos span {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: left;
+		padding-left: 15px;
+		font-size: 0.9em;
+	}
+
 	.icono-fijo {
 		width: 30px;
 		height: auto;
@@ -317,18 +337,57 @@ a, button{
 			position: fixed;
 			z-index: 1030;
 			width: 65px;
-			height: auto;
+			height: 455px;
 			right: 0;
 			bottom: auto;
 			top: 160px;
-			padding-top: 15px;
-			padding-bottom: 15px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+		.nav-iconos-fijos {
+			height: 455px;
+		}
+
+		.nav-iconos-fijos li {
+			height: 55px;
+			position: relative;
+		}
+
+		.nav-iconos-fijos div {
+			position: absolute;
+			right: 64px;
+			bottom: 0px;
+			background-color: rgb(25, 117, 170);
+			height: 55px;
+			width: 135px;
+			color: #FFF;
+			vertical-align: middle;
+			display: table;			
+		}
+
+		.nav-iconos-fijos li:hover {
+			background-color: #1975AA;
+		}
+
+		.nav-iconos-fijos span {
+			display: table-cell;
+			vertical-align: middle;
+			text-align: left;
+			height: 55px;
+			padding-left: 20px;
+			font-size: 1.2em;
+		}
+	
+		.nav-iconos-fijos li:hover a span {
+
 		}
 
 		.icono-fijo {
 			width: 45px;
-			height: auto;
+			height: 40px;
 		}
+
 	}
 
 
