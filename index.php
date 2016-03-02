@@ -66,7 +66,7 @@
 				<li class="col-xs-2 col-md-12">
 					<a href="#" title="">
 						<img class="icono-fijo" src="img/botonmenuderecha1.svg" alt="">
-						<div>						
+						<div class="hidden-xs hidden-sm">						
 							<span>Acceso Distribuidores</span>
 						</div>	
 					</a>
@@ -74,7 +74,7 @@
 				<li class="col-xs-2 col-md-12">
 					<a href="#" title="">
 						<img class="icono-fijo" src="img/botonmenuderecha2.svg" alt="">
-						<div>						
+						<div class="hidden-xs hidden-sm">						
 							<span>Acceso Distribuidores</span>
 						</div>	
 					</a>
@@ -82,7 +82,7 @@
 				<li class="col-xs-2 col-md-12">
 					<a href="#" title="">
 						<img class="icono-fijo" src="img/botonmenuderecha3.svg" alt="">
-						<div>						
+						<div class="hidden-xs hidden-sm">						
 							<span>Acceso Distribuidores</span>
 						</div>	
 					</a>
@@ -90,7 +90,7 @@
 				<li class="col-xs-2 col-md-12 hidden-xs hidden-sm">
 					<a href="#" title="">
 						<img class="icono-fijo" src="img/botonmenuderecha6.svg" alt="">
-						<div>						
+						<div class="hidden-xs hidden-sm">						
 							<span>Acceso Distribuidores</span>
 						</div>	
 					</a>
@@ -98,7 +98,7 @@
 				<li class="col-xs-2 col-md-12">
 					<a href="#" title="">
 						<img class="icono-fijo" src="img/botonmenuderecha4.svg" alt="">
-						<div>						
+						<div class="hidden-xs hidden-sm">						
 							<span>Acceso Distribuidores</span>
 						</div>	
 					</a>
@@ -106,7 +106,7 @@
 				<li class="col-xs-2 col-md-12">
 					<a href="#" title="">
 						<img class="icono-fijo" src="img/botonmenuderecha5.svg" alt="">
-						<div>						
+						<div class="hidden-xs hidden-sm">						
 							<span>Acceso Distribuidores</span>
 						</div>	
 					</a>
@@ -114,7 +114,7 @@
 				<li class="col-xs-2 col-md-12">
 					<a href="#" title="">
 						<img class="icono-fijo" src="img/botonmenuderecha6.svg" alt="">
-						<div>						
+						<div class="hidden-xs hidden-sm">						
 							<span>Acceso Distribuidores</span>
 						</div>	
 					</a>
