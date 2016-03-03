@@ -54,30 +54,23 @@
 
 		
 		<div class="col-xs-12 no-padding content-wrapper">
-			<!-- <video class=""  preload="auto" poster="http://d2bptzq05weps4.cloudfront.net/assets/video_headers/homepage/home_video_03_2015_lumia-2cd50778d61e6b93b83bfc963a2ecb07.jpg" autoplay loop>
+			<video class="hidden-xs hidden-sm img-responsive video_home"  preload="auto" poster="http://d2bptzq05weps4.cloudfront.net/assets/video_headers/homepage/home_video_03_2015_lumia-2cd50778d61e6b93b83bfc963a2ecb07.jpg" autoplay loop>
 				<source src="http://d2bptzq05weps4.cloudfront.net/assets/video_headers/homepage/home_video_03_2015_lumia-9ec94a53ca64078e60d0f2a09491b35a.mp4" type="video/mp4">
 				<source src="http://d2bptzq05weps4.cloudfront.net/assets/video_headers/homepage/home_video_03_2015_lumia-9ec94a53ca64078e60d0f2a09491b35a.webm" type="video/webm">
 				Your browser does not support the video tag.
-			</video>  -->
-			<div class="hidden-xs hidden-sm col-xs-12 no-padding video_home" data-vide-bg="https://s3-us-west-2.amazonaws.com/cannedhead.optica/optica" data-vide-options="loop: true, muted: false, position: 0% 0%">
-			</div>
+			</video> 
+			<!-- <div class="hidden-xs hidden-sm col-xs-12 no-padding" data-vide-bg="https://s3-us-west-2.amazonaws.com/cannedhead.optica/optica" data-vide-options="loop: true, muted: false, position: 0% 0%">
+			</div> -->
 
-			<div id="carousel-contenido" class="col-xs-12 carousel slide no-padding" data-ride="carousel" data-interval="false">
-				<!-- Indicators -->
-				<!-- <ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				</ol> -->
-
+			<div id="carousel-contenido" class="col-xs-12 carousel slide no-padding" data-ride="carousel" data-interval="false">		
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
 						<img class="hidden-md hidden-lg img-responsive" src="http://placehold.it/320x460" alt="...">
 						<div class="carousel-caption">
-							<p class="text-center texto1"><strong>my tire care program</strong></p>
+							<p class="text-center texto1"><strong>tu llanta nueva de nuevo michelin</strong></p>
 							<p class="text-center texto2">1.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-							<a class="btn btn-default">
+							<a class="btn btn-default btn-carousel-contenido">
 								<strong>ver más</strong>
 							</a>
 	      				</div>
@@ -85,30 +78,55 @@
 					<div class="item">
 						<img class="hidden-md hidden-lg img-responsive" src="http://placehold.it/320x460" alt="...">
 						<div class="carousel-caption">
-							<p class="text-center texto1"><strong>my tire care program</strong></p>
+							<p class="text-center texto1"><strong>my tyre care <br> program</strong></p>
 							<p class="text-center texto2">1.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-							<a class="btn btn-default">
+							<a class="btn btn-default btn-carousel-contenido">
 								<strong>ver más</strong>
 							</a>
 	      				</div>
+	      			</div>
+	      			<div class="item">
+						<img class="hidden-md hidden-lg img-responsive" src="http://placehold.it/320x460" alt="...">
+						<div class="carousel-caption">
+							<p class="text-center texto1"><strong>¿Pensando en Reencauchar?</strong></p>
+							<p class="text-center texto2">1.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<a class="btn btn-default btn-carousel-contenido">
+								<strong>ver más</strong>
+							</a>
+	      				</div>	
 					</div>
 				</div>
 
 				<!-- Controls -->
 				<a class="left carousel-control" href="#carousel-contenido" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
 				</a>
 				<a class="right carousel-control" href="#carousel-contenido" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
 				</a>
-			</div>
-
-			<div class="">
 				
-			</div>	
-
+				<div class="col-xs-12 col-md-6 col-md-offset-3 home-opts">
+					
+					<a class="col-xs-12 col-sm-4 col-md-4" href="#" title="">
+						<img class="img-responsive" src="img/botónimagen1.jpg" alt="">
+						<p class="text-center"><strong>TU LLANTA NUEVA DE NUEVO MICHELIN</strong><br>
+						Tres vidas de tu llanta MICHELIN	
+						</p>
+					</a>
+						<a class="col-xs-12 col-sm-4 col-md-4" href="#" title="">
+						<img class="img-responsive" src="img/botónimagen2.jpg" alt="">
+						<p class="text-center"><strong>MY TYRE CARE<br> PROGRAM</strong>
+						</p>
+					</a>
+						<a class="col-xs-12 col-sm-4 col-md-4" href="#" title="">
+						<img class="img-responsive" src="img/botónimagen3.jpg" alt="">
+						<p class="text-center"><strong>¿PENSANDO EN <br> REENCAUCHAR?</strong>	
+						</p>
+					</a>	
+				</div>
+			</div>
 		</div>
 		
 		<nav class="col-xs-12 no-padding nav-iconos-fijos">
@@ -139,9 +157,9 @@
 				</li>
 				<li class="col-xs-2 col-md-12 hidden-xs hidden-sm">
 					<a href="#" title="">
-						<img class="icono-fijo" src="img/botonmenuderecha6.svg" alt="">
+						<img class="icono-fijo" src="img/CALCULADORA.svg" alt="">
 						<div class="hidden-xs hidden-sm">						
-							<span>Acceso Distribuidores</span>
+							<span>Calculadora</span>
 						</div>	
 					</a>
 				</li>
@@ -262,6 +280,7 @@
 				</div>
 				<div id="ancla" class="col-xs-12 hidden-md hidden-lg">			
 					<button id="btn-mas-sedes" class="col-xs-offset-5 btn center-block">
+						<p>Más Sucursales</p>
 						<span class="glyphicon glyphicon-chevron-down"></span>
 						<span class="glyphicon glyphicon-chevron-up"></span>
 					</button>

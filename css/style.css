@@ -227,12 +227,6 @@ a, button{
 		.navbar-brand {
 			padding: 1px 5px 1px 5%;
 		}
-
-		.video_home{
-			height:100%;
-			position: relative;
-		}
-
 	}
 
 	@media screen and (min-width: 1200px) {
@@ -293,40 +287,110 @@ a, button{
 	*********************************************/
 
 
+	#carousel-contenido {
+		background-color: transparent;
+	}
+
+	#carousel-contenido .carousel-caption {
+		bottom: 30%;
+	}
+
+	#carousel-contenido .texto1 {
+		text-transform: uppercase;
+		font-size: 1.2em;
+		color: #FFF;
+	}	
+
+	#carousel-contenido .texto2 {
+		font-size: 0.9em;
+		color: #FFF;
+	}
+
+
+	#carousel-contenido a {
+		margin-top: 30px;
+	}
+
+	#carousel-contenido .carousel-control .glyphicon-chevron-right, #carousel-contenido .carousel-control .glyphicon-chevron-left {
+		top: 18%;
+	}
+
+	.btn-carousel-contenido {
+		background-color: transparent;
+		border: 3px solid #FFF;
+		border-radius: 0px;
+		text-transform: uppercase;
+		color: #FFF;
+		width: 105px;
+		height: 35px;
+	}
+
+	.btn-carousel-contenido:hover {
+		background-color: transparent;
+		color: #777;
+	}
+
+	.home-opts a p {
+		background-color: rgba(0,0,0,0.8);
+		padding: 7% 0;
+		color: #FFF;
+		height: 90px;
+		font-size: 0.9em;
+	}
+
+	.home-opts {		
+		padding-top: 11px;
+		padding-bottom: 11px;
+	}
+
+	.home-opts a:hover p {
+		background-color: #017DC3;
+	}
+
+	.home-opts a:hover  {
+		text-decoration: none;
+	}
+
+
+	@media screen and (min-width: 768px) {
+
+		#carousel-contenido a {
+		    margin-bottom: 25px;
+		}
+
+		.home-opts {
+			padding-top: 11px;
+			padding-bottom: 7px;
+		}
+	}
+
+
+	@media screen and (min-width: 992px) {
+		
 		#carousel-contenido {
-			background-color: transparent;
+			height: 100%;
+			position: absolute;
 		}
 
 		#carousel-contenido .carousel-caption {
+			position: relative;
 			bottom: 30%;
+			right: 0;
+			left: 0;
 		}
 
-		#carousel-contenido .texto1 {
-			text-transform: uppercase;
-			font-size: 1.2em;
-			color: #FFF;
-		}	
-
-		#carousel-contenido .texto2 {
-			font-size: 0.9em;
-			color: #FFF;
-		}
-
-		#carousel-contenido a {
-			margin-top: 30px;
-		}
-
-		#carousel-contenido a.carousel-control {
-			top: 90px;
-		}
-
-		.fondo-disp-mobiles {
+		.home-opts {
 			position: absolute;
-			z-index: -1;
-			top: 0;
+			bottom: 100px;
+			z-index: 2;
 		}
 
-
+		.video_home{
+			position: absolute;
+			top:0;
+			z-index: -1;
+		}
+	}
 
 
 
@@ -352,7 +416,7 @@ a, button{
 	}
 
 	.nav-iconos-fijos ul {
-		margin-bottom: 0;
+		margin-bottom: 0px;
 	}
 
 	.nav-iconos-fijos ul li {
@@ -386,7 +450,6 @@ a, button{
 		width: 30px;
 		height: auto;
 	}
-
 
 	@media screen and (min-width: 992px) {
 
@@ -448,7 +511,6 @@ a, button{
 			width: 45px;
 			height: 40px;
 		}
-
 	}
 
 
@@ -548,6 +610,11 @@ a, button{
 		background-color: #1975AA;
 		color: #FFF;
 		font-size: 1.7em;
+	}
+
+	#btn-mas-sedes p{
+		font-size: 0.75em;
+		margin: 0px;
 	}
 
 	#btn-mas-sedes .glyphicon-chevron-up {
