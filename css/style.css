@@ -141,6 +141,7 @@ a, button{
 	}
 
 
+
 	/********************************************
 		ESTILO VISTA GENERAL -- Mobiles Medianos
 	*********************************************/
@@ -227,6 +228,11 @@ a, button{
 			padding: 1px 5px 1px 5%;
 		}
 
+		.video_home{
+			height:100%;
+			position: relative;
+		}
+
 	}
 
 	@media screen and (min-width: 1200px) {
@@ -275,6 +281,58 @@ a, button{
 
 	}
 
+/********************************************
+*********************************************
+				ESTILO CONTENIDO
+*********************************************	
+*********************************************/
+
+
+	/********************************************
+		ESTILO VISTA -- Mobiles Pequenos
+	*********************************************/
+
+
+		#carousel-contenido {
+			background-color: transparent;
+		}
+
+		#carousel-contenido .carousel-caption {
+			bottom: 30%;
+		}
+
+		#carousel-contenido .texto1 {
+			text-transform: uppercase;
+			font-size: 1.2em;
+			color: #FFF;
+		}	
+
+		#carousel-contenido .texto2 {
+			font-size: 0.9em;
+			color: #FFF;
+		}
+
+		#carousel-contenido a {
+			margin-top: 30px;
+		}
+
+		#carousel-contenido a.carousel-control {
+			top: 90px;
+		}
+
+		.fondo-disp-mobiles {
+			position: absolute;
+			z-index: -1;
+			top: 0;
+		}
+
+
+
+
+
+
+
+
 
 
 
@@ -308,13 +366,13 @@ a, button{
 		position: absolute;
 		right: 64px;
 		bottom: 0px;
-		background-color: rgb(25, 117, 170);
+		background-color: #1975AA;
 		height: 55px;
 		width: 135px;
 		color: #FFF;
 		vertical-align: middle;
 		display: table;			
-	}
+	} 
 
 	.nav-iconos-fijos span {
 		display: table-cell;
@@ -337,7 +395,7 @@ a, button{
 			position: fixed;
 			z-index: 1030;
 			width: 65px;
-			height: 455px;
+			height: auto;
 			right: 0;
 			bottom: auto;
 			top: 160px;
@@ -345,10 +403,7 @@ a, button{
 			padding-bottom: 20px;
 		}
 
-		.nav-iconos-fijos {
-			height: 455px;
-		}
-
+		
 		.nav-iconos-fijos li {
 			height: 55px;
 			position: relative;
@@ -356,14 +411,15 @@ a, button{
 
 		.nav-iconos-fijos div {
 			position: absolute;
-			right: 64px;
+			right: -220px;
 			bottom: 0px;
-			background-color: rgb(25, 117, 170);
+			background-color: #1975AA;
 			height: 55px;
-			width: 135px;
+			width: 213px;
 			color: #FFF;
 			vertical-align: middle;
-			display: table;			
+			display: table;		
+			z-index: -1;
 		}
 
 		.nav-iconos-fijos li:hover {
@@ -379,8 +435,13 @@ a, button{
 			font-size: 1.2em;
 		}
 	
-		.nav-iconos-fijos li:hover a span {
-
+		.nav-iconos-fijos li:hover a div {
+			right:64px;
+			-webkit-transition: all 300ms 150ms ease-in-out;
+			-moz-transition: all 300ms 150ms ease-in-out;
+			-ms-transition: all 300ms 150ms ease-in-out;
+			-o-transition: all 300ms 150ms ease-in-out;
+			transition: all 300ms 150ms ease-in-out;
 		}
 
 		.icono-fijo {
@@ -459,7 +520,7 @@ a, button{
 		background-color: #1975AA;
 	}
 
-	.carousel {
+	.carousel-legal {
 		height: 165px;
 	}
 
@@ -567,4 +628,13 @@ a, button{
 		.c2-footer {
 			margin-left: 0%;
 		}
+
+		.carousel-legal {
+			height: 230px;
+		}
+
+		.icono-legal {
+			height: 230px;
+		}
+
 	}

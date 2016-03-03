@@ -51,23 +51,73 @@
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav>	
-		<div class="hidden-xs hidden-sm col-xs-12 no-padding content-wrapper" data-vide-bg="https://s3-us-west-2.amazonaws.com/cannedhead.optica/optica" data-vide-options="loop: true, muted: false, position: 0% 0%">
+
+		
+		<div class="col-xs-12 no-padding content-wrapper">
 			<!-- <video class=""  preload="auto" poster="http://d2bptzq05weps4.cloudfront.net/assets/video_headers/homepage/home_video_03_2015_lumia-2cd50778d61e6b93b83bfc963a2ecb07.jpg" autoplay loop>
 				<source src="http://d2bptzq05weps4.cloudfront.net/assets/video_headers/homepage/home_video_03_2015_lumia-9ec94a53ca64078e60d0f2a09491b35a.mp4" type="video/mp4">
 				<source src="http://d2bptzq05weps4.cloudfront.net/assets/video_headers/homepage/home_video_03_2015_lumia-9ec94a53ca64078e60d0f2a09491b35a.webm" type="video/webm">
 				Your browser does not support the video tag.
 			</video>  -->
+			<div class="hidden-xs hidden-sm col-xs-12 no-padding video_home" data-vide-bg="https://s3-us-west-2.amazonaws.com/cannedhead.optica/optica" data-vide-options="loop: true, muted: false, position: 0% 0%">
+			</div>
+
+			<div id="carousel-contenido" class="col-xs-12 carousel slide no-padding" data-ride="carousel" data-interval="false">
+				<!-- Indicators -->
+				<!-- <ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				</ol> -->
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img class="hidden-md hidden-lg img-responsive" src="http://placehold.it/320x460" alt="...">
+						<div class="carousel-caption">
+							<p class="text-center texto1"><strong>my tire care program</strong></p>
+							<p class="text-center texto2">1.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<a class="btn btn-default">
+								<strong>ver más</strong>
+							</a>
+	      				</div>
+					</div>
+					<div class="item">
+						<img class="hidden-md hidden-lg img-responsive" src="http://placehold.it/320x460" alt="...">
+						<div class="carousel-caption">
+							<p class="text-center texto1"><strong>my tire care program</strong></p>
+							<p class="text-center texto2">1.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<a class="btn btn-default">
+								<strong>ver más</strong>
+							</a>
+	      				</div>
+					</div>
+				</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-contenido" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-contenido" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+				</a>
+			</div>
+
+			<div class="">
+				
+			</div>	
+
 		</div>
-		<div class="hidden-md hidden-lg content-wrapper">
-			<img class="hidden-md hidden-lg img-responsive" src="http://placehold.it/320x460" alt="...">
-		</div>
+		
 		<nav class="col-xs-12 no-padding nav-iconos-fijos">
 			<ul class="col-xs-12 no-padding">
 				<li class="col-xs-2 col-md-12">
 					<a href="#" title="">
 						<img class="icono-fijo" src="img/botonmenuderecha1.svg" alt="">
 						<div class="hidden-xs hidden-sm">						
-							<span>Acceso Distribuidores</span>
+							<span>Acceso <br> Distribuidores</span>
 						</div>	
 					</a>
 				</li>
@@ -75,7 +125,7 @@
 					<a href="#" title="">
 						<img class="icono-fijo" src="img/botonmenuderecha2.svg" alt="">
 						<div class="hidden-xs hidden-sm">						
-							<span>Acceso Distribuidores</span>
+							<span>Selector de Producto</span>
 						</div>	
 					</a>
 				</li>
@@ -83,7 +133,7 @@
 					<a href="#" title="">
 						<img class="icono-fijo" src="img/botonmenuderecha3.svg" alt="">
 						<div class="hidden-xs hidden-sm">						
-							<span>Acceso Distribuidores</span>
+							<span>Encuentre su distribuidor mas cercano</span>
 						</div>	
 					</a>
 				</li>
@@ -99,7 +149,7 @@
 					<a href="#" title="">
 						<img class="icono-fijo" src="img/botonmenuderecha4.svg" alt="">
 						<div class="hidden-xs hidden-sm">						
-							<span>Acceso Distribuidores</span>
+							<span>Seguimiento en línea de la flota</span>
 						</div>	
 					</a>
 				</li>
@@ -107,7 +157,7 @@
 					<a href="#" title="">
 						<img class="icono-fijo" src="img/botonmenuderecha5.svg" alt="">
 						<div class="hidden-xs hidden-sm">						
-							<span>Acceso Distribuidores</span>
+							<span>Mas sobre nuestro reencauche</span>
 						</div>	
 					</a>
 				</li>
@@ -115,7 +165,7 @@
 					<a href="#" title="">
 						<img class="icono-fijo" src="img/botonmenuderecha6.svg" alt="">
 						<div class="hidden-xs hidden-sm">						
-							<span>Acceso Distribuidores</span>
+							<span>Visita virtual a la planta</span>
 						</div>	
 					</a>
 				</li>
@@ -129,7 +179,7 @@
 				   <a href="tel: Tel: (+571) 742 2779 ">Tel: (+571) 742 2779</a></p>
 			</div>
 
-			<div id="carousel-example-generic" class="carousel slide carousel-legal col-xs-12 col-md-3 col-md-pull-3 col-lg-3 col-lg-pull-3" data-ride="carousel" data-interval="false">
+			<div id="carousel-legal" class="carousel slide carousel-legal col-xs-12 col-md-3 col-md-pull-3 col-lg-3 col-lg-pull-3" data-ride="carousel" data-interval="false">
 			 
 			  <!-- Wrapper for slides -->
 				<div class="carousel-inner">
@@ -160,10 +210,10 @@
 				</div>
 			 
 				<!-- Controls -->
-				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<a class="left carousel-control" href="#carousel-legal" role="button" data-slide="prev">
 				<span class="glyphicon glyphicon-chevron-left"></span>
 				</a>
-				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<a class="right carousel-control" href="#carousel-legal" role="button" data-slide="next">
 				<span class="glyphicon glyphicon-chevron-right"></span>
 				</a>
 			</div> <!-- Carousel -->
