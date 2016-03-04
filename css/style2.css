@@ -1,4 +1,5 @@
 
+
 html, body {
 	height: 100%;
 }
@@ -22,6 +23,33 @@ a, button{
     z-index: -100;
 }*/
 
+.no-padding {
+		padding-left: 0px;
+		padding-right: 0px;
+}
+
+.img-responsive {
+		width: 100%;
+}
+
+.img-height-responsive{
+	width: auto;
+	height: 100%;
+}
+
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.va{
+	position: relative;
+	top: 50%;
+	-ms-transform: translateY(-50%);  IE 9 
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
 
 
 
@@ -33,38 +61,10 @@ a, button{
 
 
 	/********************************************
-		ESTILO VISTA -- Mobiles Pequenos
+		ESTILO VISTA -- Disp Pequeños
 	*********************************************/
 
-
-
-	.no-padding {
-		padding-left: 0px;
-		padding-right: 0px;
-	}
-
-	.img-responsive {
-		width: 100%;
-	}
-
-	.img-height-responsive{
-		width: auto;
-		height: 100%;
-	}
-
-	.center-block {
-		display: block;
-  		margin-left: auto;
-  		margin-right: auto;
-	}
-
-	.va{
-		position: relative;
-		top: 50%;
-		-ms-transform: translateY(-50%);  IE 9 
-		-webkit-transform: translateY(-50%);
-		transform: translateY(-50%);
-	}
+	
 
 	.navbar{
 		border-bottom: 2px solid #1B71A1;
@@ -134,7 +134,7 @@ a, button{
 	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
 		background-color: #1975AA;
 	}
-
+	
 	.content-wrapper{
 		min-height:80%;
 		margin-top: 55px;
@@ -142,138 +142,6 @@ a, button{
 
 
 
-	/********************************************
-		ESTILO VISTA GENERAL -- Mobiles Medianos
-	*********************************************/
-
-
-
-	@media screen and (min-width: 768px) {
-
-				
-
-		.navbar-nav {
-			padding-top: 7px;
-			padding-bottom: 3px;
-		}
-
-		.navbar-header {
-			width: 22%;
-			height: 92px;
-		}
-
-		.navbar-brand {
-			padding: 5px 5px 5px 5%;
-		}
-
-		.navbar .container-fluid .navbar-brand {
-			margin-left: -22px
-		}
-
-		.navbar-collapse {
-			width: 78%;
-			float: right;
-		}
-
-		.navbar li {
-
-			font-size: 0.8em;
-		}
-
-		.navbar li a{
-			padding-top: 0px;
-			padding-bottom: 0px;
-		}
-
-		.navbar hr{
-			margin-top: 1px;
-			margin-bottom: 1px;
-			width: 100%;
-			float: right;
-			border-color: #DFBB05;
-		}
-
-		.navbar-nav li:nth-child(n+5){
-			padding-top:5px;
-			padding-bottom:5px;	
-		}
-
-		.navbar-default .navbar-nav > li:active, .navbar-default .navbar-nav > li:focus{
-			background-color: #FFF;
-		}
-
-		.navbar-default .navbar-nav > li:active > a, .navbar-default .navbar-nav > li:focus > a {
-			color: #1B71A1;
-		}
-
-		.content-wrapper{
-			margin-top: 67px;
-		}
-
-	}
-
-	/********************************************
-		ESTILO VISTA GENERAL -- Disp. Grandes
-	*********************************************/
-
-	@media screen and (min-width: 992px) {
-
-
-		.navbar-header {
-			width: 22%;
-
-		}
-
-		.navbar-brand {
-			padding: 1px 5px 1px 5%;
-		}
-	}
-
-	@media screen and (min-width: 1200px) {
-
-
-		.navbar-brand {
-			height: 67px;
-			padding: 4px 5px 4px 5%;
-		}
-
-		.navbar-nav {
-		    padding-top: 10px;
-		    padding-bottom: 3px;
-		}
-
-		.searchinput{
-			padding-left: 0;
-		}
-
-		.btn-header-busqueda{
-			padding: 0;
-			height: 20px;
-			width: 16px;
-			border: none;
-		}
-
-		.searchinput input, .searchinput input:focus, .searchinput input:active, .searchinput input:hover{
-			position: relative;
-			top: -3px;
-			right: -12px;
-			padding: 0 0 0;
-			height: 24px;
-			border-color: transparent;
-			box-shadow:none;
-			background-color: #f0f0f0;
-			border-radius: 0;
-		}
-	}
-
-
-	@media screen and (min-width: 1600px) {
-
-		.navbar-header {
-			padding-left: 5%;
-		}
-
-	}
 
 /********************************************
 *********************************************
@@ -283,7 +151,7 @@ a, button{
 
 
 	/********************************************
-		ESTILO VISTA -- Mobiles Pequenos
+		ESTILO VISTA -- Disp Pequeños
 	*********************************************/
 
 
@@ -352,53 +220,6 @@ a, button{
 	}
 
 
-	@media screen and (min-width: 768px) {
-
-		#carousel-contenido a {
-		    margin-bottom: 25px;
-		}
-
-		.home-opts {
-			padding-top: 11px;
-			padding-bottom: 7px;
-		}
-	}
-
-
-	@media screen and (min-width: 992px) {
-		
-		#carousel-contenido {
-			height: 100%;
-			position: absolute;
-		}
-
-		#carousel-contenido .carousel-caption {
-			position: relative;
-			bottom: 30%;
-			right: 0;
-			left: 0;
-		}
-
-		.home-opts {
-			position: absolute;
-			bottom: 100px;
-			z-index: 2;
-		}
-
-		.video_home{
-			position: absolute;
-			top:0;
-			z-index: -1;
-		}
-	}
-
-
-
-
-
-
-
-
 
 /********************************************
 *********************************************
@@ -406,6 +227,10 @@ a, button{
 *********************************************	
 *********************************************/
 
+
+	/*************************************************
+		ESTILO VISTA -- Disp Pequeños (320px y 768px)
+	**************************************************/
 
 	.nav-iconos-fijos {
 		background-color: rgba(30, 30, 30, 0.45);
@@ -451,69 +276,6 @@ a, button{
 		height: auto;
 	}
 
-	@media screen and (min-width: 992px) {
-
-		.nav-iconos-fijos {
-			background-color: rgba(30, 30, 30, 0.45);
-			position: fixed;
-			z-index: 1030;
-			width: 65px;
-			height: auto;
-			right: 0;
-			bottom: auto;
-			top: 160px;
-			padding-top: 20px;
-			padding-bottom: 20px;
-		}
-
-		
-		.nav-iconos-fijos li {
-			height: 55px;
-			position: relative;
-		}
-
-		.nav-iconos-fijos div {
-			position: absolute;
-			right: -220px;
-			bottom: 0px;
-			background-color: #1975AA;
-			height: 55px;
-			width: 213px;
-			color: #FFF;
-			vertical-align: middle;
-			display: table;		
-			z-index: -1;
-		}
-
-		.nav-iconos-fijos li:hover {
-			background-color: #1975AA;
-		}
-
-		.nav-iconos-fijos span {
-			display: table-cell;
-			vertical-align: middle;
-			text-align: left;
-			height: 55px;
-			padding-left: 20px;
-			font-size: 1.2em;
-		}
-	
-		.nav-iconos-fijos li:hover a div {
-			right:64px;
-			-webkit-transition: all 300ms 150ms ease-in-out;
-			-moz-transition: all 300ms 150ms ease-in-out;
-			-ms-transition: all 300ms 150ms ease-in-out;
-			-o-transition: all 300ms 150ms ease-in-out;
-			transition: all 300ms 150ms ease-in-out;
-		}
-
-		.icono-fijo {
-			width: 45px;
-			height: 40px;
-		}
-	}
-
-
 
 
 /********************************************
@@ -523,9 +285,9 @@ a, button{
 *********************************************/
 
 
-	/********************************************
-		ESTILO VISTA -- Mobiles Pequenos
-	*********************************************/
+	/*************************************************
+		ESTILO VISTA -- Disp Pequeños (320px y 768px)
+	**************************************************/
 
 
 	.estilo-footer {
@@ -623,13 +385,220 @@ a, button{
 
 
 
+
+	@media screen and (min-width: 768px) {
+
 	/********************************************
-		ESTILO VISTA GENERAL -- Disp. Grandes
+	*********************************************
+					ESTILO HEADER
+	*********************************************	
+	*********************************************/
+	
+
+		.navbar-nav {
+			padding-top: 7px;
+			padding-bottom: 3px;
+		}
+
+		.navbar-header {
+			width: 22%;
+			height: 92px;
+		}
+
+		.navbar-brand {
+			padding: 5px 5px 5px 5%;
+		}
+
+		.navbar .container-fluid .navbar-brand {
+			margin-left: -22px
+		}
+
+		.navbar-collapse {
+			width: 78%;
+			float: right;
+		}
+
+		.navbar li {
+
+			font-size: 0.8em;
+		}
+
+		.navbar li a{
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
+
+		.navbar hr{
+			margin-top: 1px;
+			margin-bottom: 1px;
+			width: 100%;
+			float: right;
+			border-color: #DFBB05;
+		}
+
+		.navbar-nav li:nth-child(n+5){
+			padding-top:5px;
+			padding-bottom:5px;	
+		}
+
+		.navbar-default .navbar-nav > li:active, .navbar-default .navbar-nav > li:focus{
+			background-color: #FFF;
+		}
+
+		.navbar-default .navbar-nav > li:active > a, .navbar-default .navbar-nav > li:focus > a {
+			color: #1B71A1;
+		}
+
+		.content-wrapper{
+			margin-top: 67px;
+		}
+
+
+	/********************************************
+	*********************************************
+					ESTILO CONTENIDO
+	*********************************************	
 	*********************************************/
 
+		#carousel-contenido a {
+		    margin-bottom: 25px;
+		}
+
+		.home-opts {
+			padding-top: 11px;
+			padding-bottom: 7px;
+		}
+
+
+
+	}
 
 
 	@media screen and (min-width: 992px) {
+
+	/********************************************
+	*********************************************
+					ESTILO HEADER
+	*********************************************	
+	*********************************************/
+
+
+		.navbar-header {
+			width: 22%;
+
+		}
+
+		.navbar-brand {
+			padding: 1px 5px 1px 5%;
+		}
+
+
+
+	/********************************************
+	*********************************************
+					ESTILO CONTENIDO
+	*********************************************	
+	*********************************************/
+
+		#carousel-contenido {
+			height: 100%;
+			position: absolute;
+		}
+
+		#carousel-contenido .carousel-caption {
+			position: relative;
+			bottom: 30%;
+			right: 0;
+			left: 0;
+		}
+
+		.home-opts {
+			position: absolute;
+			bottom: 100px;
+			z-index: 2;
+		}
+
+		.video_home{
+			position: absolute;
+			top:0;
+			z-index: -1;
+		}
+
+
+	/********************************************
+	*********************************************
+					ESTILO ICONOS FIJOS
+	*********************************************	
+	*********************************************/
+
+
+		.nav-iconos-fijos {
+			background-color: rgba(30, 30, 30, 0.45);
+			position: fixed;
+			z-index: 1030;
+			width: 65px;
+			height: auto;
+			right: 0;
+			bottom: auto;
+			top: 160px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+		
+		.nav-iconos-fijos li {
+			height: 55px;
+			position: relative;
+		}
+
+		.nav-iconos-fijos div {
+			position: absolute;
+			right: -220px;
+			bottom: 0px;
+			background-color: #1975AA;
+			height: 55px;
+			width: 213px;
+			color: #FFF;
+			vertical-align: middle;
+			display: table;		
+			z-index: -1;
+		}
+
+		.nav-iconos-fijos li:hover {
+			background-color: #1975AA;
+		}
+
+		.nav-iconos-fijos span {
+			display: table-cell;
+			vertical-align: middle;
+			text-align: left;
+			height: 55px;
+			padding-left: 20px;
+			font-size: 1.2em;
+		}
+	
+		.nav-iconos-fijos li:hover a div {
+			right:64px;
+			-webkit-transition: all 300ms 150ms ease-in-out;
+			-moz-transition: all 300ms 150ms ease-in-out;
+			-ms-transition: all 300ms 150ms ease-in-out;
+			-o-transition: all 300ms 150ms ease-in-out;
+			transition: all 300ms 150ms ease-in-out;
+		}
+
+		.icono-fijo {
+			width: 45px;
+			height: 40px;
+		}
+
+
+
+	/********************************************
+	*********************************************
+					ESTILO FOOTER
+	*********************************************	
+	*********************************************/
+
 
 		.content-wrapper {
 		    margin-top: 93px;
@@ -679,10 +648,60 @@ a, button{
 		.texto-sedes3 {
 			margin-top: 0px;
 		}
+
 	}
 
 
+
 	@media screen and (min-width: 1200px) {
+
+	/********************************************
+	*********************************************
+					ESTILO HEADER
+	*********************************************	
+	*********************************************/
+
+
+		.navbar-brand {
+			height: 67px;
+			padding: 4px 5px 4px 5%;
+		}
+
+		.navbar-nav {
+		    padding-top: 10px;
+		    padding-bottom: 3px;
+		}
+
+		.searchinput{
+			padding-left: 0;
+		}
+
+		.btn-header-busqueda{
+			padding: 0;
+			height: 20px;
+			width: 16px;
+			border: none;
+		}
+
+		.searchinput input, .searchinput input:focus, .searchinput input:active, .searchinput input:hover{
+			position: relative;
+			top: -3px;
+			right: -12px;
+			padding: 0 0 0;
+			height: 24px;
+			border-color: transparent;
+			box-shadow:none;
+			background-color: #f0f0f0;
+			border-radius: 0;
+		}
+
+
+
+	/********************************************
+	*********************************************
+					ESTILO FOOTER
+	*********************************************	
+	*********************************************/
 
 		.texto-sedes p {
 			font-size: 0.75em;
@@ -702,6 +721,23 @@ a, button{
 
 		.icono-legal {
 			height: 230px;
+		}
+	
+	}
+
+
+	@media screen and (min-width: 1600px) {
+
+
+	/********************************************
+	*********************************************
+					ESTILO HEADER
+	*********************************************	
+	*********************************************/
+	
+		
+		.navbar-header {
+			padding-left: 5%;
 		}
 
 	}
