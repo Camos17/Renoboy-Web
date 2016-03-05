@@ -27,7 +27,7 @@
 						<img class="hidden-md hidden-lg img-responsive" src="http://placehold.it/320x460" alt="...">
 						<div class="carousel-caption">
 							<p class="text-center texto1"><strong>my tyre care <br> program</strong></p>
-							<p class="text-center texto2">1.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<p class="text-center texto2">2.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
 							<a class="btn btn-default btn-carousel-contenido">
 								<strong>ver más</strong>
 							</a>
@@ -37,7 +37,7 @@
 						<img class="hidden-md hidden-lg img-responsive" src="http://placehold.it/320x460" alt="...">
 						<div class="carousel-caption">
 							<p class="text-center texto1"><strong>¿Pensando en Reencauchar?</strong></p>
-							<p class="text-center texto2">1.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<p class="text-center texto2">3.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
 							<a class="btn btn-default btn-carousel-contenido">
 								<strong>ver más</strong>
 							</a>

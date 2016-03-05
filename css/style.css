@@ -260,11 +260,13 @@ a, button{
 		margin-bottom: 0px;
 	}
 
-	.noticias h2:hover {
+	.noticias a:hover h2{
 		background-color: rgba(0, 121, 176,0.85);
 	}
 
-	.noticias a:active, .noticias a:focus, .noticias a:hover {
+	.noticias a:active, 
+	.noticias a:focus, 
+	.noticias a:hover {
 		text-decoration: none;
 	}
 
