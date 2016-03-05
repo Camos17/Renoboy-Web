@@ -25,7 +25,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="va navbar-brand" href="#"><img class="img-height-responsive" src="img/logorenoboy.svg" alt=""></a>
+					<a class="va navbar-brand" href="index.php"><img class="img-height-responsive" src="img/logorenoboy.svg" alt=""></a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->

@@ -243,7 +243,7 @@ a, button{
 	}
 
 	.noticias h1 {
-		background-color: rgba(3,3,3,0.6);
+		background-color: rgba(0, 121, 176,0.85);
 		color: #FFF;
 		padding-top: 20px;
 		padding-bottom: 20px;
@@ -252,18 +252,43 @@ a, button{
 	}
 
 	.noticias h2 {
-		background-color: rgba(3,3,3,0.6); ;
+		background-color: rgba(3,3,3,0.75); ;
 		color: #FFF;
 		text-align: center;
 		font-size: 1.5em;
-		padding: 7px 0;
+		padding: 15px 0 10px;
+		margin-bottom: 0px;
+	}
+
+	.noticias h2:hover {
+		background-color: rgba(0, 121, 176,0.85);
+	}
+
+	.noticias a:active, .noticias a:focus, .noticias a:hover {
+		text-decoration: none;
 	}
 
 	.noticias p {
-		background-color: rgba(3,3,3,0.6); ;
+		background-color: rgba(3,3,3,0.75); ;
 		color: #FFF;
 		text-align: justify;
-		text-justify: inter-word;
+		text-justify: distribute;
+		padding: 10px 25px;
+		font-size: 11px;
+	}
+
+	.noticias hr {
+		margin-top: 0;
+		margin-bottom: 0;
+		border-top: 1px solid rgba(0, 121, 176,0.85);
+		width: 100%;
+		background-color: rgba(3,3,3,0.75);
+	}
+
+	.noticias a i {
+		background-color: transparent;
+		color: #FFF;
+		margin: 10px 25px;
 	}
 
 
