@@ -90,7 +90,7 @@
 				</div>
 				<div id="ancla" class="col-xs-12 hidden-md hidden-lg">			
 					<button id="btn-mas-sedes" class="col-xs-offset-5 btn center-block">
-						<p>Más Sucursales</p>
+						<p id="menos-sucursales">Más Sucursales</p>
 						<span class="glyphicon glyphicon-chevron-down"></span>
 						<span class="glyphicon glyphicon-chevron-up"></span>
 					</button>
@@ -101,13 +101,22 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script type="text/javascript">
+
 			$(document).ready(function(){
+				var sucursalesabierto = false;
 				$( "#btn-mas-sedes" ).click(function() {
 					var $contenedor = $('#mas-sedes')
-					$("#mas-sedes").slideToggle(500);
-					$('html,body').animate({scrollTop: $("#ancla").offset().top}, 500);
+					$("#mas-sedes").slideToggle(700);
+					$('html,body').animate({scrollTop: $("#ancla").offset().top}, 700);
 					$("#btn-mas-sedes .glyphicon-chevron-up").toggle();
 			    	$("#btn-mas-sedes .glyphicon-chevron-down").toggle();
+			    	if (sucursalesabierto) {
+						$("#menos-sucursales").text("Más Sucursales");
+			    	} else {
+			    		$("#menos-sucursales").text("Menos Sucursales");
+			    	}
+			    	sucursalesabierto = !sucursalesabierto;
+
 				});
 			});
 		</script>

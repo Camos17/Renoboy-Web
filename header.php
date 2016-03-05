@@ -12,7 +12,7 @@
 
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style2.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top">
@@ -31,7 +31,7 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li class="col-md-4 col-lg-2 no-padding"><a href="#">Noticias de Interes<span class="sr-only">(current)</span></a></li>
+							<li class="col-md-4 col-lg-2 no-padding"><a href="noticias.php">Noticias de Interes<span class="sr-only">(current)</span></a></li>
 							<li class="col-md-4 col-lg-3 no-padding"><a href="#"><img  class="hidden-xs icon-header" src="img/iconoheader1.svg" alt="">Acceso a Distribuidores</a></li>
 							<li class="col-md-4 col-lg-3 no-padding"><a href="#"><img class="hidden-xs icon-header" src="img/iconoheader2.svg" alt="">Pensando en Reencauchar</a></li>
 							<li class="col-lg-4 no-padding hidden-xs hidden-sm hidden-md">

@@ -1,0 +1,791 @@
+
+
+html, body {
+	height: 100%;
+}
+
+a, button{
+	outline:0 !important;
+}
+
+/*video {
+    background-size: cover;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    bottom: 0;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    right: 0;
+    width: auto;
+    z-index: -100;
+}*/
+
+.no-padding {
+		padding-left: 0px;
+		padding-right: 0px;
+}
+
+.img-responsive {
+		width: 100%;
+}
+
+.img-height-responsive{
+	width: auto;
+	height: 100%;
+}
+
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.va{
+	position: relative;
+	top: 50%;
+	-ms-transform: translateY(-50%);  IE 9 
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+
+
+/********************************************
+*********************************************
+				ESTILO HEADER
+*********************************************	
+*********************************************/
+
+
+	/********************************************
+		ESTILO VISTA -- Disp Pequeños
+	*********************************************/
+
+	
+
+	.navbar{
+		border-bottom: 2px solid #1B71A1;
+		background-color: #FFF;
+	}
+
+	.navbar-header {
+		height: 55px;
+	}
+
+	.navbar-brand {
+		padding: 7px;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #1975AA;
+	}
+
+	.navbar-nav li a{
+		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.navbar-nav li {
+		margin: 6px 0px;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+		color: #1B71A1;
+	}
+
+	.navbar-default .navbar-nav > li:active, .navbar-default .navbar-nav > li:focus{
+		background-color: #1B71A1;
+	}
+
+	.navbar-default .navbar-nav > li:active > a, .navbar-default .navbar-nav > li:focus > a {
+		color: #FFF;
+	}
+
+	.navbar-toggle .icon-bar {
+		height: 3px;
+	}
+
+	.icon-header{
+		width: 20px;
+		height: auto;
+		margin-right: 5px;
+	}
+
+	.navbar .container-fluid {
+		padding-right: 0px;
+	}
+
+	.navbar-toggle{
+		background-color: #1975AA;
+		margin: 0px;
+		padding: 19px 18px;
+		border: none;
+		border-radius: 0px;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+	    background-color: #FFF;
+	}
+
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: #1975AA;
+	}
+
+	.content-wrapper{
+		min-height:80%;
+		margin-top: 55px;
+	}
+
+
+
+
+/********************************************
+*********************************************
+				ESTILO HOME
+*********************************************	
+*********************************************/
+
+
+	/********************************************
+		ESTILO VISTA -- Disp Pequeños
+	*********************************************/
+
+
+	#carousel-contenido {
+		background-color: transparent;
+	}
+
+	#carousel-contenido .carousel-caption {
+		bottom: 30%;
+	}
+
+	#carousel-contenido .texto1 {
+		text-transform: uppercase;
+		font-size: 1.2em;
+		color: #FFF;
+	}	
+
+	#carousel-contenido .texto2 {
+		font-size: 0.9em;
+		color: #FFF;
+	}
+
+
+	#carousel-contenido a {
+		margin-top: 30px;
+	}
+
+	#carousel-contenido .carousel-control .glyphicon-chevron-right, #carousel-contenido .carousel-control .glyphicon-chevron-left {
+		top: 18%;
+	}
+
+	.btn-carousel-contenido {
+		background-color: transparent;
+		border: 3px solid #FFF;
+		border-radius: 0px;
+		text-transform: uppercase;
+		color: #FFF;
+		width: 105px;
+		height: 35px;
+	}
+
+	.btn-carousel-contenido:hover {
+		background-color: transparent;
+		color: #777;
+	}
+
+	.home-opts a p {
+		background-color: rgba(0,0,0,0.8);
+		padding: 7% 0;
+		color: #FFF;
+		height: 90px;
+		font-size: 0.9em;
+	}
+
+	.home-opts {		
+		padding-top: 11px;
+		padding-bottom: 11px;
+	}
+
+	.home-opts a:hover p {
+		background-color: #017DC3;
+	}
+
+	.home-opts a:hover  {
+		text-decoration: none;
+	}
+
+
+
+
+/********************************************
+*********************************************
+				ESTILO NOTICIAS
+*********************************************	
+*********************************************/
+
+
+	/********************************************
+		ESTILO VISTA -- Disp Pequeños
+	*********************************************/
+
+
+	.noticias {
+		background: url(../img/imagen_noticias.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.noticias h1 {
+		background-color: rgba(3,3,3,0.6);
+		color: #FFF;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.noticias h2 {
+		background-color: rgba(3,3,3,0.6); ;
+		color: #FFF;
+		text-align: center;
+		font-size: 1.5em;
+		padding: 7px 0;
+	}
+
+	.noticias p {
+		background-color: rgba(3,3,3,0.6); ;
+		color: #FFF;
+		text-align: justify;
+		text-justify: inter-word;
+	}
+
+
+
+
+/********************************************
+*********************************************
+				ESTILO ICONOS FIJOS
+*********************************************	
+*********************************************/
+
+
+	/*************************************************
+		ESTILO VISTA -- Disp Pequeños (320px y 768px)
+	**************************************************/
+
+	.nav-iconos-fijos {
+		background-color: rgba(30, 30, 30, 0.45);
+		position: fixed;
+		bottom: 0;
+		z-index: 1030;
+		height: 50px;
+	}
+
+	.nav-iconos-fijos ul {
+		margin-bottom: 0px;
+	}
+
+	.nav-iconos-fijos ul li {
+		list-style: none;
+		text-align: center;
+		padding-top: 12px;
+		padding-bottom: 10px;
+	}
+
+	.nav-iconos-fijos div {
+		position: absolute;
+		right: 64px;
+		bottom: 0px;
+		background-color: #1975AA;
+		height: 55px;
+		width: 135px;
+		color: #FFF;
+		vertical-align: middle;
+		display: table;			
+	} 
+
+	.nav-iconos-fijos span {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: left;
+		padding-left: 15px;
+		font-size: 0.9em;
+	}
+
+	.icono-fijo {
+		width: 30px;
+		height: auto;
+	}
+
+
+
+/********************************************
+*********************************************
+				ESTILO FOOTER
+*********************************************	
+*********************************************/
+
+
+	/*************************************************
+		ESTILO VISTA -- Disp Pequeños (320px y 768px)
+	**************************************************/
+
+
+	.estilo-footer {
+		padding-bottom: 65px;
+	}
+
+	.texto-sedes {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		background-color: #FFF;
+	}
+
+	.texto-sedes2 {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	.texto-sedes p{
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+		font-size: 0.95em;
+		color: #1975AA;
+	}
+
+	.texto-sedes a {
+		color: #1975AA;
+		text-decoration: none;
+	}
+
+	.texto-sedes2 a {
+		color: #FFF;
+		text-decoration: none;
+	}
+
+	.texto-sedes2 p{
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+		font-size: 0.85em;
+		color: #FFF;
+	}
+
+	#mas-sedes {
+		margin-top: 0px;
+		display: none;
+	}
+
+	footer{
+		border-top: 3px solid #DFBB05;
+	}
+
+	.estilo-footer {
+		background-color: #1975AA;
+	}
+
+	.carousel-legal {
+		height: 165px;
+	}
+
+	.carousel-legal .carousel-inner {
+		height: 200px;
+	}
+
+	.carousel-control.left, .carousel-control.right {
+		background-image: none;
+	}
+
+	.icono-legal{
+		height: 165px;
+	}
+
+	.icono-legal img{
+		width: 56px;
+	}
+
+	.icono-legal .icono-iqnet {
+		width: 68px;
+	}
+
+	#btn-mas-sedes {
+		background-color: #1975AA;
+		color: #FFF;
+		font-size: 1.7em;
+	}
+
+	#btn-mas-sedes p{
+		font-size: 0.75em;
+		margin: 0px;
+	}
+
+	#btn-mas-sedes .glyphicon-chevron-up {
+		display: none;
+	}
+
+
+
+
+	@media screen and (min-width: 768px) {
+
+	/********************************************
+	*********************************************
+					ESTILO HEADER
+	*********************************************	
+	*********************************************/
+	
+
+		.navbar-nav {
+			padding-top: 7px;
+			padding-bottom: 3px;
+		}
+
+		.navbar-header {
+			width: 22%;
+			height: 92px;
+		}
+
+		.navbar-brand {
+			padding: 5px 5px 5px 5%;
+		}
+
+		.navbar .container-fluid .navbar-brand {
+			margin-left: -22px
+		}
+
+		.navbar-collapse {
+			width: 78%;
+			float: right;
+		}
+
+		.navbar li {
+
+			font-size: 0.8em;
+		}
+
+		.navbar li a{
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
+
+		.navbar hr{
+			margin-top: 1px;
+			margin-bottom: 1px;
+			width: 100%;
+			float: right;
+			border-color: #DFBB05;
+		}
+
+		.navbar-nav li:nth-child(n+5){
+			padding-top:5px;
+			padding-bottom:5px;	
+		}
+
+		.navbar-default .navbar-nav > li:active, .navbar-default .navbar-nav > li:focus{
+			background-color: #FFF;
+		}
+
+		.navbar-default .navbar-nav > li:active > a, .navbar-default .navbar-nav > li:focus > a {
+			color: #1B71A1;
+		}
+
+		.content-wrapper{
+			margin-top: 67px;
+		}
+
+
+	/********************************************
+	*********************************************
+					ESTILO HOME
+	*********************************************	
+	*********************************************/
+
+		#carousel-contenido a {
+		    margin-bottom: 25px;
+		}
+
+		.home-opts {
+			padding-top: 11px;
+			padding-bottom: 7px;
+		}
+
+
+
+	}
+
+
+	@media screen and (min-width: 992px) {
+
+	/********************************************
+	*********************************************
+					ESTILO HEADER
+	*********************************************	
+	*********************************************/
+
+
+		.navbar-header {
+			width: 22%;
+
+		}
+
+		.navbar-brand {
+			padding: 1px 5px 1px 5%;
+		}
+
+
+
+	/********************************************
+	*********************************************
+					ESTILO HOME
+	*********************************************	
+	*********************************************/
+
+		#carousel-contenido {
+			height: 100%;
+			position: absolute;
+		}
+
+		#carousel-contenido .carousel-caption {
+			position: relative;
+			bottom: 30%;
+			right: 0;
+			left: 0;
+		}
+
+		.home-opts {
+			position: absolute;
+			bottom: 100px;
+			z-index: 2;
+		}
+
+		.video_home{
+			position: absolute;
+			top:0;
+			z-index: -1;
+		}
+
+
+	/********************************************
+	*********************************************
+					ESTILO ICONOS FIJOS
+	*********************************************	
+	*********************************************/
+
+
+		.nav-iconos-fijos {
+			background-color: rgba(30, 30, 30, 0.45);
+			position: fixed;
+			z-index: 1030;
+			width: 65px;
+			height: auto;
+			right: 0;
+			bottom: auto;
+			top: 160px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+		
+		.nav-iconos-fijos li {
+			height: 55px;
+			position: relative;
+		}
+
+		.nav-iconos-fijos div {
+			position: absolute;
+			right: -220px;
+			bottom: 0px;
+			background-color: #1975AA;
+			height: 55px;
+			width: 213px;
+			color: #FFF;
+			vertical-align: middle;
+			display: table;		
+			z-index: -1;
+		}
+
+		.nav-iconos-fijos li:hover {
+			background-color: #1975AA;
+		}
+
+		.nav-iconos-fijos span {
+			display: table-cell;
+			vertical-align: middle;
+			text-align: left;
+			height: 55px;
+			padding-left: 20px;
+			font-size: 1.2em;
+		}
+	
+		.nav-iconos-fijos li:hover a div {
+			right:64px;
+			-webkit-transition: all 300ms 150ms ease-in-out;
+			-moz-transition: all 300ms 150ms ease-in-out;
+			-ms-transition: all 300ms 150ms ease-in-out;
+			-o-transition: all 300ms 150ms ease-in-out;
+			transition: all 300ms 150ms ease-in-out;
+		}
+
+		.icono-fijo {
+			width: 45px;
+			height: 40px;
+		}
+
+
+
+	/********************************************
+	*********************************************
+					ESTILO FOOTER
+	*********************************************	
+	*********************************************/
+
+
+		.content-wrapper {
+		    margin-top: 93px;
+		    min-height: 100%;
+		}	
+
+		.estilo-footer {
+			background-color: #FFF;
+			padding-bottom: 0px;
+		}
+
+		.carousel-legal {
+			background-color: #1975AA;
+			height: 210px;
+			padding-top: 5px; 
+		}
+
+		.icono-legal {
+			height: 200px;
+		}
+
+		.texto-sedes {
+			padding-left: 40px;
+		}
+
+		.texto-sedes p{
+			text-align: left;	
+			font-size: 0.80em;
+		}
+
+		.texto-sedes2 {
+			margin-top: 40px;
+			margin-bottom: 20px;
+		}
+
+		.texto-sedes2 p{
+			color: #1975AA;
+			text-align: left;
+			font-size: 0.65em;
+		}
+
+		.texto-sedes2 a {
+			color: #1975AA;
+			text-decoration: none;
+		}
+	
+		.texto-sedes3 {
+			margin-top: 0px;
+		}
+
+	}
+
+
+
+	@media screen and (min-width: 1200px) {
+
+	/********************************************
+	*********************************************
+					ESTILO HEADER
+	*********************************************	
+	*********************************************/
+
+
+		.navbar-brand {
+			height: 67px;
+			padding: 4px 5px 4px 5%;
+		}
+
+		.navbar-nav {
+		    padding-top: 10px;
+		    padding-bottom: 3px;
+		}
+
+		.searchinput{
+			padding-left: 0;
+		}
+
+		.btn-header-busqueda{
+			padding: 0;
+			height: 20px;
+			width: 16px;
+			border: none;
+		}
+
+		.searchinput input, .searchinput input:focus, .searchinput input:active, .searchinput input:hover{
+			position: relative;
+			top: -3px;
+			right: -12px;
+			padding: 0 0 0;
+			height: 24px;
+			border-color: transparent;
+			box-shadow:none;
+			background-color: #f0f0f0;
+			border-radius: 0;
+		}
+
+
+
+	/********************************************
+	*********************************************
+					ESTILO FOOTER
+	*********************************************	
+	*********************************************/
+
+		.texto-sedes p {
+			font-size: 0.75em;
+		}
+
+		.texto-sedes2 p {
+			font-size: 0.75em;
+		}
+
+		.c2-footer {
+			margin-left: 0%;
+		}
+
+		.carousel-legal {
+			height: 230px;
+		}
+
+		.icono-legal {
+			height: 230px;
+		}
+	
+	}
+
+
+	@media screen and (min-width: 1600px) {
+
+
+	/********************************************
+	*********************************************
+					ESTILO HEADER
+	*********************************************	
+	*********************************************/
+	
+		
+		.navbar-header {
+			padding-left: 5%;
+		}
+
+	}
