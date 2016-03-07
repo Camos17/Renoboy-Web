@@ -63,12 +63,12 @@
 						Tres vidas de tu llanta MICHELIN	
 						</p>
 					</a>
-						<a class="col-xs-12 col-sm-4 col-md-4" href="#" title="">
+					<a class="col-xs-12 col-sm-4 col-md-4" href="#" title="">
 						<img class="img-responsive" src="img/botónimagen2.jpg" alt="">
 						<p class="text-center"><strong>MY TYRE CARE<br> PROGRAM</strong>
 						</p>
 					</a>
-						<a class="col-xs-12 col-sm-4 col-md-4" href="#" title="">
+					<a class="col-xs-12 col-sm-4 col-md-4" href="#" title="">
 						<img class="img-responsive" src="img/botónimagen3.jpg" alt="">
 						<p class="text-center"><strong>¿PENSANDO EN <br> REENCAUCHAR?</strong>	
 						</p>
