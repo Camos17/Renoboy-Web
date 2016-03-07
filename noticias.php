@@ -6,7 +6,7 @@
 				<div class="col-xs-12">
 					<h1 class="text-center">NOTICIAS DE INTERÉS</h1>	
 				</div>				
-				<a class="col-xs-12" href="#" title="">
+				<a class="col-xs-12" href="noticiasdesplegadas.php" title="">
 					<h2>Tu llanta nueva de nuevo</h2>
 					<div class="col-xs-12">
 						<hr>	

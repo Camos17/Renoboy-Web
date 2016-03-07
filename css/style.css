@@ -293,6 +293,47 @@ a, button{
 		margin: 10px 25px;
 	}
 
+	/********************************************
+		ESTILO VISTA -- Disp Pequeños - NOTICIAS
+		DESPLEGADAS
+	*********************************************/
+
+	.noticia-desplegada h2{
+		background-color: #FFF;
+		color: #3085BE;
+		text-align: center;
+		font-size: 1.3em;
+		padding: 15px 0 10px;
+		margin-bottom: 0px;
+		text-transform: uppercase;
+	}
+
+	.noticia-desplegada p {
+		background-color: #FFF;
+		color: #000;
+		text-align: justify;
+		text-justify: distribute;
+		padding: 25px 25px 5px 25px;
+		font-size: 12px;
+	}
+
+	.noticia-desplegada a {
+		font-size: 1.4em;
+		color: #337ab7;
+	}
+
+	.noticia-desplegada .btn-regreso-noticia {
+		top: -10px;
+		background-color: #FFF;
+	}
+
+
+	.noticia-desplegada a i {
+		color: #337ab7;
+		margin: 10px 10px;
+	}
+
+
 
 
 
