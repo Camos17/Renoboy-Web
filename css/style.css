@@ -251,6 +251,11 @@ a, button{
 		text-align: center;
 	}
 
+	.c1-noticias-headline h1{
+		font-weight: bold;
+    	margin-bottom: 0px;
+	}
+
 	.noticias h2 {
 		background-color: rgba(3,3,3,0.75); ;
 		color: #FFF;
@@ -258,6 +263,7 @@ a, button{
 		font-size: 1.5em;
 		padding: 15px 0 10px;
 		margin-bottom: 0px;
+		margin-top: 0px;
 	}
 
 	.noticia:hover h2,
@@ -279,7 +285,7 @@ a, button{
 		text-align: justify;
 		text-justify: distribute;
 		padding: 10px 25px;
-		font-size: 9px;
+		font-size: 11px;
 	}
 
 	.noticias i {
@@ -296,6 +302,25 @@ a, button{
 		text-decoration: none;
 	}
 
+	.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+	.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,
+	.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+		background-color: #1975AA;
+	}
+
+	.mCSB_scrollTools .mCSB_draggerRail {
+		width: 5px;
+	}
+
+	.mCSB_inside > .mCSB_container {
+		margin-right: 0px;
+	}
+
+	.mCS-rounded-dark.mCSB_scrollTools .mCSB_draggerRail {
+    	background-color: #000;
+    	background-color: #B2AE99;
+	}
+
 	
 
 
@@ -309,7 +334,7 @@ a, button{
 		color: #3085BE;
 		text-align: center;
 		font-size: 1.2em;
-		padding: 15px 0 10px;
+		padding: 30px 0 15px;
 		margin-bottom: 0px;
 		text-transform: uppercase;
 	}
@@ -594,24 +619,28 @@ a, button{
 	*********************************************	
 	*********************************************/
 		
-		.noticias-wrapper {
-			height: 478px;
-			overflow-y: scroll;
-			right: 15px;
-		}
-
 		.c1-noticias-headline {
-			right: 15px;
+			padding-right: 0;
 		}
 
-		.noticia {
-			margin-top: -20px;
+		.noticias-wrapper {
+			overflow-y: auto;
 		}
 
 		.c2-noticias {
 			margin-top: 20px;
-			left: -45px;
 		}
+
+		.noticias h2 {
+			margin-top: 20px;
+		}
+
+		.noticia {
+			margin-top: -20px;
+			padding-right: 0;
+		}
+
+	
 
 		/********************************************
 		ESTILO VISTA  -- NOTICIAS
@@ -628,8 +657,7 @@ a, button{
 		}
 
 		.wrapper-noticia-desplegada {
-			height: 420px;
-			overflow-y: scroll;
+			overflow-y: auto;
 		}
 
 
@@ -711,17 +739,7 @@ a, button{
 	*********************************************	
 	*********************************************/
 
-	.c1-noticias {
-		left: 26px;
-	}
-
-	.c2-noticias {
-		left: -19px;
-	}
-
-	.noticia-desplegada {
-		left: -49px
-	}
+	
 
 
 
@@ -804,6 +822,7 @@ a, button{
 		.content-wrapper {
 		    margin-top: 94px;
 		    min-height: 100%;
+		    padding-right: 29px;
 		}	
 
 		.estilo-footer {
