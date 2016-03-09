@@ -235,7 +235,7 @@ a, button{
 
 
 	.noticias {
-		background: url(../img/imagen_noticias.jpg) no-repeat center center fixed; 
+		background: url(../img/imagen_fondo_noticias.jpg) no-repeat center center fixed; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -260,14 +260,17 @@ a, button{
 		margin-bottom: 0px;
 	}
 
-	.noticias a:hover h2{
+	.noticia:hover h2,
+	.noticia:active h2 {
 		background-color: rgba(0, 121, 176,0.85);
 	}
 
-	.noticias a:active, 
-	.noticias a:focus, 
-	.noticias a:hover {
-		text-decoration: none;
+	.noticias hr {
+		margin-top: 0;
+		margin-bottom: 0;
+		border-top: 2px solid rgba(0, 121, 176,0.85);
+		width: 100%;
+		background-color: rgba(3,3,3,0.75);
 	}
 
 	.noticias p {
@@ -276,22 +279,25 @@ a, button{
 		text-align: justify;
 		text-justify: distribute;
 		padding: 10px 25px;
-		font-size: 11px;
+		font-size: 9px;
 	}
 
-	.noticias hr {
-		margin-top: 0;
-		margin-bottom: 0;
-		border-top: 1px solid rgba(0, 121, 176,0.85);
-		width: 100%;
-		background-color: rgba(3,3,3,0.75);
+	.noticias i {
+		margin: 10px 10px 0 15px;
 	}
 
-	.noticias a i {
-		background-color: transparent;
-		color: #FFF;
-		margin: 10px 25px;
+	.noticias .noticia a {
+		margin-left: 15px;
 	}
+
+	.noticias a:active, 
+	.noticias a:focus, 
+	.noticias a:hover {
+		text-decoration: none;
+	}
+
+	
+
 
 	/********************************************
 		ESTILO VISTA -- Disp Pequeños - NOTICIAS
@@ -302,10 +308,14 @@ a, button{
 		background-color: #FFF;
 		color: #3085BE;
 		text-align: center;
-		font-size: 1.3em;
+		font-size: 1.2em;
 		padding: 15px 0 10px;
 		margin-bottom: 0px;
 		text-transform: uppercase;
+	}
+
+	.separador {
+		background-color: #FFF;
 	}
 
 	.noticia-desplegada p {
@@ -320,6 +330,8 @@ a, button{
 	.noticia-desplegada a {
 		font-size: 1.4em;
 		color: #337ab7;
+		float: right;
+		margin-right: 15px;
 	}
 
 	.noticia-desplegada .btn-regreso-noticia {
@@ -327,6 +339,13 @@ a, button{
 		background-color: #FFF;
 	}
 
+	.noticia-desplegada hr {
+		margin-top: 0;
+		margin-bottom: 0;
+		border-top: 2px solid rgba(0, 121, 176,0.85);
+		width: 100%;
+		background-color: #FFF;
+	}
 
 	.noticia-desplegada a i {
 		color: #337ab7;
@@ -569,6 +588,51 @@ a, button{
 			margin-top: 94px;
 		}
 
+	/********************************************
+	*********************************************
+					ESTILO NOTICIAS
+	*********************************************	
+	*********************************************/
+		
+		.noticias-wrapper {
+			height: 478px;
+			overflow-y: scroll;
+			right: 15px;
+		}
+
+		.c1-noticias-headline {
+			right: 15px;
+		}
+
+		.noticia {
+			margin-top: -20px;
+		}
+
+		.c2-noticias {
+			margin-top: 20px;
+			left: -45px;
+		}
+
+		/********************************************
+		ESTILO VISTA  -- NOTICIAS
+		DESPLEGADAS
+		*********************************************/
+
+		.img-noticia-desplegada {
+			right: -15px;
+			margin-top: 20px;
+		}
+
+		.noticia-desplegada {
+			left: -15px;
+		}
+
+		.wrapper-noticia-desplegada {
+			height: 420px;
+			overflow-y: scroll;
+		}
+
+
 
 	/********************************************
 	*********************************************
@@ -584,7 +648,6 @@ a, button{
 			padding-top: 11px;
 			padding-bottom: 7px;
 		}
-
 
 
 	}
@@ -639,6 +702,28 @@ a, button{
 			top:0;
 			z-index: -1;
 		}
+
+
+
+	/********************************************
+	*********************************************
+					ESTILO NOTICIAS
+	*********************************************	
+	*********************************************/
+
+	.c1-noticias {
+		left: 26px;
+	}
+
+	.c2-noticias {
+		left: -19px;
+	}
+
+	.noticia-desplegada {
+		left: -49px
+	}
+
+
 
 
 	/********************************************
