@@ -76,6 +76,12 @@
 				resizewindow();
 				$("#noticias-wrapper").mCustomScrollbar("update");
 				$("#noticias-desplegada").mCustomScrollbar("update");
+				$("#noticias-wrapper").mCustomScrollbar({
+		            	contentTouchScroll: 25
+		        });
+		        $("#noticias-desplegada").mCustomScrollbar({
+		        	contentTouchScroll: 25
+		        });	
 			});
 			function resizewindow() {
 				var h = window.innerHeight-94;
@@ -93,19 +99,6 @@
 				resizewindow();
 			};
 		</script>
-		<script>
-		    (function($){
-		        $(window).load(function(){
-		            $("#noticias-wrapper").mCustomScrollbar({
-		            	contentTouchScroll: 25
-		            });
-		        	$("#noticias-desplegada").mCustomScrollbar({
-		        		contentTouchScroll: 25
-		        	});		        	
-		        });
-		    })(jQuery);
-	</script>
-
 	</body>	
 </html>	
 
