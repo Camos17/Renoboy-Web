@@ -92,7 +92,6 @@
 				document.getElementById('noticias-desplegada').setAttribute("style","height:"+he+"px");
 				$("#noticias-wrapper").mCustomScrollbar("update");
 				$("#noticias-desplegada").mCustomScrollbar("update");
-				$("#noticias-wrapper").mCustomScrollbar("scrollTo","last");
 			}
 			
 			window.onresize=function(){
