@@ -77,10 +77,10 @@
 				$("#noticias-wrapper").mCustomScrollbar("update");
 				$("#noticias-desplegada").mCustomScrollbar("update");
 				$("#noticias-wrapper").mCustomScrollbar({
-		            	contentTouchScroll: 25
+		            	// contentTouchScroll: 25
 		        });
 		        $("#noticias-desplegada").mCustomScrollbar({
-		        	contentTouchScroll: 25
+		        	// contentTouchScroll: 25
 		        });	
 			});
 			function resizewindow() {
