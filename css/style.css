@@ -179,7 +179,8 @@ a, button{
 		margin-top: 30px;
 	}
 
-	#carousel-contenido .carousel-control .glyphicon-chevron-right, #carousel-contenido .carousel-control .glyphicon-chevron-left {
+	#carousel-contenido .carousel-control .glyphicon-chevron-right, 
+	#carousel-contenido .carousel-control .glyphicon-chevron-left {
 		top: 18%;
 	}
 
@@ -234,7 +235,7 @@ a, button{
 	*********************************************/
 
 
-	.noticias {
+	.fondo-noticias {
 		background: url(../img/imagen_fondo_noticias.jpg) no-repeat center center fixed; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -289,7 +290,7 @@ a, button{
 	}
 
 	.noticias i {
-		margin: 10px 10px 0 15px;
+		margin: 10px 10px 0 0px;
 	}
 
 	.noticias .noticia a {
@@ -375,6 +376,226 @@ a, button{
 	.noticia-desplegada a i {
 		color: #337ab7;
 		margin: 10px 10px;
+	}
+
+
+
+
+/********************************************
+*********************************************
+			ESTILO BUSCADOR SERVICIOS
+*********************************************	
+*********************************************/
+
+
+	/*************************************************
+		ESTILO VISTA -- Disp Pequeños (320px y 768px)
+	**************************************************/
+
+
+	.fondo-buscador {
+		background: url(../img/fondo_buscador_servicios.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}	
+
+	.buscador-servicios {
+		list-style: none;
+		position: relative;
+	}
+
+	.headline-buscador-servicios h1 {
+		color: #FFF;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-align: center;
+		font-size: 1.1em;
+		margin-top: 30px;
+	}
+
+	.headline-buscador-servicios h2 {
+		color: #FFF;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-align: center;
+		font-size: 0.7em;
+	}
+
+	.servicio-recomendado h2 {
+		font-size: 15px;
+		text-align: center;
+		color: #FFF;
+		background-color: rgba(3, 88, 173, 0.9);
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-weight: bold;
+	}
+
+	.seccion-servicio-utilizacion {
+		background-color: rgba(59, 103, 138, 0.75);
+		padding-top: 25px;
+		padding-bottom: 35px;
+	}
+
+	.ayuda-buscador-servicios {
+		position: absolute;
+		z-index: 1030;
+		top: 548px;
+	}
+
+	.headline-ayuda-buscador {
+		background-color: #007AC5;
+	}
+
+	.headline-ayuda-buscador i {
+		color: #FFF;
+		font-size: 20px;
+		margin-right: 20px;
+	}
+
+	.headline-ayuda-buscador h2 {
+		color: rgb(255, 255, 255);
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.contenido-ayuda1 {
+		background-color: rgba(59, 103, 138, 0.75);
+		padding-top: 20px;
+	}
+
+	.contenido-ayuda2 {
+		background-color: rgba(0, 122, 197, 0.75);
+		padding-top: 20px;
+	}
+
+	.contenido-ayuda2 li {
+		color: #FFF;
+		font-size: 11px;
+	}
+
+	.titulo-seccion {
+		color: #FFF;
+		font-weight: bold;
+		font-size: 13px;
+		padding-left: 25px;
+	}
+
+	.icono-ayuda {
+		margin: 5px 10px;
+	}
+
+	.fa-question-circle {
+		font-size: 17px;
+		color: #FFF;
+	}
+
+	.iconos-servicio-recomendado li{
+		display: inline-block;
+	}
+
+	.bnt-servicio-regional {
+		background-image: url(http://placehold.it/50x50);
+		background-color: #FFF;
+		width: 60px;
+		height: 60px;
+		border-radius: 0px;
+	}
+
+	.bnt-servicio-mixta {
+		background-image: url(http://placehold.it/50x50);
+		background-color: #FFF;
+		width: 60px;
+		height: 60px;
+		border-radius: 0px;
+	}
+
+	.bnt-servicio-urbano {
+		background-image: url(http://placehold.it/50x50);
+		background-color: #FFF;
+		width: 60px;
+		height: 60px;
+		border-radius: 0px;
+	}
+
+	.bnt-servicio-cantera {
+		background-image: url(http://placehold.it/50x50);
+		background-color: #FFF;
+		width: 60px;
+		height: 60px;
+		border-radius: 0px;
+	}
+
+	.seccion-servicio-posicion {
+		background-color: rgba(59, 103, 138, 0.75);
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.seccion-servicio-posicion select {
+		background-color: transparent;
+		border: none;
+		color: #FFF;
+	}
+
+	.seccion-servicio-dimension {
+		background-color: rgba(59, 103, 138, 0.75);
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.seccion-servicio-dimension select {
+		background-color: transparent;
+		border: none;
+		color: #FFF;
+	}
+
+	.seccion-servicio-categoria {
+		background-color: rgba(59, 103, 138, 0.75);
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	.seccion-servicio-categoria select {
+		background-color: transparent;
+		border: none;
+		color: #FFF;
+	}
+
+	.btn-buscar-servicio {
+		background-color: #0076B7;
+		font-size: 12px;
+		color: #FFF;
+		border: none;
+		border-radius: 0px;
+		font-weight: bold;
+	}
+
+	.cat-llantas{
+		margin-top:20px;
+	}
+
+	.cat-llanta {
+		margin-bottom: 15px;
+		position: relative;
+	}
+
+	.cat-llanta .cat-llanta-wrapper p {
+		position: absolute;
+		color: #FFF;
+		font-weight: bold;
+		font-size: 20px;
+		bottom: 0px;
+		background-color: rgba(200,200,0,0.85);
+		width: 100%;
+		margin-bottom: 0;
+		padding: 5px 10px;
 	}
 
 
@@ -545,7 +766,6 @@ a, button{
 
 
 
-
 	@media screen and (min-width: 768px) {
 
 	/********************************************
@@ -615,6 +835,19 @@ a, button{
 
 	/********************************************
 	*********************************************
+					ESTILO HOME
+	*********************************************	
+	*********************************************/
+
+
+		#carousel-contenido .carousel-control .glyphicon-chevron-right, 
+		#carousel-contenido .carousel-control .glyphicon-chevron-left {
+			top: 39%;
+		}
+
+
+	/********************************************
+	*********************************************
 					ESTILO NOTICIAS
 	*********************************************	
 	*********************************************/
@@ -640,6 +873,9 @@ a, button{
 			padding-right: 0;
 		}
 
+		.noticias i {
+    		margin: 10px 10px 0 15px;
+		}
 	
 
 		/********************************************
@@ -664,6 +900,20 @@ a, button{
 
 	/********************************************
 	*********************************************
+				ESTILO BUSCADOR SERVICIOS
+	*********************************************	
+	*********************************************/
+
+
+
+		.seccion-servicio-posicion {
+			margin-top: 20px;
+		}
+
+
+
+	/********************************************
+	*********************************************
 					ESTILO HOME
 	*********************************************	
 	*********************************************/
@@ -682,13 +932,17 @@ a, button{
 
 
 	@media screen and (min-width: 992px) {
-
+		
 	/********************************************
 	*********************************************
 					ESTILO HEADER
 	*********************************************	
 	*********************************************/
 
+		.content-wrapper {
+		    margin-top: 94px;
+		    min-height: 100%;
+		}	
 
 		.navbar-header {
 			width: 22%;
@@ -735,11 +989,21 @@ a, button{
 
 	/********************************************
 	*********************************************
-					ESTILO NOTICIAS
+			ESTILO BUSCADOR SERVICIOS
 	*********************************************	
 	*********************************************/
 
-	
+		.buscador-servicios {
+			margin-left: 20px;
+		}
+
+		.seccion-servicio-posicion {
+			margin-top: 10px;
+		}
+
+		.cat-llantas {
+			margin-top: 85px;
+		}
 
 
 
@@ -818,12 +1082,6 @@ a, button{
 	*********************************************	
 	*********************************************/
 
-
-		.content-wrapper {
-		    margin-top: 94px;
-		    min-height: 100%;
-		    padding-right: 29px;
-		}	
 
 		.estilo-footer {
 			background-color: #FFF;
@@ -914,6 +1172,20 @@ a, button{
 			background-color: #f0f0f0;
 			border-radius: 0;
 		}
+
+
+
+	/********************************************
+	*********************************************
+			ESTILO BUSCADOR SERVICIOS
+	*********************************************	
+	*********************************************/	
+
+
+		.cat-llantas {
+			margin-top: 34px;
+		}
+
 
 
 

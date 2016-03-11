@@ -50,9 +50,9 @@
 				
 			
 				<div class="col-xs-12 col-md-4 no-padding texto-sedes2">
-					<p class="text-center"><strong>Planta Renoboy Bogotá</strong><br>
-					Calle 17A N° 69F - 58 Zona Industrial Montevideo<br>
-				  	<a href="tel: Tel: (+571) 742 2779 ">Tel: (+571) 742 2779</a><br><br>
+					<p class="text-center"><strong>Planta Renoboy Duitama</strong><br>
+					Ciudadela Industrial Lote M5<br>
+				  	<a href="tel: Tel: (+571) 765 0402">Tel: (+571) 765 0402</a><br><br>
 					<strong>Planta Renoboy Ibagué</strong><br>
 					Carrera 48 Sur N° 92 - 15 Vía Picaleña<br>
 					<a href="tel: (+578) 277 1099">Tel: (+578) 277 1099</a></p>
