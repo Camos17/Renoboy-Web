@@ -1,7 +1,8 @@
 		<?php include "header.php";?>
 
 		
-		<div class="col-xs-12 no-padding content-wrapper fake2 fondo-buscador">
+
+		<div class="col-xs-12 no-padding content-wrapper fondo-buscador">
 			<div class="col-xs-12 col-md-12 headline-buscador-servicios">
 				<h1>buscador de servicio renoboy</h1>
 				<h2>Usa nuestra búsqueda guiada para encontrar el servicio perfecto que se adapte a tus necesidades

@@ -95,11 +95,14 @@
 						<span class="glyphicon glyphicon-chevron-up"></span>
 					</button>
 				</div>
-
 			</div>
 		</footer>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+         async defer></script>
+		
 		<script type="text/javascript">
 			$(document).ready(function(){
 				var sucursalesabierto = false;
@@ -116,13 +119,87 @@
 			    	}
 			    	sucursalesabierto = !sucursalesabierto;
 				});
-			});
-		</script>
-		<script  type="text/javascript">
+			});		
+			
+
+
+			/********************************************
+			*********************************************
+							FUNCTIONS
+			*********************************************	
+			*********************************************/
+
+			function initMap(){
+			    var mapDiv = document.getElementById('map');
+			    var map = new google.maps.Map(mapDiv, {
+			      center: {lat: 44.540, lng: -78.546},
+			      zoom: 8
+			    });
+
+				map.set('styles', [
+				  {
+				    featureType: 'road',
+				    elementType: 'geometry',
+				    stylers: [
+				      { color: '#000000' },
+				      { weight: 1.6 }
+				    ]
+				  }, {
+				    featureType: 'road',
+				    elementType: 'labels',
+				    stylers: [
+				      { saturation: -100 },
+				      { invert_lightness: true }
+				    ]
+				  }, {
+				    featureType: 'landscape',
+				    elementType: 'geometry',
+				    stylers: [
+				      { hue: '#ffff00' },
+				      { gamma: 1.4 },
+				      { saturation: 82 },
+				      { lightness: 96 }
+				    ]
+				  }, {
+				    featureType: 'poi.school',
+				    elementType: 'geometry',
+				    stylers: [
+				      { hue: '#fff700' },
+				      { lightness: -15 },
+				      { saturation: 99 }
+				    ]
+				  },
+					{
+					  featureType: 'poi',
+					  elementType: 'geometry',
+					  stylers: [
+					    { visibility: 'off' }
+					  ]
+					}, {
+					  featureType: 'poi.school',
+					  elementType: 'geometry',
+					  stylers: [
+					    { visibility: 'on' },
+					    { hue: '#fff700' },
+					    { lightness: -15 },
+					    { saturation: 99 }
+					  ]
+					}
+
+				]);
+			}
+
+			/********************************************
+			*********************************************
+							EVENTS
+			*********************************************	
+			*********************************************/
+
 			$("#ayuda-utilizacion").click(function(){
 				$(".ayuda-buscador-servicios").show(1000);
 			});
 			$(".btn-cerrar-ayuda-buscador").click(function(){
 				$(".ayuda-buscador-servicios").hide(1000);
 			});
+
 		</script>
