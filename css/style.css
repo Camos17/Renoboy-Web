@@ -440,25 +440,41 @@ a, button{
 	}
 
 	.ayuda-buscador-servicios {
+		display: none;
 		position: absolute;
 		z-index: 1030;
-		top: 548px;
+		top: -107px;
 	}
 
 	.headline-ayuda-buscador {
 		background-color: #007AC5;
 	}
 
+	.headline-ayuda-buscador h2 {
+		margin-bottom: 20px;
+	}
+
 	.headline-ayuda-buscador i {
 		color: #FFF;
-		font-size: 20px;
-		margin-right: 20px;
+		font-size: 2.5rem;
 	}
 
 	.headline-ayuda-buscador h2 {
 		color: rgb(255, 255, 255);
 		font-size: 25px;
 		text-align: center;
+	}
+
+	.btn-cerrar-ayuda-buscador,
+	.btn-cerrar-ayuda-buscador:active,
+	.btn-cerrar-ayuda-buscador:hover,
+	.btn-cerrar-ayuda-buscador:focus {
+		margin-right: 10px;
+		background-color: #007AC5;
+		border: none;
+		top: -5px;
+		padding: 0px;
+		box-shadow: none;
 	}
 
 	.contenido-ayuda1 {
@@ -494,38 +510,48 @@ a, button{
 
 	.iconos-servicio-recomendado li{
 		display: inline-block;
+		position: relative;
+	}
+	
+	.iconos-servicio-recomendado span{
+		text-align: center;
+		color: #FFF;
+		font-size: 12px;
+		left: 0px;
+		bottom: 1px;
 	}
 
-	.bnt-servicio-regional {
-		background-image: url(http://placehold.it/50x50);
-		background-color: #FFF;
-		width: 60px;
-		height: 60px;
-		border-radius: 0px;
+	.btn-servicio-regional,
+	.btn-servicio-mixta,
+	.btn-servicio-urbano,
+	.btn-servicio-cantera {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 15px;
 	}
 
-	.bnt-servicio-mixta {
-		background-image: url(http://placehold.it/50x50);
-		background-color: #FFF;
-		width: 60px;
-		height: 60px;
+	.btn-servicio-regional {
+		background-color: rgba(0, 122, 197, 0.75);		
 		border-radius: 0px;
+		border: none;
+	}
+	
+	.btn-servicio-mixta {
+		background-color: rgba(137, 137, 36, 0.75);		
+		border-radius: 0px;
+		border: none;
+	}
+	
+	.btn-servicio-urbano {
+		background-color: rgba(143, 53, 72, 0.75);		
+		border-radius: 0px;
+		border: none;
 	}
 
-	.bnt-servicio-urbano {
-		background-image: url(http://placehold.it/50x50);
-		background-color: #FFF;
-		width: 60px;
-		height: 60px;
+	.btn-servicio-cantera {
+		background-color: rgba(169, 94, 51, 0.75);
 		border-radius: 0px;
-	}
-
-	.bnt-servicio-cantera {
-		background-image: url(http://placehold.it/50x50);
-		background-color: #FFF;
-		width: 60px;
-		height: 60px;
-		border-radius: 0px;
+		border: none;
 	}
 
 	.seccion-servicio-posicion {

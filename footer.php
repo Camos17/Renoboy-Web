@@ -1,6 +1,6 @@
 
 
-<footer class="col-xs-12 no-padding estilo-footer">
+		<footer class="col-xs-12 no-padding estilo-footer">
 			<div class="col-xs-12 col-md-3 col-md-push-3 col-lg-3 col-lg-push-3 no-padding texto-sedes">
 				<p class="text-center"><strong>Planta Renoboy Bogotá</strong><br>
 				   Calle 17A N° 69F - 58 Zona Industrial Montevideo<br>
@@ -101,7 +101,6 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script type="text/javascript">
-
 			$(document).ready(function(){
 				var sucursalesabierto = false;
 				$( "#btn-mas-sedes" ).click(function() {
@@ -116,7 +115,14 @@
 			    		$("#menos-sucursales").text("Menos Sucursales");
 			    	}
 			    	sucursalesabierto = !sucursalesabierto;
-
 				});
+			});
+		</script>
+		<script  type="text/javascript">
+			$("#ayuda-utilizacion").click(function(){
+				$(".ayuda-buscador-servicios").show(1000);
+			});
+			$(".btn-cerrar-ayuda-buscador").click(function(){
+				$(".ayuda-buscador-servicios").hide(1000);
 			});
 		</script>

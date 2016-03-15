@@ -1,7 +1,7 @@
 		<?php include "header.php";?>
 
 		
-		<div class="col-xs-12 no-padding content-wrapper fondo-buscador">
+		<div class="col-xs-12 no-padding content-wrapper fake2 fondo-buscador">
 			<div class="col-xs-12 col-md-12 headline-buscador-servicios">
 				<h1>buscador de servicio renoboy</h1>
 				<h2>Usa nuestra búsqueda guiada para encontrar el servicio perfecto que se adapte a tus necesidades
@@ -27,31 +27,35 @@
 								</li>					
 							</div>
 							<div class="col-xs-12 icono-ayuda">
-								<a href="#" title="">
+								<a id="ayuda-utilizacion" href="#" title="">
 									<i class="col-xs-2 col-xs-offset-10 fa fa-question-circle"></i>
 								</a>
 							</div>
-							<div class="col-xs-12 iconos-servicio-recomendado">
-								<div class="col-xs-3 no-padding">
-									<button type="button" class="col-xs-3 btn btn-default bnt-servicio-regional">
-										<!-- <img class="img-responsive" src="http://placehold.it/50x50" alt=""> -->			
+							<div class="col-xs-12 col-sm-12 iconos-servicio-recomendado">	
+								<div class="col-xs-6 col-sm-3">			
+									<button type="button"class="col-xs-12 btn-servicio-regional">
+										<img class="img-responsive" src="img/REGIONAL.svg" alt="">
+										<span class="col-xs-12 no-padding">Regional</span>	
 									</button>
 								</div>
-								<div class="col-xs-3 no-padding">								
-									<button type="button" class="col-xs-3 btn btn-default bnt-servicio-mixta">
-											<!-- <img class="img-responsive" src="http://placehold.it/50x50" alt=""> -->
-									</button>
+								<div class="col-xs-6 col-sm-3">
+									<button type="button" class="col-xs-12 btn-servicio-mixta">
+										<img class="img-responsive" src="img/MIXTA.svg" alt="">
+										<span class="col-xs-12 no-padding">Mixta</span>
+									</button>					
+								</div>					
+								<div class="col-xs-6 col-sm-3">
+									<button type="button" class="col-xs-12 btn-servicio-urbano">
+										<img class="img-responsive" src="img/URBANO.svg" alt="">
+										<span class="col-xs-12 no-padding">Urbano</span>
+									</button>					
 								</div>
-								<div class="col-xs-3 no-padding">
-									<button type="button" class="col-xs-3 btn btn-default bnt-servicio-urbano">
-											<!-- <img class="img-responsive" src="http://placehold.it/50x50" alt=""> -->
-									</button>
-								</div>
-								<div class="col-xs-3 no-padding">
-									<button type="button" class="col-xs-3 btn btn-default bnt-servicio-cantera">
-											<!-- <img class="img-responsive" src="http://placehold.it/50x50" alt=""> -->
-									</button>	
-								</div>
+								<div class="col-xs-6 col-sm-3">
+									<button type="button" class="col-xs-12 btn-servicio-cantera">
+										<img class="img-responsive" src="img/CANTERA.svg" alt="">
+										<span class="col-xs-12 no-padding">Cantera</span>
+									</button>				
+								</div>														
 							</div>
 						</div>
 					</div>
@@ -60,7 +64,7 @@
 							<li class="col-xs-4 titulo-seccion">
 									POSICIÓN
 							</li>
-							<li class="col-xs-4">
+							<li class="col-xs-4 col-xs-offset-2">
 								 <select>
 									<option value="volvo">Tracción</option>
 									<option value="saab">Saab</option>
@@ -68,8 +72,8 @@
 									<option value="audi">Audi</option>
 								</select>
 							</li>
-							<li class="col-xs-2 col-xs-offset-2">
-								<a href="#" title="">
+							<li class="col-xs-2 pull-right">
+								<a id="ayuda-posicion" href="#" title="">
 									<i class="fa fa-question-circle"></i>
 								</a>
 							</li>
@@ -78,8 +82,8 @@
 							<li class="col-xs-4 titulo-seccion">
 								DIMENSIÓN
 							</li>
-							<li class="col-xs-4">
-								 <select>
+							<li class="col-xs-7 pull-right">
+								 <select class="col-xs-12">
 									<option value="volvo">295/80 R 22.5</option>
 									<option value="saab">Saab</option>
 									<option value="mercedes">Mercedes</option>
@@ -106,7 +110,11 @@
 				</div>
 				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-12 no-padding ayuda-buscador-servicios">
 					<div class="col-xs-12 col-sm-12 col-md-4 no-padding headline-ayuda-buscador">
-						<h2>AYUDA<i class=" pull-right fa fa-chevron-up"></i></h2>
+						<h2>AYUDA
+							<button class="col-xs-1 pull-right btn btn-cerrar-ayuda-buscador" type="button">
+								<i class="ion-android-close"></i>
+							</button>
+						</h2>
 					</div>
 					<div class="col-xs-12 contenido-ayuda1">	
 						<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 no-padding contenido-ayuda2">
