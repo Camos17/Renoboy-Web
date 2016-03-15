@@ -629,6 +629,12 @@ a, button{
 		height: 600px;
 	}
 
+	#legend {
+	    background: white;
+	    padding: 10px;
+  	}
+
+
 /********************************************
 *********************************************
 				ESTILO ICONOS FIJOS
