@@ -433,6 +433,24 @@ a, button{
 		padding-bottom: 35px;
 	}
 
+	.seccion-servicio-utilizacion
+	.seleccionartodas 
+	.checkbox-custom + 
+	.checkbox-custom-label:before {
+		background: #FFF;
+		content: '';
+		cursor: pointer;
+		width: 20px;
+   		height: 20px;
+	}
+
+	.seccion-servicio-utilizacion
+	.seleccionartodas  
+	.checkbox-custom:checked /*+ 
+	.checkbox-custom-label:before*/ {
+		background: #00AC25;
+	}
+
 	.ayuda-buscador-servicios {
 		display: none;
 		position: absolute;
@@ -604,9 +622,12 @@ a, button{
 	.cat-llanta {
 		margin-bottom: 15px;
 		position: relative;
+		overflow: hidden;
 	}
 
-	.cat-llanta .cat-llanta-wrapper p {
+	.cat-llanta 
+	.cat-llanta-wrapper 
+	.titulo-layer-llanta {
 		position: absolute;
 		color: #FFF;
 		font-weight: bold;
@@ -617,6 +638,46 @@ a, button{
 		margin-bottom: 0;
 		padding: 5px 10px;
 	}
+
+	
+	.cat-llanta .layer-cat-llanta {
+		position: absolute;
+		z-index: 10;
+		top: 260px;
+		background-color: rgba(200,200,0,0.85);
+	}
+
+	.layer-cat-llanta 
+	.subtitulo-layer-llanta {
+		text-align: center;
+		color: #FFF;	
+	}
+
+	.texto-layer-llanta {
+		text-align: center;
+		color: #FFF;
+		font-size: 0.8rem;
+		padding: 5px 10px;
+	}
+
+	.cat-llanta:hover 
+	.titulo-layer-llanta {
+		top: 0px;
+		height: 30%;
+		text-align: center;
+		padding-top: 15%;
+		font-size: 3rem;
+		font-weight: bold;
+	}
+
+	.cat-llanta:hover
+	.layer-cat-llanta {
+		top: 30%;
+		height: 70%;
+		padding-top: 5%;
+	}
+
+
 
 
 /********************************************
@@ -855,7 +916,7 @@ a, button{
 	}
 
 	.content-wrapper{
-		margin-top: 94px;
+		margin-top: 93px;
 	}
 
 	/********************************************
@@ -929,10 +990,8 @@ a, button{
 	*********************************************	
 	*********************************************/
 
-
-
 	.seccion-servicio-posicion {
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 
 
@@ -962,7 +1021,7 @@ a, button{
 	*********************************************/
 
 		.content-wrapper {
-			margin-top: 94px;
+			margin-top: 93px;
 			min-height: 100%;
 		}	
 
@@ -1018,6 +1077,11 @@ a, button{
 		.buscador-servicios {
 			margin-left: 20px;
 		}
+
+		.icono-recomendado {
+			padding: 0px 4px;
+		}
+
 
 		.seccion-servicio-posicion {
 			margin-top: 10px;
