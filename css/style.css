@@ -678,15 +678,13 @@ a, button{
 	}
 
 
-
-
 /********************************************
 *********************************************
 		ESTILO RED DE DISTRIBUIDORES
 *********************************************	
 *********************************************/
 	#map{
-		width: 1200px;
+		width: 100%;
 		height: 600px;
 	}
 
@@ -695,6 +693,33 @@ a, button{
 	    padding: 10px;
   	}
 
+	.searchcoords{
+		padding-left: 0;
+		top: 200px;
+	}
+
+	.searchcoords input, .searchcoords input:focus, .searchcoords input:active, .searchcoords input:hover{
+		position: relative;
+		right: -12px;
+		padding: 0 0 0;
+		margin: 2%;
+		height: 24px;
+		border-color: transparent;
+		box-shadow:none;
+		background-color: #f0f0f0;
+		border-radius: 0;
+	}
+
+	.btn-buscar-coords {
+		background-color: #0076B7;
+		font-size: 12px;
+		right: -12px;
+		margin: 2%;
+		color: #FFF;
+		border: none;
+		border-radius: 0px;
+		font-weight: bold;
+	}
 
 /********************************************
 *********************************************

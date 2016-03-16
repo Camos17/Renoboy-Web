@@ -2,7 +2,14 @@
 		<?php include "menu-fijo.php";?>
 
 		<div class="col-xs-12 col-sm-12 col-md-12 no-padding">
-			<div class="col-md-6 no-padding">
+			<div class="col-md-3 no-padding">
+				<div class="col-lg-10 searchcoords">
+					<input type="text" class="form-control" name="latitud" placeholder="Latitud">
+					<input type="text" class="form-control" name="longitud" placeholder="Longitud">
+					<a class="btn btn-default btn-buscar-coords col-xs-12" id='anchorCoords'>BUSCAR MAS CERCANO</a>
+				</div>
+			</div>
+			<div class="col-md-9 no-padding">
 				<div id='map'></div>
 				<div id="legend">
 				  My first legend!
