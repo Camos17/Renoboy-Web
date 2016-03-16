@@ -1115,7 +1115,6 @@ a, button{
 
 		.navbar-header {
 			width: 22%;
-
 		}
 
 		.navbar-brand {
@@ -1167,9 +1166,12 @@ a, button{
 		}
 
 		.icono-recomendado {
-			padding: 0px 4px;
+			padding: 0px 2px;
 		}
 
+		.icono-recomendado span {			
+			font-size: 11px;
+		}
 
 		.seccion-servicio-posicion {
 			margin-top: 10px;
