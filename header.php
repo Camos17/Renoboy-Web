@@ -33,7 +33,7 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li class="col-md-4 col-lg-2 no-padding"><a href="noticias.php">Noticias de Interes<span class="sr-only">(current)</span></a></li>
+							<li class="col-md-4 col-lg-2 no-padding"><a href="noticias.php">Noticias de Interés<span class="sr-only">(current)</span></a></li>
 							<li class="col-md-4 col-lg-3 no-padding"><a href="#"><img  class="hidden-xs icon-header" src="img/iconoheader1.svg" alt="">Acceso a Distribuidores</a></li>
 							<li class="col-md-4 col-lg-3 no-padding"><a href="#"><img class="hidden-xs icon-header" src="img/iconoheader2.svg" alt="">Pensando en Reencauchar</a></li>
 							<li class="col-lg-4 no-padding hidden-xs hidden-sm hidden-md">
@@ -46,7 +46,7 @@
 							</li>
 							<hr class="hidden-xs">						
 							<li class="col-sm-2 no-padding"><a href="#">Productos</a></li>
-							<li class="col-sm-3 no-padding"><a href="#">Red de Distribucion</a></li>
+							<li class="col-sm-3 no-padding"><a href="#">Red de Distribución</a></li>
 							<li class="col-sm-5 col-md-4 no-padding"><a href="#"><img class="hidden-xs icon-header" src="img/iconoheader3.svg" alt="">Kilometros Generando Valor</a></li>
 							<li class="col-sm-2 no-padding"><a href="#">Contacto</a></li>	
 						</ul>
