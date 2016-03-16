@@ -8,13 +8,24 @@
 					<input type="text" class="form-control" name="longitud" placeholder="Longitud">
 					<a class="btn btn-default btn-buscar-coords col-xs-12" id='anchorCoords'>BUSCAR MAS CERCANO</a>
 				</div>
+				<div class="col-xs-12 no-padding col-md-8 visible-md visible-lg texto-sedes2" style='margin-top: 250px;'>
+					<div class="col-md-12">
+						<p class="text-center">
+							<strong>Terminal de Transporte Bogotá</strong><br>
+							Latitud: 4.6556863 <br>
+							<a href="tel: (+574) 604 0368">Longitud: -74.1169391 </a><br><br>
+							<strong>Terminal de Transporte Medellin</strong><br>
+							Latitud: 6.2481172 <br>
+							<a href="tel: (+574) 604 0368">Longitud: -75.6135184</a><br><br>
+							<strong>Terminal de Transporte Yumbo</strong><br>
+							Latitud: 3.5457313<br>
+							<a href="tel: (+572) 485 3453">Longitud: -76.5046236</a><br><br>
+						</p>
+					</div>				
+				</div>
 			</div>
 			<div class="col-md-9 no-padding">
 				<div id='map'></div>
-				<div id="legend">
-				  My first legend!
-				</div>
-
 			</div>
 		</div>	
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB19HfuwZ8B4Qtlrb8N38C_tTyUwCpa7m8&callback=initMap"
@@ -22,10 +33,6 @@
 
 		<script type="text/javascript">
 			
-			$(document).ready(function(){
-
-			});
-
 			/********************************************
 			*********************************************
 							FUNCTIONS
@@ -34,114 +41,55 @@
 
 			function initMap(){
 			    var mapDiv = document.getElementById('map');
+			    var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+
+			    // Initialize map with center
 			    var map = new google.maps.Map(mapDiv, {
 			      center: {lat: 4.6479, lng: -74.1236},
-			      zoom: 15
-			    });
+			      zoom: 7
+			    });				
 
-				var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
-				var marker = new google.maps.Marker({
+			    // Marker : Bogota
+				var markerBog = new google.maps.Marker({
 				  position: {lat: 4.6479, lng: -74.1236},
 				  animation:google.maps.Animation.BOUNCE,
 				  map: map,
 				  icon: iconBase + 'schools_maps.png'
-				  //icon: '/img/iconoheader1.png'
 				});
-
-				map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(
-				  document.getElementById('legend'));
-
-				var infowindow = new google.maps.InfoWindow({
+				var infoBog = new google.maps.InfoWindow({
 				  content:"Calle 17A 69F-56, Bogotá, Colombia"
+		  		});
+
+			    // Marker : Medellin
+				var markerMed = new google.maps.Marker({
+				  position: {lat: 6.149459, lng: -75.625685},
+				  animation:google.maps.Animation.BOUNCE,
+				  map: map,
+				  icon: iconBase + 'schools_maps.png'
+				});
+				var infoMed = new google.maps.InfoWindow({
+				  content:"Carrera 47 E N° 78C Sur - 95, Sabaneta, Colombia"
 				  });
 
-				google.maps.event.addListener(marker, 'click', function() {
-				  infowindow.open(map,marker);
+			    // Marker : Yumbo
+				var markerYum = new google.maps.Marker({
+				  position: {lat: 3.5533536, lng: -76.5002322},
+				  animation:google.maps.Animation.BOUNCE,
+				  map: map,
+				  icon: iconBase + 'schools_maps.png'
 				});
+				var infoYum = new google.maps.InfoWindow({
+				  content:"Carrera 20G N° 14B - 36 Yumbo, Colombia"
+				  });
 
 
-				// Zoom to 17 when clicking on marker
-				google.maps.event.addListener(marker,'click',function() {
-					map.setZoom(17);
-					map.setCenter(marker.getPosition());
+				// Click event on marker
+				google.maps.event.addListener(markerBog,'click',function() {
+					map.setZoom(14);
+					map.setCenter(markerBog.getPosition());
+					infoBog.open(map,markerBog);
 				});				
 
-				// center on marker
-				google.maps.event.addListener(map,'center_changed',function() {
-				  window.setTimeout(function() {
-				    map.panTo(marker.getPosition());
-				  },3000);
-				});
-
-				// This event listener calls addMarker() when the map is clicked.
-				/*
-				google.maps.event.addListener(map, 'click', function(event) {
-					addMarker(event.latLng, map);
-				});
-				
-				/*
-				var legend = document.getElementById('legend');
-				for (var style in styles) {
-				  var name = style.name;
-				  var icon = style.icon;
-				  var div = document.createElement('div');
-				  div.innerHTML = '<img src="' + icon + '"> ' + name;
-				  legend.appendChild(div);
-				}
-				*/
-
-				/*
-				map.set('styles', [
-				  {
-				    featureType: 'road',
-				    elementType: 'geometry',
-				    stylers: [
-				      { color: '#000000' },
-				      { weight: 1.6 }
-				    ]
-				  }, {
-				    featureType: 'road',
-				    elementType: 'labels',
-				    stylers: [
-				      { saturation: -100 },
-				      { invert_lightness: true }
-				    ]
-				  }, {
-				    featureType: 'landscape',
-				    elementType: 'geometry',
-				    stylers: [
-				      { hue: '#ffff00' },
-				      { gamma: 1.4 },
-				      { saturation: 82 },
-				      { lightness: 96 }
-				    ]
-				  }, {
-				    featureType: 'poi.school',
-				    elementType: 'geometry',
-				    stylers: [
-				      { hue: '#fff700' },
-				      { lightness: -15 },
-				      { saturation: 99 }
-				    ]
-				  },
-					{
-					  featureType: 'poi',
-					  elementType: 'geometry',
-					  stylers: [
-					    { visibility: 'off' }
-					  ]
-					}, {
-					  featureType: 'poi.school',
-					  elementType: 'geometry',
-					  stylers: [
-					    { visibility: 'on' },
-					    { hue: '#fff700' },
-					    { lightness: -15 },
-					    { saturation: 99 }
-					  ]
-					}
-				]);
-				*/
 			}
 
 			function placeMarker(location) {
