@@ -1,6 +1,5 @@
 		<?php include "header.php";?>
 
-		
 		<div class="col-xs-12 no-padding content-wrapper fondo-buscador">
 			<div class="col-xs-12 col-md-12 headline-buscador-servicios">
 				<h1>buscador de servicio renoboy</h1>
@@ -234,11 +233,7 @@
 		</div>
 		
 		<?php include "menu-fijo.php";?>
-
-		
 		<?php include "footer.php";?>
-
-				
 
 	</body>	
 </html>	
