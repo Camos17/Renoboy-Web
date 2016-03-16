@@ -7,22 +7,21 @@
 				</h2>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4 no-padding buscador-servicios">
-				<div class="col-md-12 no-padding">
-					<div class="col-sm-6 col-md-12">
-						<div class="col-xs-12 no-padding servicio-recomendado">
-							<div class="col-xs-12 no-padding">	
-								<h2>ENCUENTRE EL SERVICIO <br> RECOMENDADO</h2>
-							</div>					
-						</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 no-padding">
+					<div class="col-xs-12 col-sm-12 servicio-recomendado">
+						<div class="col-xs-12 no-padding">	
+							<h2>ENCUENTRE EL SERVICIO <br> RECOMENDADO</h2>
+						</div>					
+					</div>
+					<div class="col-sm-6 col-md-12">		
 						<div class="col-xs-12 no-padding seccion-servicio-utilizacion">	
 							<div class="col-xs-12 no-padding">
 								<li class="col-xs-6 titulo-seccion">
 									UTILIZACIÓN
 								</li>
 								<li class="col-xs-6 seleccionartodas">
-									<label>
-										<input type="checkbox" value="">Seleccionar todas
-									</label>
+									<input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked="">
+        							<label for="checkbox-1" class="checkbox-custom-label">First Choice</label>
 								</li>					
 							</div>
 							<div class="col-xs-12 icono-ayuda">
@@ -31,25 +30,25 @@
 								</a>
 							</div>
 							<div class="col-xs-12 col-sm-12 iconos-servicio-recomendado">	
-								<div class="col-xs-6 col-sm-3">			
-									<button type="button"class="col-xs-12 btn-servicio-regional">
+								<div class="col-xs-6 col-sm-4 col-sm-offset-2 col-md-3 col-md-offset-0 icono-recomendado">			
+								<button type="button"class="col-xs-12 btn-servicio-regional">
 										<img class="img-responsive" src="img/REGIONAL.svg" alt="">
 										<span class="col-xs-12 no-padding">Regional</span>	
 									</button>
 								</div>
-								<div class="col-xs-6 col-sm-3">
+								<div class="col-xs-6 col-sm-4 col-md-3 icono-recomendado">
 									<button type="button" class="col-xs-12 btn-servicio-mixta">
 										<img class="img-responsive" src="img/MIXTA.svg" alt="">
 										<span class="col-xs-12 no-padding">Mixta</span>
 									</button>					
 								</div>					
-								<div class="col-xs-6 col-sm-3">
+								<div class="col-xs-6 col-sm-4 col-sm-offset-2 col-md-3 col-md-offset-0 icono-recomendado">
 									<button type="button" class="col-xs-12 btn-servicio-urbano">
 										<img class="img-responsive" src="img/URBANO.svg" alt="">
 										<span class="col-xs-12 no-padding">Urbano</span>
 									</button>					
 								</div>
-								<div class="col-xs-6 col-sm-3">
+								<div class="col-xs-6 col-sm-4 col-md-3 icono-recomendado">
 									<button type="button" class="col-xs-12 btn-servicio-cantera">
 										<img class="img-responsive" src="img/CANTERA.svg" alt="">
 										<span class="col-xs-12 no-padding">Cantera</span>
@@ -58,7 +57,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-12">
+					<div class="col-sm-6 col-md-12 buscador-columna2">
 						<div class="col-xs-12 no-padding seccion-servicio-posicion">
 							<li class="col-xs-4 titulo-seccion">
 									POSICIÓN
@@ -174,13 +173,17 @@
 					<a href="#" class="col-xs-6 cat-llanta">
 						<div class="col-xs-12 no-padding cat-llanta-wrapper">
 							<img  class="img-responsive" src="img/1.jpg" alt="">
-							<p class="">XZE-2</p>
+							<p class="titulo-layer-llanta">WHL</p>
+							<div class="col-xs-12 no-padding layer-cat-llanta">
+								<p class="subtitulo-layer-llanta">West Hauler <br> Lug</p>
+								<p class="texto-layer-llanta">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+							</div>
 						</div>					
 					</a>
 					<a href="#" class="col-xs-6 cat-llanta">
 						<div class="col-xs-12 no-padding cat-llanta-wrapper">
 							<img  class="img-responsive" src="img/1.jpg" alt="">
-							<p class="">XZE-2</p>
+							<p class="titulo-layer-llanta">XZE-2</p>
 						</div>
 					</a>
 				</div>
@@ -188,13 +191,13 @@
 					<a href="#" class="col-xs-6 cat-llanta">
 						<div class="col-xs-12 no-padding cat-llanta-wrapper">
 							<img  class="img-responsive" src="img/1.jpg" alt="">
-							<p class="">XZE-2</p>
+							<p class="titulo-layer-llanta">XZE-2</p>
 						</div>
 					</a>
 					<a href="#" class="col-xs-6 cat-llanta">
 						<div class="col-xs-12 no-padding cat-llanta-wrapper">
 							<img  class="img-responsive" src="img/1.jpg" alt="">
-							<p class="">XZE-2</p>
+							<p class="titulo-layer-llanta">XZE-2</p>
 						</div>
 					</a>
 				</div>
@@ -202,13 +205,13 @@
 					<a href="#" class="col-xs-6 cat-llanta">
 						<div class="col-xs-12 no-padding cat-llanta-wrapper">
 							<img  class="img-responsive" src="img/1.jpg" alt="">
-							<p class="">XZE-2</p>
+							<p class="titulo-layer-llanta">XZE-2</p>
 						</div>					
 					</a>
 					<a href="#" class="col-xs-6 cat-llanta">
 						<div class="col-xs-12 no-padding cat-llanta-wrapper">
 							<img  class="img-responsive" src="img/1.jpg" alt="">
-							<p class="">XZE-2</p>
+							<p class="titulo-layer-llanta">XZE-2</p>
 						</div>
 					</a>
 				</div>
@@ -216,13 +219,13 @@
 					<a href="#" class="col-xs-6 cat-llanta">
 						<div class="col-xs-12 no-padding cat-llanta-wrapper">
 							<img  class="img-responsive" src="img/1.jpg" alt="">
-							<p class="">XZE-2</p>
+							<p class="titulo-layer-llanta">XZE-2</p>
 						</div>
 					</a>
 					<a href="#" class="col-xs-6 cat-llanta">
 						<div class="col-xs-12 no-padding cat-llanta-wrapper">
 							<img  class="img-responsive" src="img/1.jpg" alt="">
-							<p class="">XZE-2</p>
+							<p class="titulo-layer-llanta">XZE-2</p>
 						</div>
 					</a>
 				</div>

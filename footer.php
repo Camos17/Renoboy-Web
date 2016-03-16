@@ -133,10 +133,10 @@
 			*********************************************/
 
 			$("#ayuda-utilizacion").click(function(){
-				$(".ayuda-buscador-servicios").show(1000);
+				$(".ayuda-buscador-servicios").show();
 			});
 			$(".btn-cerrar-ayuda-buscador").click(function(){
-				$(".ayuda-buscador-servicios").hide(1000);
+				$(".ayuda-buscador-servicios").hide();
 			});
 
 		</script>
