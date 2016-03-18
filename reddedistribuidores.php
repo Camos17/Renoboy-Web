@@ -4,8 +4,8 @@
 		<div class="col-xs-12 col-sm-12 col-md-12 no-padding">
 			<div class="col-md-3 no-padding">
 				<div class="col-lg-10 searchcoords">
-					<input type="text" class="form-control" name="latitud" placeholder="Latitud">
-					<input type="text" class="form-control" name="longitud" placeholder="Longitud">
+					<input type="text" class="form-control" name="latitud" id='latitud' placeholder="Latitud">
+					<input type="text" class="form-control" name="longitud" id='longitud' placeholder="Longitud">
 					<a class="btn btn-default btn-buscar-coords col-xs-12" id='anchorCoords'>BUSCAR MAS CERCANO</a>
 				</div>
 				<div class="col-xs-12 no-padding col-md-8 visible-md visible-lg texto-sedes2" style='margin-top: 250px;'>
@@ -28,9 +28,6 @@
 				<div id='map'></div>
 			</div>
 		</div>	
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB19HfuwZ8B4Qtlrb8N38C_tTyUwCpa7m8&callback=initMap"
-         async defer></script>
-
 		<script type="text/javascript">
 			
 			/********************************************
@@ -52,7 +49,6 @@
 			    // Marker : Bogota
 				var markerBog = new google.maps.Marker({
 				  position: {lat: 4.6479, lng: -74.1236},
-				  animation:google.maps.Animation.BOUNCE,
 				  map: map,
 				  icon: iconBase + 'schools_maps.png'
 				});
@@ -63,7 +59,6 @@
 			    // Marker : Medellin
 				var markerMed = new google.maps.Marker({
 				  position: {lat: 6.149459, lng: -75.625685},
-				  animation:google.maps.Animation.BOUNCE,
 				  map: map,
 				  icon: iconBase + 'schools_maps.png'
 				});
@@ -74,7 +69,6 @@
 			    // Marker : Yumbo
 				var markerYum = new google.maps.Marker({
 				  position: {lat: 3.5533536, lng: -76.5002322},
-				  animation:google.maps.Animation.BOUNCE,
 				  map: map,
 				  icon: iconBase + 'schools_maps.png'
 				});
@@ -82,26 +76,78 @@
 				  content:"Carrera 20G N° 14B - 36 Yumbo, Colombia"
 				  });
 
-
 				// Click event on marker
 				google.maps.event.addListener(markerBog,'click',function() {
 					map.setZoom(14);
 					map.setCenter(markerBog.getPosition());
 					infoBog.open(map,markerBog);
-				});				
+				});
 
-			}
+				// set arrays of markers and infos
+				var markers = [markerBog, markerMed, markerYum];
+				var infos = [infoBog, infoMed, infoYum];
+				var marker = new google.maps.Marker({
+					map: map
+				});
 
-			function placeMarker(location) {
-			  var marker = new google.maps.Marker({
-			    position: location,
-			    map: map,
-			  });
-			  var infowindow = new google.maps.InfoWindow({
-			    content: 'Latitude: ' + location.lat() +
-			    '<br>Longitude: ' + location.lng()
-			  });
-			  infowindow.open(map,marker);
+				// Click event on map
+				google.maps.event.addListener(map, 'click', function(event){
+
+				    // set variables 
+				    var lat = event.latLng.lat();
+				    var lng = event.latLng.lng();
+				    findClosest(lat,lng);
+				});
+
+				// Click event on buscar
+				$('#anchorCoords').click(function(event){
+					event.preventDefault();
+				    // set variables 
+				    var lat = parseFloat($('#latitud').val());
+				    var lng = parseFloat($('#longitud').val());
+
+				    findClosest(lat,lng);
+				});
+
+				function findClosest(lat,lng){
+				    
+				    if(lat != '' && lng != ''){
+					    var latlng = new google.maps.LatLng(lat,lng);
+					    var distances = [];
+					    var closest = -1;
+
+					    // position marker
+						marker.setPosition(latlng);
+					    
+					    // search for closer among markers
+					    for( i=0; i< markers.length; i++ ) {
+					        var mlatlng = new google.maps.LatLng(markers[i].position.lat(),markers[i].position.lng());
+					        distances[i] = parseInt(google.maps.geometry.spherical.computeDistanceBetween(mlatlng, latlng));
+
+					        if ( closest == -1 ) {
+					            closest = i;
+					        	markers[i].setAnimation(google.maps.Animation.DROP);	
+					        	infos[i].close();
+					        }
+					        else if(distances[i] < distances[closest]){	
+					            closest = i;
+					        }
+					        else{
+					        	markers[i].setAnimation(google.maps.Animation.DROP);	
+					        	infos[i].close();
+					        }
+					    }
+
+					    // show closer location
+						map.setCenter(markers[closest].getPosition());
+						markers[closest].setAnimation(google.maps.Animation.BOUNCE);
+						infos[closest].open(map,markers[closest]);
+					}
+					else{
+						alert('Los campos de latitud y longitud no deben estar vacios');
+					}
+				}
+
 			}
 
 			/********************************************
@@ -110,9 +156,10 @@
 			*********************************************	
 			*********************************************/
 
-
-
 		</script>		
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB19HfuwZ8B4Qtlrb8N38C_tTyUwCpa7m8&callback=initMap&libraries=geometry"
+         async defer></script>
+
 		<?php include "footer.php";?>
 	</body>	
 </html>	
