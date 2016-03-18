@@ -4,7 +4,7 @@
 			<div class="col-xs-12 col-md-3 col-md-push-3 col-lg-3 col-lg-push-3 no-padding texto-sedes">
 				<p class="text-center"><strong>Planta Renoboy Bogotá</strong><br>
 				   Calle 17A N° 69F - 58 Zona Industrial Montevideo<br>
-				   <a href="tel: Tel: (+571) 742 2779 ">Tel: (+571) 742 2779</a></p>
+				   <a href="tel: (+571) 742 2779 ">Tel: (+571) 742 2779</a></p>
 			</div>
 
 			<div id="carousel-legal" class="carousel slide carousel-legal col-xs-12 col-md-3 col-md-pull-3 col-lg-3 col-lg-pull-3" data-ride="carousel" data-interval="false">
@@ -52,7 +52,7 @@
 				<div class="col-xs-12 col-md-4 no-padding texto-sedes2">
 					<p class="text-center"><strong>Planta Renoboy Duitama</strong><br>
 					Ciudadela Industrial Lote M5<br>
-				  	<a href="tel: Tel: (+571) 765 0402">Tel: (+571) 765 0402</a><br><br>
+				  	<a href="tel: (+571) 765 0402">Tel: (+571) 765 0402</a><br><br>
 					<strong>Planta Renoboy Ibagué</strong><br>
 					Carrera 48 Sur N° 92 - 15 Vía Picaleña<br>
 					<a href="tel: (+578) 277 1099">Tel: (+578) 277 1099</a></p>
@@ -118,6 +118,9 @@
 			    	}
 			    	sucursalesabierto = !sucursalesabierto;
 				});
+				$('.texto-layer-llanta').each(function(index, element) {
+   					$clamp(element, { clamp: 4, useNativeClamp: false });
+				});			
 			});
 
 			/********************************************
