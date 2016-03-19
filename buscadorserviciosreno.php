@@ -25,12 +25,12 @@
 								</li>					
 							</div>
 							<div class="col-xs-12 icono-ayuda">
-								<a id="ayuda-utilizacion" href="#" title="">
+								<a id="ayuda-utilizacion" href="#" title="" data-toggle="modal" data-target="#ayuda-modal">
 									<i class="col-xs-2 col-xs-offset-10 fa fa-question-circle"></i>
 								</a>
 							</div>
 							<div class="col-xs-12 col-sm-12 iconos-servicio-recomendado">	
-								<div class="col-xs-6 col-sm-4 col-sm-offset-2 col-md-3 col-md-offset-0 icono-recomendado">			
+								<div class="col-xs-6 col-sm-4 col-sm-offset-2 col-md-3 col-md-offset-0 icono-recomendado">
 								<button type="button"class="col-xs-12 btn-servicio-regional">
 										<img class="img-responsive" src="img/REGIONAL.svg" alt="">
 										<span class="col-xs-12 no-padding">Regional</span>	
@@ -40,7 +40,7 @@
 									<button type="button" class="col-xs-12 btn-servicio-mixta">
 										<img class="img-responsive" src="img/MIXTA.svg" alt="">
 										<span class="col-xs-12 no-padding">Mixta</span>
-									</button>					
+									</button>
 								</div>					
 								<div class="col-xs-6 col-sm-4 col-sm-offset-2 col-md-3 col-md-offset-0 icono-recomendado">
 									<button type="button" class="col-xs-12 btn-servicio-urbano">
@@ -103,67 +103,6 @@
 							<li class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-6 col-md-6 col-md-offset-5 no-padding btn-buscar-servicio">
 								<button class="btn btn-default btn-buscar-servicio col-xs-12" type="submit">BUSCAR MI SERVICIO</button>
 							</li>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-12 no-padding ayuda-buscador-servicios">
-					<div class="col-xs-12 col-sm-12 col-md-4 no-padding headline-ayuda-buscador">
-						<h2>AYUDA
-							<button class="col-xs-1 pull-right btn btn-cerrar-ayuda-buscador" type="button">
-								<i class="ion-android-close"></i>
-							</button>
-						</h2>
-					</div>
-					<div class="col-xs-12 contenido-ayuda1">	
-						<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 no-padding contenido-ayuda2">
-							<div class="col-xs-3">
-								<img class="img-responsive" src="http://placehold.it/50x50" alt="">
-							</div>
-							<div class="col-xs-9 no-padding">
-								<ul class="col-xs-12">
-									<li>Recorridos por carreteras secundarias de doble snetido de circulación y en autopistas.</li>
-									<li>Recorridos por carreteras regionales y nacionales con frecuente solicitación de aceleración y frenado.</li>
-									<li>Cargas medianas y pesadas.</li>
-									<li>Velocidades moderadas hasta 100 km/h en tramos cortos.</li>
-									<li>Recorridos hasta de 500 km por día donde usualmente los vehículos llegan a su base.</li>
-								</ul>
-							</div>
-								<div class="col-xs-3">
-								<img class="img-responsive" src="http://placehold.it/50x50" alt="">
-							</div>
-							<div class="col-xs-9 no-padding">
-								<ul class="col-xs-12">
-									<li>Recorridos por carreteras secundarias de doble snetido de circulación y en autopistas.</li>
-									<li>Recorridos por carreteras regionales y nacionales con frecuente solicitación de aceleración y frenado.</li>
-									<li>Cargas medianas y pesadas.</li>
-									<li>Velocidades moderadas hasta 100 km/h en tramos cortos.</li>
-									<li>Recorridos hasta de 500 km por día donde usualmente los vehículos llegan a su base.</li>
-								</ul>
-							</div>
-								<div class="col-xs-3">
-								<img class="img-responsive" src="http://placehold.it/50x50" alt="">
-							</div>
-							<div class="col-xs-9 no-padding">
-								<ul class="col-xs-12">
-									<li>Recorridos por carreteras secundarias de doble snetido de circulación y en autopistas.</li>
-									<li>Recorridos por carreteras regionales y nacionales con frecuente solicitación de aceleración y frenado.</li>
-									<li>Cargas medianas y pesadas.</li>
-									<li>Velocidades moderadas hasta 100 km/h en tramos cortos.</li>
-									<li>Recorridos hasta de 500 km por día donde usualmente los vehículos llegan a su base.</li>
-								</ul>
-							</div>
-								<div class="col-xs-3">
-								<img class="img-responsive" src="http://placehold.it/50x50" alt="">
-							</div>
-							<div class="col-xs-9 no-padding">
-								<ul class="col-xs-12">
-									<li>Recorridos por carreteras secundarias de doble snetido de circulación y en autopistas.</li>
-									<li>Recorridos por carreteras regionales y nacionales con frecuente solicitación de aceleración y frenado.</li>
-									<li>Cargas medianas y pesadas.</li>
-									<li>Velocidades moderadas hasta 100 km/h en tramos cortos.</li>
-									<li>Recorridos hasta de 500 km por día donde usualmente los vehículos llegan a su base.</li>
-								</ul>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -274,6 +213,83 @@
 					</a>
 				</div>
 			</div>
+		</div>
+
+		<div class="modal fade" id="ayuda-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content contenido-ayuda">
+		    	<div class="modal-header headline-ayuda-buscador">
+		        	<button type="button" class="close cerrar-ayuda" data-dismiss="modal" aria-label="Close">
+		        		<span aria-hidden="true">
+		        			<i class="ion-android-close"></i>
+		        		</span>
+		        	</button>
+		        	<h2 class="modal-title" id="myModalLabel">AYUDA</h2>
+		    	</div>
+		    	<!-- <div class="modal-body"> -->
+		    	<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 contenido-ayuda1">
+		    		<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 no-padding contenido-ayuda2">
+							<div class="col-xs-3">
+								<img class="img-responsive" src="img/REGIONAL.svg" alt="">
+								<span class="col-xs-12 no-padding">Regional</span>
+							</div>
+							<div class="col-xs-9 no-padding">
+								<ul class="col-xs-12">
+									<li>Recorridos por carreteras secundarias de doble snetido de circulación y en autopistas.</li>
+									<li>Recorridos por carreteras regionales y nacionales con frecuente solicitación de aceleración y frenado.</li>
+									<li>Cargas medianas y pesadas.</li>
+									<li>Velocidades moderadas hasta 100 km/h en tramos cortos.</li>
+									<li>Recorridos hasta de 500 km por día donde usualmente los vehículos llegan a su base.</li>
+								</ul>
+							</div>
+								<div class="col-xs-3">
+									<img class="img-responsive" src="img/MIXTA.svg" alt="">
+									<span class="col-xs-12 no-padding">Mixta</span>
+								</div>
+							<div class="col-xs-9 no-padding">
+								<ul class="col-xs-12">
+									<li>Recorridos por carreteras secundarias de doble snetido de circulación y en autopistas.</li>
+									<li>Recorridos por carreteras regionales y nacionales con frecuente solicitación de aceleración y frenado.</li>
+									<li>Cargas medianas y pesadas.</li>
+									<li>Velocidades moderadas hasta 100 km/h en tramos cortos.</li>
+									<li>Recorridos hasta de 500 km por día donde usualmente los vehículos llegan a su base.</li>
+								</ul>
+							</div>
+								<div class="col-xs-3">
+									<img class="img-responsive" src="img/URBANO.svg" alt="">
+									<span class="col-xs-12 no-padding">Urbano</span>	
+								</div>
+							<div class="col-xs-9 no-padding">
+								<ul class="col-xs-12">
+									<li>Recorridos por carreteras secundarias de doble snetido de circulación y en autopistas.</li>
+									<li>Recorridos por carreteras regionales y nacionales con frecuente solicitación de aceleración y frenado.</li>
+									<li>Cargas medianas y pesadas.</li>
+									<li>Velocidades moderadas hasta 100 km/h en tramos cortos.</li>
+									<li>Recorridos hasta de 500 km por día donde usualmente los vehículos llegan a su base.</li>
+								</ul>
+							</div>
+								<div class="col-xs-3">
+									<img class="img-responsive" src="img/CANTERA.svg" alt="">
+									<span class="col-xs-12 no-padding">Cantera</span>	
+								</div>
+							<div class="col-xs-9 no-padding">
+								<ul class="col-xs-12">
+									<li>Recorridos por carreteras secundarias de doble snetido de circulación y en autopistas.</li>
+									<li>Recorridos por carreteras regionales y nacionales con frecuente solicitación de aceleración y frenado.</li>
+									<li>Cargas medianas y pesadas.</li>
+									<li>Velocidades moderadas hasta 100 km/h en tramos cortos.</li>
+									<li>Recorridos hasta de 500 km por día donde usualmente los vehículos llegan a su base.</li>
+								</ul>
+							</div>
+					</div>
+		    	</div>
+		    		
+		     <!--  </div> -->
+		      <div class="modal-footer ayuda-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
 		</div>
 		
 		<?php include "menu-fijo.php";?>
