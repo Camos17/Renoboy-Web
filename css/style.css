@@ -622,8 +622,21 @@ a, button{
 		padding: 0px 10px;
 	}
 
+	.cat-llanta 
+	.img-abajo-derecha {
+		position: absolute;
+		bottom: 0px;
+		right: 15px;
+		z-index: 10;
+		background-color: #FFF;
+		padding: 14px 8px 8px 16px;
+		border-top-left-radius: 55px;
+		
+	}
+
 	.cat-llanta:hover 
 	.layer-cat-llanta {
+		border: 9px solid #FFF;
 		-webkit-animation: layer-llanta-out-in 0.75s forwards;
 		-moz-animation: layer-llanta-out-in 0.75s forwards;
 		-ms-animation: layer-llanta-out-in 0.75s forwards;
@@ -657,6 +670,14 @@ a, button{
 		opacity: 1;
 	}
 
+	.ayuda-footer
+	.cerrar-ayuda2 {
+		background-color: #0076B7;
+		color: #FFF;
+		font-weight: bold;
+		border: none;
+	}
+
 	.headline-ayuda-buscador i {
 		font-size: 32px;
 		color: #FFF;
@@ -667,7 +688,6 @@ a, button{
 	}
 
 	.contenido-ayuda1 {
-		background-color: rgba(59, 103, 138, 0.75);
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
@@ -677,14 +697,14 @@ a, button{
 		padding-top: 20px;
 	}
 
-	.contenido-ayuda2 li {
-		color: #FFF;
-		font-size: 11px;
-	}
-
 	.contenido-ayuda2 span {
 		text-align: center;
 		color: #FFF;
+	}
+
+	.contenido-ayuda2 li {
+		color: #FFF;
+		font-size: 11px;
 	}
 
 	.ayuda-footer {
@@ -706,12 +726,15 @@ a, button{
 			}
 			40%  { 
 				top: 100%;
+				border: 6px solid #FFF;
 			}
 			50%  { 
 				top: 100%;
+				border: 6px solid #FFF;
 			}
 			100% { 
 				top: 0%;
+				border: 6px solid #FFF;
 			}
 		}
 
@@ -747,16 +770,19 @@ a, button{
 		
 		@keyframes layer-llanta-out-in {
 			0%   { 
-				top: 80%; 
+				top: 90%; 
 			}
 			40%  { 
 				top: 100%;
+				border: 10px solid #FFF;
 			}
 			50%  { 
 				top: 100%;
+				border: 10px solid #FFF;
 			}
 			100% { 
 				top: 0%;
+				border: 10px solid #FFF;
 			}
 		}
 
@@ -1490,7 +1516,6 @@ a, button{
 		.icono-legal {
 			height: 230px;
 		}
-
 }
 
 @media screen and (min-width: 1600px) {

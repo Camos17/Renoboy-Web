@@ -119,7 +119,7 @@
 			    	sucursalesabierto = !sucursalesabierto;
 				});
 				$('.texto-layer-llanta').each(function(index, element) {
-   					$clamp(element, { clamp: 4, useNativeClamp: false });
+   					$clamp(element, { clamp: 3, useNativeClamp: false });
 				});			
 			});
 
