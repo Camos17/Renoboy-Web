@@ -21,7 +21,7 @@
 								</li>
 								<li class="col-xs-6 seleccionartodas">
 									<input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked="">
-        							<label for="checkbox-1" class="checkbox-custom-label">First Choice</label>
+        							<label for="checkbox-1" class="checkbox-custom-label">Seleccionar todas</label>
 								</li>					
 							</div>
 							<div class="col-xs-12 icono-ayuda">
@@ -122,7 +122,7 @@
 						</div>
 						<div class="col-xs-4 img-abajo-derecha">
 							<img class="img-responsive" src="img/REGIONAL2.svg" alt="">
-						</div>						
+						</div>					
 					</a>
 					<a href="#" class="col-xs-6 cat-llanta">
 						<div class="col-xs-12 no-padding cat-llanta-wrapper">
@@ -134,6 +134,9 @@
 								<p class="subtitulo-layer-llanta">West Hauler <br> Lug</p>
 								<p class="texto-layer-llanta">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
+						</div>
+						<div class="col-xs-4 img-abajo-derecha">
+							<img class="img-responsive" src="img/MIXTA2.svg" alt="">
 						</div>
 					</a>
 				</div>
@@ -149,6 +152,9 @@
 								<p class="texto-layer-llanta">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
 						</div>
+						<div class="col-xs-4 img-abajo-derecha">
+							<img class="img-responsive" src="img/CANTERA2.svg" alt="">
+						</div>
 					</a>
 					<a href="#" class="col-xs-6 cat-llanta">
 						<div class="col-xs-12 no-padding cat-llanta-wrapper">
@@ -160,6 +166,9 @@
 								<p class="subtitulo-layer-llanta">West Hauler <br> Lug</p>
 								<p class="texto-layer-llanta">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
+						</div>
+						<div class="col-xs-4 img-abajo-derecha">
+							<img class="img-responsive" src="img/URBANO2.svg" alt="">
 						</div>
 					</a>
 				</div>
@@ -174,7 +183,10 @@
 								<p class="subtitulo-layer-llanta">West Hauler <br> Lug</p>
 								<p class="texto-layer-llanta">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
-						</div>					
+						</div>
+						<div class="col-xs-4 img-abajo-derecha">
+							<img class="img-responsive" src="img/REGIONAL2.svg" alt="">
+						</div>				
 					</a>
 					<a href="#" class="col-xs-6 cat-llanta">
 						<div class="col-xs-12 no-padding cat-llanta-wrapper">
@@ -186,6 +198,9 @@
 								<p class="subtitulo-layer-llanta">West Hauler <br> Lug</p>
 								<p class="texto-layer-llanta">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
+						</div>
+						<div class="col-xs-4 img-abajo-derecha">
+							<img class="img-responsive" src="img/MIXTA2.svg" alt="">
 						</div>
 					</a>
 				</div>
@@ -201,6 +216,9 @@
 								<p class="texto-layer-llanta">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
 						</div>
+						<div class="col-xs-4 img-abajo-derecha">
+							<img class="img-responsive" src="img/CANTERA2.svg" alt="">
+						</div>
 					</a>
 					<a href="#" class="col-xs-6 cat-llanta">
 						<div class="col-xs-12 no-padding cat-llanta-wrapper">
@@ -212,6 +230,9 @@
 								<p class="subtitulo-layer-llanta">West Hauler <br> Lug</p>
 								<p class="texto-layer-llanta">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
+						</div>
+						<div class="col-xs-4 img-abajo-derecha">
+							<img class="img-responsive" src="img/URBANO2.svg" alt="">
 						</div>
 					</a>
 				</div>

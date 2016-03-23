@@ -55,7 +55,7 @@
 					<span class="sr-only">Next</span>
 				</a>
 				
-				<div class="col-xs-12 col-md-6 col-md-offset-3 home-opts">
+				<div class="col-xs-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 home-opts">
 					
 					<a class="col-xs-12 col-sm-4 col-md-4" href="#" title="">
 						<img class="img-responsive" src="img/botónimagen1.jpg" alt="">

@@ -433,6 +433,10 @@ a, button{
 		padding-bottom: 35px;
 	}
 
+	.seleccionartodas label {
+		color: #FFF;
+	}
+
 	.seccion-servicio-utilizacion
 	.seleccionartodas 
 	.checkbox-custom + 
@@ -636,7 +640,7 @@ a, button{
 
 	.cat-llanta:hover 
 	.layer-cat-llanta {
-		border: 9px solid #FFF;
+		border: solid #FFF;
 		-webkit-animation: layer-llanta-out-in 0.75s forwards;
 		-moz-animation: layer-llanta-out-in 0.75s forwards;
 		-ms-animation: layer-llanta-out-in 0.75s forwards;
@@ -722,49 +726,55 @@ a, button{
 
 		@-webkit-keyframes layer-llanta-out-in {
 			0%   { 
-				top: 80%; 
+				top: 90%; 
 			}
 			40%  { 
 				top: 100%;
-				border: 6px solid #FFF;
+				border: 13px solid #FFF;
 			}
 			50%  { 
 				top: 100%;
-				border: 6px solid #FFF;
+				border: 13px solid #FFF;
 			}
 			100% { 
 				top: 0%;
-				border: 6px solid #FFF;
+				border: 13px solid #FFF;
 			}
 		}
 
 		@-moz-keyframes layer-llanta-out-in {
 			0%   { 
-				top: 80%; 
+				top: 90%; 
 			}
 			40%  { 
 				top: 100%;
+				border: 13px solid #FFF;
 			}
 			50%  { 
 				top: 100%;
+				border: 13px solid #FFF;
 			}
 			100% { 
 				top: 0%;
+				border: 13px solid #FFF;
 			}
 		}
 
 		@-o-keyframes layer-llanta-out-in {
 			0%   { 
-				top: 80%; 
+				top: 90%; 
 			}
 			40%  { 
 				top: 100%;
+				border: 13px solid #FFF;
 			}
 			50%  { 
 				top: 100%;
+				border: 13px solid #FFF;
 			}
 			100% { 
 				top: 0%;
+				border: 13px solid #FFF;
 			}
 		}
 		
@@ -774,15 +784,15 @@ a, button{
 			}
 			40%  { 
 				top: 100%;
-				border: 10px solid #FFF;
+				border: 13px solid #FFF;
 			}
 			50%  { 
 				top: 100%;
-				border: 10px solid #FFF;
+				border: 13px solid #FFF;
 			}
 			100% { 
 				top: 0%;
-				border: 10px solid #FFF;
+				border: 13px solid #FFF;
 			}
 		}
 
@@ -1065,64 +1075,63 @@ a, button{
 	*********************************************	
 	*********************************************/
 
+		.navbar-nav {
+			padding-top: 7px;
+			padding-bottom: 3px;
+		}
 
-	.navbar-nav {
-		padding-top: 7px;
-		padding-bottom: 3px;
-	}
+		.navbar-header {
+			width: 22%;
+			height: 92px;
+		}
 
-	.navbar-header {
-		width: 22%;
-		height: 92px;
-	}
+		.navbar-brand {
+			padding: 5px 5px 5px 5%;
+		}
 
-	.navbar-brand {
-		padding: 5px 5px 5px 5%;
-	}
+		.navbar .container-fluid .navbar-brand {
+			margin-left: -22px
+		}
 
-	.navbar .container-fluid .navbar-brand {
-		margin-left: -22px
-	}
+		.navbar-collapse {
+			width: 78%;
+			float: right;
+		}
 
-	.navbar-collapse {
-		width: 78%;
-		float: right;
-	}
+		.navbar li {
 
-	.navbar li {
+			font-size: 0.8em;
+		}
 
-		font-size: 0.8em;
-	}
+		.navbar li a{
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
 
-	.navbar li a{
-		padding-top: 0px;
-		padding-bottom: 0px;
-	}
+		.navbar hr{
+			margin-top: 1px;
+			margin-bottom: 1px;
+			width: 100%;
+			float: right;
+			border-color: #DFBB05;
+		}
 
-	.navbar hr{
-		margin-top: 1px;
-		margin-bottom: 1px;
-		width: 100%;
-		float: right;
-		border-color: #DFBB05;
-	}
+		.navbar-nav li:nth-child(n+5){
+			padding-top:5px;
+			padding-bottom:5px;	
+		}
 
-	.navbar-nav li:nth-child(n+5){
-		padding-top:5px;
-		padding-bottom:5px;	
-	}
+		.navbar-default .navbar-nav > li:active, .navbar-default .navbar-nav > li:focus{
+			background-color: #FFF;
+		}
 
-	.navbar-default .navbar-nav > li:active, .navbar-default .navbar-nav > li:focus{
-		background-color: #FFF;
-	}
+		.navbar-default .navbar-nav > li:active > a, .navbar-default .navbar-nav > li:focus > a {
+			color: #1B71A1;
+		}
 
-	.navbar-default .navbar-nav > li:active > a, .navbar-default .navbar-nav > li:focus > a {
-		color: #1B71A1;
-	}
-
-	.content-wrapper{
-		margin-top: 93px;
-	}
+		.content-wrapper{
+			margin-top: 93px;
+		}
 
 	/********************************************
 	*********************************************
@@ -1130,11 +1139,10 @@ a, button{
 	*********************************************	
 	*********************************************/
 
-
-	#carousel-contenido .carousel-control .glyphicon-chevron-right, 
-	#carousel-contenido .carousel-control .glyphicon-chevron-left {
-		top: 39%;
-	}
+		#carousel-contenido .carousel-control .glyphicon-chevron-right, 
+		#carousel-contenido .carousel-control .glyphicon-chevron-left {
+			top: 39%;
+		}
 
 
 	/********************************************
@@ -1143,30 +1151,30 @@ a, button{
 	*********************************************	
 	*********************************************/
 	
-	.c1-noticias-headline {
-		padding-right: 0;
-	}
+		.c1-noticias-headline {
+			padding-right: 0;
+		}
 
-	.noticias-wrapper {
-		overflow-y: auto;
-	}
+		.noticias-wrapper {
+			overflow-y: auto;
+		}
 
-	.c2-noticias {
-		margin-top: 20px;
-	}
+		.c2-noticias {
+			margin-top: 20px;
+		}
 
-	.noticias h2 {
-		margin-top: 20px;
-	}
+		.noticias h2 {
+			margin-top: 20px;
+		}
 
-	.noticia {
-		margin-top: -20px;
-		padding-right: 0;
-	}
+		.noticia {
+			margin-top: -20px;
+			padding-right: 0;
+		}
 
-	.noticias i {
-		margin: 10px 10px 0 15px;
-	}
+		.noticias i {
+			margin: 10px 10px 0 15px;
+		}
 
 
 	/********************************************
@@ -1174,18 +1182,18 @@ a, button{
 	DESPLEGADAS
 	*********************************************/
 
-	.img-noticia-desplegada {
-		right: -15px;
-		margin-top: 20px;
-	}
+		.img-noticia-desplegada {
+			right: -15px;
+			margin-top: 20px;
+		}
 
-	.noticia-desplegada {
-		left: -15px;
-	}
+		.noticia-desplegada {
+			left: -15px;
+		}
 
-	.wrapper-noticia-desplegada {
-		overflow-y: auto;
-	}
+		.wrapper-noticia-desplegada {
+			overflow-y: auto;
+		}
 
 
 
@@ -1195,9 +1203,9 @@ a, button{
 	*********************************************	
 	*********************************************/
 
-	.seccion-servicio-posicion {
-		margin-top: 0px;
-	}
+		.seccion-servicio-posicion {
+			margin-top: 0px;
+		}
 
 
 
@@ -1207,14 +1215,14 @@ a, button{
 	*********************************************	
 	*********************************************/
 
-	#carousel-contenido a {
-		margin-bottom: 25px;
-	}
+		#carousel-contenido a {
+			margin-bottom: 25px;
+		}
 
-	.home-opts {
-		padding-top: 11px;
-		padding-bottom: 7px;
-	}
+		.home-opts {
+			padding-top: 11px;
+			padding-bottom: 7px;
+		}
 }
 
 @media screen and (min-width: 992px) {
@@ -1297,7 +1305,6 @@ a, button{
 		.cat-llantas {
 			margin-top: 85px;
 		}
-
 
 
 	
@@ -1464,6 +1471,26 @@ a, button{
 		}
 
 
+	/********************************************
+	*********************************************
+					ESTILO HOME
+	*********************************************	
+	*********************************************/
+
+		#carousel-contenido 
+		.carousel-caption {
+			padding-top: 94px;
+		}
+
+		#carousel-contenido .carousel-control .glyphicon-chevron-right, 
+		#carousel-contenido .carousel-control .glyphicon-chevron-left {
+			top: 45%;
+		}
+
+		.home-opts {
+			bottom: 70px;
+		}
+
 
 	/********************************************
 	*********************************************
@@ -1482,15 +1509,7 @@ a, button{
 		}
 	
 
-
-	/********************************************
-	*********************************************
-			ESTILO BUSCADOR SERVICIOS
-	*********************************************	
-	*********************************************/
-
-
-
+	
 	/********************************************
 	*********************************************
 					ESTILO FOOTER
