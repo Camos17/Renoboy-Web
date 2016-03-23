@@ -71,7 +71,7 @@
 								</select>
 							</li>
 							<li class="col-xs-2 pull-right">
-								<a id="ayuda-posicion" href="#" title="">
+								<a id="ayuda-posicion" href="#" title="" data-toggle="modal" data-target="#ayuda-modal2">
 									<i class="fa fa-question-circle"></i>
 								</a>
 							</li>
@@ -303,6 +303,41 @@
 								<li>Recorridos hasta de 500 km por día donde usualmente los vehículos llegan a su base.</li>
 							</ul>
 						</div>
+					</div>
+		    	</div>		    		
+		      <div class="modal-footer ayuda-footer">
+		        <button type="button" class="btn btn-default cerrar-ayuda2" data-dismiss="modal">Cerrar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" id="ayuda-modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content contenido-ayuda">
+		    	<div class="modal-header headline-ayuda-buscador">
+		        	<button type="button" class="close cerrar-ayuda" data-dismiss="modal" aria-label="Close">
+		        		<span aria-hidden="true">
+		        			<i class="ion-android-close"></i>
+		        		</span>
+		        	</button>
+		        	<h2 class="modal-title" id="myModalLabel">POSICIÓN</h2>
+		    	</div>
+		    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 contenido-ayuda1">
+					<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 no-padding posicion">
+						<img class="img-responsive" src="http://placehold.it/400x250" alt="">
+						<div class="col-xs-4 col-xs-offset-4 no-padding posicion2">				
+							<label class="col-xs-12">
+								<p>Eje Libre</p>
+							</label>
+						</div>						
+					</div>
+					<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 no-padding posicion">
+						<img class="img-responsive" src="http://placehold.it/400x250" alt="">
+						<div class="col-xs-4 col-xs-offset-4 no-padding posicion2">
+							<label class="col-xs-12"> 
+								<p>Tracción</p>
+							</label>
+						</div>						
 					</div>
 		    	</div>		    		
 		      <div class="modal-footer ayuda-footer">

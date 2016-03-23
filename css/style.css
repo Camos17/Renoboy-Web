@@ -8,6 +8,10 @@ a, button{
 	outline:0 !important;
 }
 
+/*body .modal-open {
+	overflow: hidden;
+}*/
+
 /*video {
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -680,6 +684,7 @@ a, button{
 		color: #FFF;
 		font-weight: bold;
 		border: none;
+		border-radius: 0px;
 	}
 
 	.headline-ayuda-buscador i {
@@ -689,6 +694,7 @@ a, button{
 
 	.contenido-ayuda {
 		background-color: rgba(59, 103, 138, 0.75);
+		border-radius: 0px;
 	}
 
 	.contenido-ayuda1 {
@@ -714,7 +720,30 @@ a, button{
 	.ayuda-footer {
 		border: none;
 	}
+
+	.posicion {
+		position: relative;
+		margin-top: 20px;
+	}
+
+	.posicion2 {
+		position: absolute;
+		bottom: 15px;
+	}
+
+	.posicion2 label {
+		background-color: #007AC5;
+		text-align: center;
+		padding: 5px;
+	}
+
+	.posicion2 label p {
+		color: #FFF;
+		margin: 0px;
+	}
 	
+
+
 
 	/*************************************************
 		ANIMACION LAYER LLANTA
