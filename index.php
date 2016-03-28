@@ -15,7 +15,7 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img class="hidden-md hidden-lg img-responsive" src="http://placehold.it/320x460" alt="...">
+						<img class="hidden-md hidden-lg img-responsive" src="img/fondo_home.jpg" alt="...">
 						<div class="carousel-caption">
 							<p class="text-center texto1"><strong>tu llanta nueva de nuevo michelin</strong></p>
 							<p class="text-center texto2">1.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
@@ -25,7 +25,7 @@
 	      				</div>
 					</div>
 					<div class="item">
-						<img class="hidden-md hidden-lg img-responsive" src="http://placehold.it/320x460" alt="...">
+						<img class="hidden-md hidden-lg img-responsive" src="img/fondo_home.jpg" alt="...">
 						<div class="carousel-caption">
 							<p class="text-center texto1"><strong>my tyre care <br> program</strong></p>
 							<p class="text-center texto2">2.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
@@ -35,7 +35,7 @@
 	      				</div>
 	      			</div>
 	      			<div class="item">
-						<img class="hidden-md hidden-lg img-responsive" src="http://placehold.it/320x460" alt="...">
+						<img class="hidden-md hidden-lg img-responsive" src="img/fondo_home.jpg" alt="...">
 						<div class="carousel-caption">
 							<p class="text-center texto1"><strong>¿Pensando en Reencauchar?</strong></p>
 							<p class="text-center texto2">3.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
