@@ -76,6 +76,9 @@
 					</a>	
 				</div>
 			</div>
+			<div class="hidden-xs hidden-sm col-md-12 layer-video-home">
+
+			</div>
 		</div>
 		
 		<?php include "menu-fijo.php";?>
