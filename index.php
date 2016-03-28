@@ -3,8 +3,9 @@
 		
 		<div class="col-xs-12 no-padding content-wrapper">
 			<video class="hidden-xs hidden-sm img-responsive video_home"  preload="auto" poster="http://d2bptzq05weps4.cloudfront.net/assets/video_headers/homepage/home_video_03_2015_lumia-2cd50778d61e6b93b83bfc963a2ecb07.jpg" autoplay loop>
-				<source src="video/videohome-mp4" type="video/mp4">
-				<source src="video/videohome.webm" type="video/webm">
+				<source src="https://s3-us-west-2.amazonaws.com/cannedhead.renoboy/videohome.mp4" type="video/mp4">
+				<source src="https://s3-us-west-2.amazonaws.com/cannedhead.renoboy/videohome.webm" type="video/webm">
+				<source src="https://s3-us-west-2.amazonaws.com/cannedhead.renoboy/videohome.ogv" type="video/ogv">
 				Your browser does not support the video tag.
 			</video> 
 			<!-- <div class="hidden-xs hidden-sm col-xs-12 no-padding" data-vide-bg="https://s3-us-west-2.amazonaws.com/cannedhead.optica/optica" data-vide-options="loop: true, muted: false, position: 0% 0%">

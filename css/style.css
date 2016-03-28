@@ -673,12 +673,14 @@ a, button{
 	}
 
 	.headline-ayuda-buscador 
+	.cerrar-ayuda,
+	.headline-modal-regional
 	.cerrar-ayuda {
 		margin-top: 0px;
 		opacity: 1;
 	}
 
-	.ayuda-footer
+	.ayuda-modal-footer
 	.cerrar-ayuda2 {
 		background-color: #0076B7;
 		color: #FFF;
@@ -717,7 +719,38 @@ a, button{
 		font-size: 11px;
 	}
 
-	.ayuda-footer {
+	.contenido-modal-regional {
+		background-color: rgba(182, 191, 198, 0.75);
+		border-radius: 0px;
+	}
+
+	.headline-modal-regional {
+		color: #0372C3;
+		background-color: #FFF;
+		border-bottom: 1px solid #007AC5;
+	}
+
+	.headline-modal-regional span {
+		text-align: center;
+		color: #0372C3;
+		font-size: 32px;
+	}
+
+	.headline-modal-regional h2 {
+		font-size: 2.5rem;
+		text-align: center;
+		border: none;
+	}
+
+	.contenido-modal-regional2 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.contenido-modal-regional3 {
+		background-color: #FFF;
+	}
+
+	.ayuda-modal-footer {
 		border: none;
 	}
 
@@ -893,13 +926,14 @@ a, button{
 
 
 /********************************************
+*********************************************
 		ESTILO RED DE DISTRIBUIDORES
 *********************************************	
 *********************************************/
 	#map{
 		width: 100%;
 		height: 600px;
-	}
+	} 
 
 	#legend {
 	    background: white;

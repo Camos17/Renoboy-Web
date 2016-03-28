@@ -109,7 +109,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 cat-llantas">
 				<div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-6 col-md-offset-0 no-padding">
-					<a href="#" class="col-xs-6 cat-llanta">
+					<a href="#" class="col-xs-6 cat-llanta" data-toggle="modal" data-target="#modal-regional">
 						<div class="col-xs-12 no-padding cat-llanta-wrapper">
 							<img  class="img-responsive" src="img/1.jpg" alt="">
 							<div class="col-xs-12 no-padding layer-cat-llanta">		
@@ -305,9 +305,39 @@
 						</div>
 					</div>
 		    	</div>		    		
-		      <div class="modal-footer ayuda-footer">
-		        <button type="button" class="btn btn-default cerrar-ayuda2" data-dismiss="modal">Cerrar</button>
-		      </div>
+		    	<div class="modal-footer ayuda-modal-footer">
+		        	<button type="button" class="btn btn-default cerrar-ayuda2" data-dismiss="modal">Cerrar</button>
+		    	</div>
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" id="modal-regional" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content contenido-modal-regional">
+		    	<div class="modal-header headline-modal-regional">
+		        	<button type="button" class="close cerrar-ayuda" data-dismiss="modal" aria-label="Close">
+		        		<span aria-hidden="true">
+		        			<i class="ion-android-close"></i>
+		        		</span>
+		        	</button>
+		        	<h2 class="modal-title" id="myModalLabel">SPREA AXEL</h2>
+		    	</div>
+		    	<div class="col-xs-12">
+		    		<img class="img-responsive" src="img/1.jpg" alt="">		    		
+		    	</div>
+		    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 contenido-modal-regional2">
+		    		<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-lg-10 col-lg-offset-1 no-padding contenido-modal-regional3">	
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+		    	</div>		    		
+		    	<div class="modal-footer ayuda-modal-footer">
+		        	<button type="button" class="btn btn-default cerrar-ayuda2" data-dismiss="modal">Cerrar</button>
+		    	</div>
 		    </div>
 		  </div>
 		</div>
@@ -340,13 +370,12 @@
 						</div>						
 					</div>
 		    	</div>		    		
-		      <div class="modal-footer ayuda-footer">
+		      <div class="modal-footer ayuda-modal-footer">
 		        <button type="button" class="btn btn-default cerrar-ayuda2" data-dismiss="modal">Cerrar</button>
 		      </div>
 		    </div>
 		  </div>
 		</div>
-		
 		<?php include "menu-fijo.php";?>
 		<script src="js/clamp.min.js"></script>
 		<?php include "footer.php";?>
