@@ -2,7 +2,7 @@
 
 		
 		<div class="col-xs-12 no-padding content-wrapper">
-			<video class="hidden-xs hidden-sm img-responsive video_home"  preload="auto" poster="http://d2bptzq05weps4.cloudfront.net/assets/video_headers/homepage/home_video_03_2015_lumia-2cd50778d61e6b93b83bfc963a2ecb07.jpg" autoplay loop>
+			<video class="hidden-xs hidden-sm img-responsive video_home"  preload="auto" poster="img/fondo_video_home.jpg" autoplay loop>
 				<source src="https://s3-us-west-2.amazonaws.com/cannedhead.renoboy/videohome.mp4" type="video/mp4">
 				<source src="https://s3-us-west-2.amazonaws.com/cannedhead.renoboy/videohome.webm" type="video/webm">
 				<source src="https://s3-us-west-2.amazonaws.com/cannedhead.renoboy/videohome.ogv" type="video/ogv">
