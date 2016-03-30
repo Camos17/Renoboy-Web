@@ -178,6 +178,7 @@ a, button{
 
 	#carousel-contenido a {
 		margin-top: 30px;
+		z-index: 2;
 	}
 
 	#carousel-contenido .carousel-control .glyphicon-chevron-right, 
@@ -228,7 +229,6 @@ a, button{
 	    height: 100%;
 	    position: absolute;
 	}
-	
 
 
 /********************************************
@@ -752,14 +752,55 @@ a, button{
 
 	.contenido-modal-regional2 {
 		padding-top: 20px;
-		padding-bottom: 20px;
 	}
+
 	.contenido-modal-regional3 {
 		background-color: #FFF;
 	}
 
+	.contenido-modal-regional3 
+	.llanta-desplegada {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.table th, td {
+		text-align: center;
+	}
+
+	.btn-compra-modal-regional2 {
+		margin-bottom: 20px;
+	}
+
+	.btn-compra-modal-regional1 button,
+	.btn-compra-modal-regional2 button {
+		color: #007AC5;
+		margin: 5px 0px;
+		font-size: 1rem;
+		background-color: #FFF;
+		border-radius: 0px;
+		-webkit-box-shadow: 3px 5px 4px 0px rgba(212,212,212,1);
+		-moz-box-shadow: 3px 5px 4px 0px rgba(212,212,212,1);
+		box-shadow: 3px 5px 4px 0px rgba(212,212,212,1);;
+	}
+
 	.ayuda-modal-footer {
 		border: none;
+	}
+
+	.ayuda-modal-footer div:nth-child(1) {
+		background-color: #007AC5;
+	}
+
+	.ayuda-modal-footer p {
+		font-size: 2.5rem;
+		color: #FFF;
+		text-align: center;
+		margin-top: 15px;
+	}
+
+	.ayuda-modal-footer button {
+		margin-top: 15px;
 	}
 
 	.posicion {
@@ -1276,6 +1317,18 @@ a, button{
 
 		.seccion-servicio-posicion {
 			margin-top: 0px;
+		}
+
+		.modal-regional 
+		.modal-dialog {
+			width: 500px;
+		}
+
+		.ayuda-modal-footer p {
+			font-size: 3rem;
+			color: #FFF;
+			text-align: center;
+			margin-top: 15px;
 		}
 
 

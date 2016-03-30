@@ -311,7 +311,7 @@
 		    </div>
 		  </div>
 		</div>
-		<div class="modal fade" id="modal-regional" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal fade modal-regional" id="modal-regional" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		  <div class="modal-dialog" role="document">
 		    <div class="modal-content contenido-modal-regional">
 		    	<div class="modal-header headline-modal-regional">
@@ -322,21 +322,63 @@
 		        	</button>
 		        	<h2 class="modal-title" id="myModalLabel">SPREA AXEL</h2>
 		    	</div>
-		    	<div class="col-xs-12">
-		    		<img class="img-responsive" src="img/1.jpg" alt="">		    		
+		    	<div class="hidden-xs hidden-sm col-xs-10 col-xs-offset-1">
+		    		<img class="img-responsive" src="img/5.jpg" alt="">		    		
 		    	</div>
-		    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 contenido-modal-regional2">
-		    		<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-lg-10 col-lg-offset-1 no-padding contenido-modal-regional3">	
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
+		    	<div class="col-xs-12 col-sm-12 col-sm-offset-0 col-md-12 col-lg-12 contenido-modal-regional2">
+		    		<div class="col-xs-12 contenido-modal-regional3">
+		    			<div class="col-sm-8 col-sm-offset-2 hidden-md hidden-lg">
+			    			<img class="img-responsive llanta-desplegada" src="img/5.jpg" alt="">		    		
+			    		</div>
+			    		<div class="col-sm-8 col-sm-offset-2 table-responsive no-padding">	
+							<table class="table table-hover">
+								<!-- <caption>Titulo Tabla</caption>
+								<thead>
+									<tr>
+										<th>header</th>
+									</tr>
+								</thead> -->
+								<tbody>
+									<tr>
+										<th>Table heading</th>
+										<th>Table heading</th>
+										<th>Table heading</th>
+									</tr>
+									<tr>
+										<td>data</td>
+										<td>data</td>
+										<td>data</td>
+									</tr>
+									<tr>
+										<td>data</td>
+										<td>data</td>
+										<td>data</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-xs-12 col-sm-8 col-sm-offset-2 no-padding btn-compra-modal-regional1">
+							<button type="button" class="col-xs-12 no-padding btn btn-dafault">
+								<a href="#" title="">Tengo más de 10 Vehículos, Dónde comprar?</a>
+							</button>
+						</div>
+						<div class="col-xs-12 col-sm-8 col-sm-offset-2 no-padding btn-compra-modal-regional2">		
+							<button type="button" class="col-xs-12 no-padding btn btn-dafault">
+								<a href="#" title="">Tengo menos de 10 Vehículos, Dónde comprar?</a>
+							</button>
+						</div>
+		    		</div>
 		    	</div>		    		
 		    	<div class="modal-footer ayuda-modal-footer">
-		        	<button type="button" class="btn btn-default cerrar-ayuda2" data-dismiss="modal">Cerrar</button>
+					<div class="col-xs-12 col-sm-12 no-padding">
+						<div class="col-xs-8 col-sm-5 col-sm-offset-5">
+							<p>REGIONAL</p>
+						</div>		    			
+		    			<div class="col-xs-4 col-sm-2 pull-right">
+		    				<img class="img-responsive" src="img/REGIONAL.svg" alt="">
+						</div>
+					</div>
+		        	<button type="button" class="btn btn-default cerrar-ayuda2 hidden-md hidden-lg" data-dismiss="modal">Cerrar</button>
 		    	</div>
 		    </div>
 		  </div>
