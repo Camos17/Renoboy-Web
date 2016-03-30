@@ -795,6 +795,7 @@ a, button{
 
 	.ayuda-modal-footer p {
 		font-size: 2.5rem;
+		letter-spacing: 1.5px;
 		color: #FFF;
 		text-align: center;
 		margin-top: 15px;
@@ -1327,9 +1328,7 @@ a, button{
 
 		.ayuda-modal-footer p {
 			font-size: 3rem;
-			color: #FFF;
-			text-align: center;
-			margin-top: 15px;
+			margin-top: 25px;
 		}
 
 

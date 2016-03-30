@@ -371,10 +371,10 @@
 		    	</div>		    		
 		    	<div class="modal-footer ayuda-modal-footer">
 					<div class="col-xs-12 col-sm-12 no-padding">
-						<div class="col-xs-8 col-sm-5 col-sm-offset-5">
+						<div class="col-xs-8 col-sm-5 col-sm-offset-4">
 							<p>REGIONAL</p>
 						</div>		    			
-		    			<div class="col-xs-4 col-sm-2 pull-right">
+		    			<div class="col-xs-4 col-sm-3 pull-right">
 		    				<img class="img-responsive" src="img/REGIONAL.svg" alt="">
 						</div>
 					</div>
