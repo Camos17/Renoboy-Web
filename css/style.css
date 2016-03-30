@@ -778,6 +778,7 @@ a, button{
 		margin: 5px 0px;
 		font-size: 1rem;
 		background-color: #FFF;
+		font-weight: bold;
 		border-radius: 0px;
 		-webkit-box-shadow: 3px 5px 4px 0px rgba(212,212,212,1);
 		-moz-box-shadow: 3px 5px 4px 0px rgba(212,212,212,1);
