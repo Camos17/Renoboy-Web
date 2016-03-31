@@ -311,10 +311,45 @@
 		    </div>
 		  </div>
 		</div>
-		<div class="modal fade modal-regional" id="modal-regional" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal fade" id="ayuda-modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		  <div class="modal-dialog" role="document">
+		    <div class="modal-content contenido-ayuda">
+		    	<div class="modal-header headline-ayuda-buscador">
+		        	<button type="button" class="close cerrar-ayuda" data-dismiss="modal" aria-label="Close">
+		        		<span aria-hidden="true">
+		        			<i class="ion-android-close"></i>
+		        		</span>
+		        	</button>
+		        	<h2 class="modal-title" id="myModalLabel">POSICIÓN</h2>
+		    	</div>
+		    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 contenido-ayuda1">
+					<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 no-padding posicion">
+						<img class="img-responsive" src="http://placehold.it/400x250" alt="">
+						<div class="col-xs-4 col-xs-offset-4 no-padding posicion2">				
+							<label class="col-xs-12">
+								<p>Eje Libre</p>
+							</label>
+						</div>						
+					</div>
+					<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 no-padding posicion">
+						<img class="img-responsive" src="http://placehold.it/400x250" alt="">
+						<div class="col-xs-4 col-xs-offset-4 no-padding posicion2">
+							<label class="col-xs-12"> 
+								<p>Tracción</p>
+							</label>
+						</div>						
+					</div>
+		    	</div>		    		
+		      <div class="modal-footer ayuda-modal-footer">
+		        <button type="button" class="btn btn-default cerrar-ayuda2" data-dismiss="modal">Cerrar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- <div class="modal fade modal-regional" id="modal-regional" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog modal-l" role="document">
 		    <div class="modal-content contenido-modal-regional">
-		    	<div class="modal-header headline-modal-regional">
+		    	<div class="col-md-6 col-md-push-6 modal-header hidden-md-hidden-lg headline-modal-regional">
 		        	<button type="button" class="close cerrar-ayuda" data-dismiss="modal" aria-label="Close">
 		        		<span aria-hidden="true">
 		        			<i class="ion-android-close"></i>
@@ -322,7 +357,7 @@
 		        	</button>
 		        	<h2 class="modal-title" id="myModalLabel">SPREA AXEL</h2>
 		    	</div>
-		    	<div class="hidden-xs hidden-sm col-xs-10 col-xs-offset-1">
+		    	<div class="hidden-xs hidden-sm col-md-6 col-md-pull-6">
 		    		<img class="img-responsive" src="img/5.jpg" alt="">		    		
 		    	</div>
 		    	<div class="col-xs-12 col-sm-12 col-sm-offset-0 col-md-12 col-lg-12 contenido-modal-regional2">
@@ -332,12 +367,12 @@
 			    		</div>
 			    		<div class="col-sm-8 col-sm-offset-2 table-responsive no-padding">	
 							<table class="table table-hover">
-								<!-- <caption>Titulo Tabla</caption>
+								<caption>Titulo Tabla</caption>
 								<thead>
 									<tr>
 										<th>header</th>
 									</tr>
-								</thead> -->
+								</thead>
 								<tbody>
 									<tr>
 										<th>Table heading</th>
@@ -382,42 +417,83 @@
 		    	</div>
 		    </div>
 		  </div>
+		</div>-->
+
+
+		<div class="modal fade" id="modal-regional" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="col-md-6 col-md-push-6 no-padding modal-regional-wrapper">
+					<div class="modal-content">
+						<div class="modal-header headline-modal-regional">
+							<button type="button" class="close cerrar-ayuda" data-dismiss="modal" aria-label="Close">
+		        				<span aria-hidden="true">
+		        					<i class="ion-android-close"></i>
+		        				</span>
+		        			</button>
+							<h2 class="modal-title" id="myModalLabel">SPREA AXEL</h2>
+						</div>
+						<div class="modal-body">
+							<div class="col-sm-8 col-sm-offset-2 hidden-md hidden-lg">
+			    				<img class="img-responsive llanta-desplegada" src="img/5.jpg" alt="">
+			    			</div>
+			    			<div class="col-sm-8 col-sm-offset-2 table-responsive">	
+								<table class="table table-hover">
+									<!-- <caption>Titulo Tabla</caption>
+									<thead>
+										<tr>
+											<th>header</th>
+										</tr>
+									</thead> -->
+									<tbody>
+										<tr>
+											<th>Table heading</th>
+											<th>Table heading</th>
+											<th>Table heading</th>
+										</tr>
+										<tr>
+											<td>data</td>
+											<td>data</td>
+											<td>data</td>
+										</tr>
+										<tr>
+											<td>data</td>
+											<td>data</td>
+											<td>data</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="col-xs-12 col-sm-8 col-sm-offset-2 no-padding btn-compra-modal-regional1">
+								<button type="button" class="col-xs-12 no-padding btn btn-dafault">
+									<a href="#" title="">Tengo más de 10 Vehículos, Dónde comprar?</a>
+								</button>
+							</div>
+							<div class="col-xs-12 col-sm-8 col-sm-offset-2 no-padding btn-compra-modal-regional2">		
+								<button type="button" class="col-xs-12 no-padding btn btn-dafault">
+									<a href="#" title="">Tengo menos de 10 Vehículos, Dónde comprar?</a>
+								</button>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<div class="col-xs-12 col-sm-12 no-padding">
+								<div class="col-xs-8 col-sm-5 col-sm-offset-4">
+									<p>REGIONAL</p>
+								</div>		    			
+		    					<div class="col-xs-4 col-sm-3 pull-right">
+		    						<img class="img-responsive" src="img/REGIONAL.svg" alt="">
+								</div>
+							</div>
+		        			<button type="button" class="btn btn-default cerrar-ayuda2 hidden-md hidden-lg" data-dismiss="modal">Cerrar</button>
+						</div>
+					</div>					
+				</div>
+				<div class="col-md-6 col-md-pull-6 hidden-xs hidden-sm">
+					<img class="img-responsive" src="img/5.jpg" alt="">
+				</div>
+			</div>
 		</div>
-		<div class="modal fade" id="ayuda-modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content contenido-ayuda">
-		    	<div class="modal-header headline-ayuda-buscador">
-		        	<button type="button" class="close cerrar-ayuda" data-dismiss="modal" aria-label="Close">
-		        		<span aria-hidden="true">
-		        			<i class="ion-android-close"></i>
-		        		</span>
-		        	</button>
-		        	<h2 class="modal-title" id="myModalLabel">POSICIÓN</h2>
-		    	</div>
-		    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 contenido-ayuda1">
-					<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 no-padding posicion">
-						<img class="img-responsive" src="http://placehold.it/400x250" alt="">
-						<div class="col-xs-4 col-xs-offset-4 no-padding posicion2">				
-							<label class="col-xs-12">
-								<p>Eje Libre</p>
-							</label>
-						</div>						
-					</div>
-					<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 no-padding posicion">
-						<img class="img-responsive" src="http://placehold.it/400x250" alt="">
-						<div class="col-xs-4 col-xs-offset-4 no-padding posicion2">
-							<label class="col-xs-12"> 
-								<p>Tracción</p>
-							</label>
-						</div>						
-					</div>
-		    	</div>		    		
-		      <div class="modal-footer ayuda-modal-footer">
-		        <button type="button" class="btn btn-default cerrar-ayuda2" data-dismiss="modal">Cerrar</button>
-		      </div>
-		    </div>
-		  </div>
-		</div>
+
+
 		<?php include "menu-fijo.php";?>
 		<script src="js/clamp.min.js"></script>
 		<?php include "footer.php";?>

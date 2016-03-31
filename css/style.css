@@ -688,15 +688,6 @@ a, button{
 		opacity: 1;
 	}
 
-	.ayuda-modal-footer
-	.cerrar-ayuda2 {
-		background-color: #0076B7;
-		color: #FFF;
-		font-weight: bold;
-		border: none;
-		border-radius: 0px;
-	}
-
 	.headline-ayuda-buscador i {
 		font-size: 32px;
 		color: #FFF;
@@ -725,6 +716,20 @@ a, button{
 	.contenido-ayuda2 li {
 		color: #FFF;
 		font-size: 11px;
+	}
+
+	.modal-regional-wrapper
+	.modal-content {
+		border: none;
+		border-radius: 0px;
+		background-color: rgba(182, 191, 198, 0.75);
+	}
+
+	.modal-regional-wrapper
+	.modal-body {
+		padding: 0px;
+		background-color: #FFF;
+		margin: 15px 15px 0 15px;
 	}
 
 	.contenido-modal-regional {
@@ -758,7 +763,7 @@ a, button{
 		background-color: #FFF;
 	}
 
-	.contenido-modal-regional3 
+	.modal-regional-wrapper 
 	.llanta-desplegada {
 		padding-top: 10px;
 		padding-bottom: 10px;
@@ -789,11 +794,19 @@ a, button{
 		border: none;
 	}
 
-	.ayuda-modal-footer div:nth-child(1) {
+	.modal-regional-wrapper
+	.modal-footer {
+		border: none;
+		padding-top: 0px;
+	}
+
+	.modal-regional-wrapper
+	.modal-footer div:nth-child(1) {
 		background-color: #007AC5;
 	}
 
-	.ayuda-modal-footer p {
+	.modal-regional-wrapper
+	.modal-footer p {
 		font-size: 2.5rem;
 		letter-spacing: 1.5px;
 		color: #FFF;
@@ -801,7 +814,20 @@ a, button{
 		margin-top: 15px;
 	}
 
-	.ayuda-modal-footer button {
+	.ayuda-modal-footer
+	.cerrar-ayuda2,
+	.modal-regional-wrapper
+	.cerrar-ayuda2 {
+		background-color: #0076B7;
+		color: #FFF;
+		font-weight: bold;
+		border: none;
+		border-radius: 0px;
+	}
+
+	.ayuda-modal-footer button,
+	.modal-regional-wrapper
+	.modal-footer button {
 		margin-top: 15px;
 	}
 
