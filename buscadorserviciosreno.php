@@ -341,13 +341,13 @@
 					</div>
 		    	</div>		    		
 		      <div class="modal-footer ayuda-modal-footer">
-		        <button type="button" class="btn btn-default cerrar-ayuda2" data-dismiss="modal">Cerrar</button>
+		    	<button type="button" class="btn btn-default cerrar-ayuda2" data-dismiss="modal">Cerrar</button>
 		      </div>
 		    </div>
 		  </div>
 		</div>
 		<!-- <div class="modal fade modal-regional" id="modal-regional" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		  <div class="modal-dialog modal-l" role="document">
+		  <div class="modal-dialog" role="document">
 		    <div class="modal-content contenido-modal-regional">
 		    	<div class="col-md-6 col-md-push-6 modal-header hidden-md-hidden-lg headline-modal-regional">
 		        	<button type="button" class="close cerrar-ayuda" data-dismiss="modal" aria-label="Close">
@@ -417,7 +417,7 @@
 		    	</div>
 		    </div>
 		  </div>
-		</div>-->
+		</div> -->
 
 
 		<div class="modal fade" id="modal-regional" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -432,18 +432,18 @@
 		        			</button>
 							<h2 class="modal-title" id="myModalLabel">SPREA AXEL</h2>
 						</div>
-						<div class="modal-body">
+						<div class="contenido-modal">
 							<div class="col-sm-8 col-sm-offset-2 hidden-md hidden-lg">
 			    				<img class="img-responsive llanta-desplegada" src="img/5.jpg" alt="">
 			    			</div>
 			    			<div class="col-sm-8 col-sm-offset-2 table-responsive">	
 								<table class="table table-hover">
-									<!-- <caption>Titulo Tabla</caption>
+									<caption>Titulo Tabla</caption>
 									<thead>
 										<tr>
 											<th>header</th>
 										</tr>
-									</thead> -->
+									</thead>
 									<tbody>
 										<tr>
 											<th>Table heading</th>
@@ -463,15 +463,17 @@
 									</tbody>
 								</table>
 							</div>
-							<div class="col-xs-12 col-sm-8 col-sm-offset-2 no-padding btn-compra-modal-regional1">
-								<button type="button" class="col-xs-12 no-padding btn btn-dafault">
-									<a href="#" title="">Tengo más de 10 Vehículos, Dónde comprar?</a>
-								</button>
-							</div>
-							<div class="col-xs-12 col-sm-8 col-sm-offset-2 no-padding btn-compra-modal-regional2">		
-								<button type="button" class="col-xs-12 no-padding btn btn-dafault">
-									<a href="#" title="">Tengo menos de 10 Vehículos, Dónde comprar?</a>
-								</button>
+							<div class="col-xs-12 botones-modal-regional">
+								<div class="col-xs-12 col-sm-8 col-sm-offset-2 no-padding btn-compra-modal-regional1">
+									<button type="button" class="col-xs-12 no-padding btn btn-dafault">
+										<a href="#" title="">Tengo más de 10 Vehículos, Dónde comprar?</a>
+									</button>
+								</div>
+								<div class="col-xs-12 col-sm-8 col-sm-offset-2 no-padding btn-compra-modal-regional2">		
+									<button type="button" class="col-xs-12 no-padding btn btn-dafault">
+										<a href="#" title="">Tengo menos de 10 Vehículos, Dónde comprar?</a>
+									</button>
+								</div>
 							</div>
 						</div>
 						<div class="modal-footer">

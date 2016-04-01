@@ -1,31 +1,64 @@
 		<?php include "header.php";?>
 		<?php include "menu-fijo.php";?>
 
-		<div class="col-xs-12 col-sm-12 col-md-12 no-padding">
-			<div class="col-md-3 no-padding">
-				<div class="col-lg-10 searchcoords">
-					<input type="text" class="form-control" name="latitud" id='latitud' placeholder="Latitud">
-					<input type="text" class="form-control" name="longitud" id='longitud' placeholder="Longitud">
-					<a class="btn btn-default btn-buscar-coords col-xs-12" id='anchorCoords'>BUSCAR MAS CERCANO</a>
+		<div class="col-xs-12 col-sm-12 col-md-12 content-wrapper wrapper-red-distribucion no-padding">
+			<div class="col-xs-12 no-padding wrapper-red-distribucion1">
+				<div class="col-xs-12 col-sm-12 col-md 12 no-padding healine-red-distribucion">	
+					<h2>ENCUENTRE SU PUNTO DE DISTRIBUCIÓN MÁS CERCANO</h2>
 				</div>
-				<div class="col-xs-12 no-padding col-md-8 visible-md visible-lg texto-sedes2" style='margin-top: 250px;'>
-					<div class="col-md-12">
-						<p class="text-center">
-							<strong>Terminal de Transporte Bogotá</strong><br>
-							Latitud: 4.6556863 <br>
-							<a href="tel: (+574) 604 0368">Longitud: -74.1169391 </a><br><br>
-							<strong>Terminal de Transporte Medellin</strong><br>
-							Latitud: 6.2481172 <br>
-							<a href="tel: (+574) 604 0368">Longitud: -75.6135184</a><br><br>
-							<strong>Terminal de Transporte Yumbo</strong><br>
-							Latitud: 3.5457313<br>
-							<a href="tel: (+572) 485 3453">Longitud: -76.5046236</a><br><br>
-						</p>
-					</div>				
+				<div class="col-xs-12 col-md-4 buscar-coordenadas">
+					<div class="col-xs-12 col-lg-10 no-padding searchcoords">
+						<!-- <input type="text" class="form-control" name="latitud" id='latitud' placeholder="Latitud">
+						<input type="text" class="form-control" name="longitud" id='longitud' placeholder="Longitud">
+						<a class="btn btn-default btn-buscar-coords col-xs-12" id='anchorCoords'>BUSCAR MAS CERCANO</a> -->
+						<form class="col-xs-12 col-md-12 no-padding" role="search">
+							<button type="submit" class="col-xs-2 col-lg-2 btn btn-default btn-busqueda-coordenadas">
+								<img class="img-responsive" src="img/iconobuscar-coord.svg" alt="">
+							</button>
+							<div class="col-xs-10 col-lg-10 searchinput">
+								<input type="text" class="form-control" placeholder="Buscar...">
+							</div>
+						</form>
+						<div class="col-xs-12 checkbox-buscar-coord">
+							<input id="checkbox-2" class="col-xs-1 checkbox-buscar" name="checkbox-2" type="checkbox" checked="">
+        					<label for="checkbox-2" class="col-xs-11 checkbox-custom-label">Dirección, ciudad, departamento</label>
+        				</div>
+        				<div class="col-xs-12 checkbox-buscar-coord">
+							<input id="checkbox-3" class="col-xs-1 checkbox-buscar" name="checkbox-3" type="checkbox" checked="">
+        					<label for="checkbox-3" class="col-xs-11 checkbox-custom-label">Latitud, Lonitud</label>
+        				</div>
+        				<div class="col-xs-12 linea-nacional-distribucion">
+        					<p>LÍNEA NACIONAL:       <a href="tel: #########" title="">########</a></p>
+        				</div>
+        				<div class="col-xs-12 select-distancia">
+        					<select class="form-control">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="col-md-9 no-padding">
-				<div id='map'></div>
+				<div class="col-xs-12 col-md-2 no-padding col-md-8texto-sedes2">
+						<div class="col-md-12">
+							<p class="text-center">
+								<strong>Terminal de Transporte Bogotá</strong><br>
+								Latitud: 4.6556863 <br>
+								<a href="tel: (+574) 604 0368">Longitud: -74.1169391 </a><br><br>
+								<strong>Terminal de Transporte Medellin</strong><br>
+								Latitud: 6.2481172 <br>
+								<a href="tel: (+574) 604 0368">Longitud: -75.6135184</a><br><br>
+								<strong>Terminal de Transporte Yumbo</strong><br>
+								Latitud: 3.5457313<br>
+								<a href="tel: (+572) 485 3453">Longitud: -76.5046236</a><br><br>
+							</p>
+						</div>				
+				</div>
+				<div class="col-xs-12 col-md-6 no-padding mapa-red-distribucion">
+					<div id='map'></div>
+				</div>		
 			</div>
 		</div>	
 		<script type="text/javascript">
