@@ -1067,7 +1067,7 @@ a, button{
 	}
 
 	.searchcoords form{
-		margin: 10px 0px 10px 20px;
+		margin: 35px 0px 10px 20px;
 	}
 
 	.searchcoords
@@ -1093,6 +1093,7 @@ a, button{
 	.checkbox-buscar:focus {
 		margin: 0px;
 		outline: 0 !important;
+		border: none;
 	}
 
 	.checkbox-buscar-coord
@@ -1120,7 +1121,33 @@ a, button{
 	}
 
 	.select-distancia {
-		margin: 10px 0px;
+		margin: 10px 0px 100px;
+	}
+
+	.select-distancia select,
+	.select-distancia select:hover,
+	.select-distancia select:focus {
+		background-color: rgba(46, 47, 47, 0.75);
+		border: none;
+		border-radius: 0px;
+		box-shadow: none;
+		color: #FFF;
+	}
+
+	.select-distancia option {
+		background-color: rgba(46, 47, 47, 0.75);
+		color: #FFF;
+		border: none;
+		font-size: 1.4rem;
+		padding: 5px 0px;
+		box-shadow: none;
+		height: 30px;
+	}
+
+	.select-distancia option:hover,
+	.select-distancia option:active,
+	.select-distancia option:focus {
+		background-color: #0079C4;
 	}
 
 	.mapa-red-distribucion {

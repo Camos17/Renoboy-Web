@@ -30,18 +30,16 @@
         				<div class="col-xs-12 linea-nacional-distribucion">
         					<p>LÍNEA NACIONAL:       <a href="tel: #########" title="">########</a></p>
         				</div>
-        				<div class="col-xs-12 select-distancia">
+        				<div class="col-xs-6 select-distancia">
         					<select class="form-control">
-								<option>1</option>
-								<option>2</option>
-								<option>3</option>
-								<option>4</option>
-								<option>5</option>
+								<option class="text-center">20 Km</option>
+								<option class="text-center">50 Km</option>
+								<option class="text-center">60 Km</option>
 							</select>
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 col-md-2 no-padding col-md-8texto-sedes2">
+				<div class="col-xs-12 col-md-2 no-padding col-md-8 texto-sedes2">
 						<div class="col-md-12">
 							<p class="text-center">
 								<strong>Terminal de Transporte Bogotá</strong><br>
