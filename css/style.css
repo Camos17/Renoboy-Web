@@ -50,7 +50,7 @@ a, button{
 .va{
 	position: relative;
 	top: 50%;
-	-ms-transform: translateY(-50%);  IE 9 
+	-ms-transform: translateY(-50%);  
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
@@ -72,6 +72,8 @@ a, button{
 		.navbar{
 			border-bottom: 2px solid #1B71A1;
 			background-color: #FFF;
+			margin-bottom: 0px;
+			border-radius: 0px;
 		}
 
 		.navbar-header {
@@ -140,7 +142,6 @@ a, button{
 
 		.content-wrapper{
 			min-height:80%;
-			margin-top: 55px;
 		}
  
 
@@ -148,7 +149,8 @@ a, button{
 *********************************************
 				ESTILO HOME
 *********************************************	
-*********************************************/
+
+
 
 
 	/********************************************
@@ -717,13 +719,13 @@ a, button{
 		}
 
 		.modal-regional-wrapper
-		.modal-content {
+		/*.modal-content*/ {
 			border: none;
 			border-radius: 0px;
 			background-color: rgba(182, 191, 198, 0.75);
 		}
 
-		.modal-regional-wrapper
+		/*.modal-regional-wrapper*/
 		.contenido-modal {
 			padding: 0px;
 			background-color: #FFF;
@@ -761,12 +763,6 @@ a, button{
 			background-color: #FFF;
 		}
 
-		.modal-regional-wrapper 
-		.llanta-desplegada {
-			padding-top: 10px;
-			padding-bottom: 10px;
-		}
-
 		.table-responsive {
 			border: none;
 			margin-bottom: 0px;
@@ -802,40 +798,24 @@ a, button{
 			border: none;
 		}
 
-		.modal-regional-wrapper
-		.modal-footer {
-			border: none;
-			padding-top: 0px;
-		}
-
-		.modal-regional-wrapper
-		.modal-footer div:nth-child(1) {
+		.ayuda-modal-footer div:nth-child(1) {
 			background-color: #007AC5;
 		}
 
-		.modal-regional-wrapper
-		.modal-footer p {
-			font-size: 2.5rem;
-			letter-spacing: 1.5px;
+		.ayuda-modal-footer p {
 			color: #FFF;
-			text-align: center;
-			margin-top: 15px;
+			font-size: 2rem;
+			letter-spacing: 2px;
+			margin: 15px;
 		}
 
 		.ayuda-modal-footer
-		.cerrar-ayuda2,
-		.modal-regional-wrapper
 		.cerrar-ayuda2 {
 			background-color: #0076B7;
 			color: #FFF;
 			font-weight: bold;
 			border: none;
 			border-radius: 0px;
-		}
-
-		.ayuda-modal-footer button,
-		.modal-regional-wrapper
-		.modal-footer button {
 			margin-top: 15px;
 		}
 
@@ -1015,7 +995,11 @@ a, button{
 	
 	.wrapper-red-distribucion {
 		padding: 20px 10px;
-		/*background: url('../img/') no-repeat center center fixed;*/		
+		background: url('../img/fondo_red_distribucion.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 
 	.wrapper-red-distribucion1 {
@@ -1040,6 +1024,12 @@ a, button{
 
 	.searchcoords {
 		background-color: rgba(27, 27, 27, 0.55);
+	}
+
+	.ubicaciones-sugeridas {
+		background-color: rgba(27, 27, 27, 0.40);
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 
 	.searchcoords input, 
@@ -1071,7 +1061,13 @@ a, button{
 	}
 
 	.searchcoords
-	.btn-busqueda-coordenadas {
+	.btn-busqueda-coordenadas,
+	.searchcoords
+	.btn-busqueda-coordenadas:hover,
+	.searchcoords
+	.btn-busqueda-coordenadas:active,
+	.searchcoords
+	.btn-busqueda-coordenadas:focus {
 		padding: 0;
 		height: 35px;
 		width: 20px;
@@ -1390,10 +1386,6 @@ a, button{
 			color: #1B71A1;
 		}
 
-		.content-wrapper{
-			margin-top: 93px;
-		}
-
 
 	/********************************************
 	*********************************************
@@ -1492,7 +1484,6 @@ a, button{
 	*********************************************/
 
 		.content-wrapper {
-			margin-top: 96px;
 			min-height: 100%;
 		}	
 
@@ -1562,6 +1553,73 @@ a, button{
 
 		.cat-llantas {
 			margin-top: 85px;
+		}
+
+
+	/********************************************
+	*********************************************
+			ESTILO RED DE DISTRIBUIDORES
+	*********************************************	
+	*********************************************/
+
+		.wrapper-red-distribucion1 {
+			margin-left: 60px;
+			position: relative;
+		}
+
+		.wrapper-red-distribucion1 h2 {
+			font-size: 2.5rem;
+		}
+
+		.buscar-coordenadas {
+			padding-right: 0px;
+		}
+
+		.checkbox-buscar-coord 
+		.checkbox-custom-label {
+			font-size: 1.1rem;
+			margin-top: 5px;
+		}
+
+		.searchcoords {
+			height: 400px;
+		}
+
+		.ubicaciones-sugeridas {
+			padding-top: 20px;
+			padding-bottom: 20px;
+			position: absolute;
+			right: 0px;
+			bottom: 0px;
+			height: 400px;
+			left: 33.3%;
+			z-index: 1;
+			display: none;
+		}
+
+		.ubicacion-sugerida {
+			padding: 10px 0px;
+		}
+
+		.ubicacion-sugerida:hover {
+			color: #FFF;
+			background-color: #007AC5;
+		}
+
+		.ubicacion-sugerida i {
+			color: #FFF;
+			font-size: 2.5rem;
+		}
+
+		.ubicacion-sugerida ul {
+			list-style: none;
+			margin: 0px;
+		}
+
+		.ubicacion-sugerida li {
+			color: #FFF;
+			font-size: 1.2rem;
+
 		}
 
 

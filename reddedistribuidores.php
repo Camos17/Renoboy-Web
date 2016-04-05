@@ -2,12 +2,12 @@
 		<?php include "menu-fijo.php";?>
 
 		<div class="col-xs-12 col-sm-12 col-md-12 content-wrapper wrapper-red-distribucion no-padding">
-			<div class="col-xs-12 no-padding wrapper-red-distribucion1">
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 no-padding wrapper-red-distribucion1">
 				<div class="col-xs-12 col-sm-12 col-md 12 no-padding healine-red-distribucion">	
 					<h2>ENCUENTRE SU PUNTO DE DISTRIBUCIÓN MÁS CERCANO</h2>
 				</div>
-				<div class="col-xs-12 col-md-4 buscar-coordenadas">
-					<div class="col-xs-12 col-lg-10 no-padding searchcoords">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-4 buscar-coordenadas">
+					<div class="col-xs-12 col-lg-12 no-padding searchcoords">
 						<!-- <input type="text" class="form-control" name="latitud" id='latitud' placeholder="Latitud">
 						<input type="text" class="form-control" name="longitud" id='longitud' placeholder="Longitud">
 						<a class="btn btn-default btn-buscar-coords col-xs-12" id='anchorCoords'>BUSCAR MAS CERCANO</a> -->
@@ -28,7 +28,7 @@
         					<label for="checkbox-3" class="col-xs-11 checkbox-custom-label">Latitud, Lonitud</label>
         				</div>
         				<div class="col-xs-12 linea-nacional-distribucion">
-        					<p>LÍNEA NACIONAL:       <a href="tel: #########" title="">########</a></p>
+        					<p>LÍNEA NACIONAL: <a href="tel: #########" title="">########</a></p>
         				</div>
         				<div class="col-xs-6 select-distancia">
         					<select class="form-control">
@@ -39,33 +39,65 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 col-md-2 no-padding col-md-8 texto-sedes2">
-						<div class="col-md-12">
-							<p class="text-center">
-								<strong>Terminal de Transporte Bogotá</strong><br>
-								Latitud: 4.6556863 <br>
-								<a href="tel: (+574) 604 0368">Longitud: -74.1169391 </a><br><br>
-								<strong>Terminal de Transporte Medellin</strong><br>
-								Latitud: 6.2481172 <br>
-								<a href="tel: (+574) 604 0368">Longitud: -75.6135184</a><br><br>
-								<strong>Terminal de Transporte Yumbo</strong><br>
-								Latitud: 3.5457313<br>
-								<a href="tel: (+572) 485 3453">Longitud: -76.5046236</a><br><br>
-							</p>
-						</div>				
+				<div class="col-md-3 col-lg-3 col hidden-xs hidden-sm no-padding ubicaciones-sugeridas">
+					<a class="col-md-12 no-padding ubicacion-sugerida" href="#" title="">
+						<div class="col-md-2">
+							<i class="fa fa-map-marker img-responsive"></i>
+						</div>
+						<div class="col-md-10 no-padding info-ubicacion-sugerida">
+							<ul class="col-md-12">
+								<li>Renoboy Distribuidor 1</li>
+								<li>A 10Km de Dsitancia</li>
+								<li>calle 63 #45-6</li>
+								<li>Tel: 400 27 61</li>
+								<li>Barrio: Chapinero</li>
+								<li>www.renoboyd1.com</li>
+							</ul>
+						</div>
+					</a>
+					<a class="col-md-12 no-padding ubicacion-sugerida" href="#" title="">
+						<div class="col-md-2">
+							<i class="fa fa-map-marker img-responsive"></i>
+						</div>
+						<div class="col-md-10 no-padding info-ubicacion-sugerida">
+							<ul class="col-md-12">
+								<li>Renoboy Distribuidor 1</li>
+								<li>A 10Km de Dsitancia</li>
+								<li>calle 63 #45-6</li>
+								<li>Tel: 400 27 61</li>
+								<li>Barrio: Chapinero</li>
+								<li>www.renoboyd1.com</li>
+							</ul>
+						</div>
+					</a>
+					<a class="col-md-12 no-padding ubicacion-sugerida" href="#" title="">
+						<div class="col-md-2">
+							<i class="fa fa-map-marker img-responsive"></i>
+						</div>
+						<div class="col-md-10 no-padding info-ubicacion-sugerida">
+							<ul class="col-md-12">
+								<li>Renoboy Distribuidor 1</li>
+								<li>A 10Km de Dsitancia</li>
+								<li>calle 63 #45-6</li>
+								<li>Tel: 400 27 61</li>
+								<li>Barrio: Chapinero</li>
+								<li>www.renoboyd1.com</li>
+							</ul>
+						</div>
+					</a>
 				</div>
-				<div class="col-xs-12 col-md-6 no-padding mapa-red-distribucion">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-1 no-padding mapa-red-distribucion">
 					<div id='map'></div>
-				</div>		
+				</div>
 			</div>
 		</div>	
 		<script type="text/javascript">
 			
-			/********************************************
-			*********************************************
-							FUNCTIONS
-			*********************************************	
-			*********************************************/
+		/********************************************
+		*********************************************
+						FUNCTIONS
+		*********************************************	
+		*********************************************/
 
 			function initMap(){
 			    var mapDiv = document.getElementById('map');
@@ -75,7 +107,7 @@
 			    var map = new google.maps.Map(mapDiv, {
 			      center: {lat: 4.6479, lng: -74.1236},
 			      zoom: 7
-			    });				
+			    });			
 
 			    // Marker : Bogota
 				var markerBog = new google.maps.Marker({
