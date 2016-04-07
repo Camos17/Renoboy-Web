@@ -52,7 +52,7 @@
 							<li class="col-sm-2 no-padding"><a href="buscadorserviciosreno.php">Productos</a></li>
 							<li class="col-sm-3 no-padding"><a href="reddedistribuidores.php">Red de Distribución</a></li>
 							<li class="col-sm-5 col-md-4 no-padding"><a href="#"><img class="hidden-xs icon-header" src="img/iconoheader3.svg" alt="">Kilometros Generando Valor</a></li>
-							<li class="col-sm-2 no-padding"><a href="#">Contacto</a></li>	
+							<li class="col-sm-2 no-padding"><a href="contacto.php">Contacto</a></li>	
 						</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
