@@ -20,7 +20,7 @@
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="col-md-3 navbar-header">
+				<div class="col-xs-12 col-md-3 no-padding navbar-header">
 					<button type="button" class="navbar-toggle collapsed menu-desplegable" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
