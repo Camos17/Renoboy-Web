@@ -53,34 +53,58 @@
 					<div class="col-xs-12 headline-contacto-cliente">
 						<h2>Contacto Cliente / Distribuidor</h2>
 					</div>
-					<div class="col-xs-12 no-padding dropdown filtro-asunto">
-						<button class="col-xs-12 no-padding btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-							<span class="caret"></span>
-						</button>
-						<ul class="col-xs-12 dropdown-menu">
-							<li><a href="#">HTML</a></li>
-							<li><a href="#">CSS</a></li>
-							<li><a href="#">JavaScript</a></li>
-						</ul>
-					</div>				
-					<div class="col-xs-12 no-padding formulario-contacto-cliente">
-						<div class="form-group">
-							<input type="" class="form-control" id="razon-social" placeholder="Razón Social*">
-						</div>
-						<div class="form-group">
-							<input type="" class="form-control" id="nombres-apellidos" placeholder="Contacto (Nombre y Apellidos)*">
-						</div>
-						<div class="form-group">
-							<input type="" class="form-control" id="ciudad" placeholder="Ciudad*">
-						</div>
-						<div class="form-group">
-							<input type="" class="form-control" id="e-mail" placeholder="E-mail*">
-						</div>
-						<div class="form-group">
-							<input type="" class="form-control" id="telefono" placeholder="Número de Teléfono">
+					<div class="col-xs-12 col-md-6 no-padding contenido-contacto-cliente1">
+						<div class="col-xs-12 no-padding dropdown filtro-asunto">
+							<!-- <button class="col-xs-12 no-padding btn dropdown-toggle btn-filtro-asunto" type="button" data-toggle="dropdown"><p class="col-xs-4">Asunto</p>
+								<span class="col-xs-2 col-xs-push-6">
+									<i class="fa fa-caret-down"></i>
+								</span>
+							</button> -->
+							<div class="select">
+								<select class="form-control">
+									<option>
+										opcion 1
+									</option>
+									<option>
+										opcion 2
+									</option>
+									<option>
+										opcion 3
+									</option>
+								</select>
+								<span></span>
+							</div>
+															
+						</div>									
+						<div class="col-xs-12 no-padding formulario-contacto-cliente">
+							<div class="form-group">
+								<input type="" class="form-control" id="razon-social" placeholder="Razón Social*">
+							</div>
+							<div class="form-group">
+								<input type="" class="form-control" id="nombres-apellidos" placeholder="Contacto (Nombre y Apellidos)*">
+							</div>
+							<div class="form-group">
+								<input type="" class="form-control" id="ciudad" placeholder="Ciudad*">
+							</div>
+							<div class="form-group">
+								<input type="" class="form-control" id="e-mail" placeholder="E-mail*">
+							</div>
+							<div class="form-group">
+								<input type="" class="form-control" id="telefono" placeholder="Número de Teléfono">
+							</div>
 						</div>
 					</div>
-					<textarea name="" rows="4"></textarea>
+					<div class="col-xs-12 col-md-6 no-padding contenido-contacto-cliente2">
+						<textarea class="form-control" name="" rows="5" placeholder="MENSAJE"></textarea>
+						<p class="col-xs-12 parrafo1 no-padding">Limite de carácteres 0 a 250</p>
+						<p class="col-xs-12 parrafo2">Aceptas los <a href="#" title="">terminos y condiciones</a></p>
+						<div class="col-xs-12 checkbox-promociones">
+							<input id="checkbox-4" class="col-xs-1 checkbox-buscar" name="checkbox-4" type="checkbox" checked="">
+        					<label for="checkbox-4" class="col-xs-11 checkbox-custom-label">Deseo recibir, ofertas especiales y noticias <span class="span1">Renoboy</span>.<br>Tu información está protegida por la estricta Política de Privacidad <span class="span2">Renoboy S.A.</span> y no será entregada a terceros bajo ninguna circunstancia.</label>
+        				</div>
+					</div>
+						
+					
 				</form>
 			</div>
 		</div>
