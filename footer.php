@@ -136,10 +136,13 @@
 			*********************************************/
 
 			$("#ayuda-utilizacion").click(function(){
-				$(".ayuda-buscador-servicios").show();
+				$(".ayuda-buscador-servicios").fadeIn(1000);
 			});
+
 			$(".btn-cerrar-ayuda-buscador").click(function(){
-				$(".ayuda-buscador-servicios").hide();
+				$(".ayuda-buscador-servicios").fadeOut(1000);
 			});
+			
+
 
 		</script>
