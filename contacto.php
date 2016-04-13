@@ -2,7 +2,7 @@
 
 	<div class="col-xs-12 wrapper-contacto no-padding fondo-contacto">
 		<div class="col-xs-12 layer-fondo-contacto">
-			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 contenido-contacto">
+			<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 contenido-contacto">
 							
 				<form class="col-xs-12 no-padding contenido-contacto-cliente">
 					<div class="col-xs-12 headline-contacto-cliente">
@@ -21,13 +21,34 @@
 										Asunto
 									</option>
 									<option>
-										opcion 1
+										Felicitaciones, quejas, reclamos y comentarios
 									</option>
 									<option>
-										opcion 2
+										Comprar reencauche
 									</option>
 									<option>
-										opcion 3
+										Producto
+									</option>
+									<option>
+										Promociones vigentes
+									</option>
+									<option>
+										Publicidad y Patrocinio
+									</option>
+									<option>
+										Información sobre Centros de Servicio
+									</option>
+									<option>
+										Información de Garantía
+									</option>
+									<option>
+										Contacto Súper Intendencia Industria y Comercio:
+									</option>
+									<option>
+										 http://www.sic.gov.co/drupal/proteccion-del-consumidor (este es un link al sitio de la SIC)3
+									</option>
+									<option>
+										Otros
 									</option>
 								</select>
 							</div>
@@ -66,7 +87,7 @@
         				</button>
 					</div>
 					<div class="col-xs-12 col-sm-4 btn-regresar-contacto">
-						<a class="col-xs-12 btn btn-regresar-contacto2" href="#" title=""><span> <i class="fa fa-angle-left" aria-hidden="true"></i> REGRESAR A CONTÁCTENOS</span></a>
+						<a class="col-xs-12 no-padding btn btn-regresar-contacto2" href="#" title=""><span> <i class="fa fa-angle-left" aria-hidden="true"></i> REGRESAR A CONTÁCTENOS</span></a>
 					</div>				
 				</form>
 				<form class="col-xs-12 no-padding contenido-contacto-nocliente">
@@ -86,13 +107,34 @@
 										Asunto
 									</option>
 									<option>
-										opcion 1
+										Felicitaciones, quejas, reclamos y comentarios
 									</option>
 									<option>
-										opcion 2
+										Comprar reencauche
 									</option>
 									<option>
-										opcion 3
+										Producto
+									</option>
+									<option>
+										Promociones vigentes
+									</option>
+									<option>
+										Publicidad y Patrocinio
+									</option>
+									<option>
+										Información sobre Centros de Servicio
+									</option>
+									<option>
+										Información de Garantía
+									</option>
+									<option>
+										Contacto Súper Intendencia Industria y Comercio:
+									</option>
+									<option>
+										 http://www.sic.gov.co/drupal/proteccion-del-consumidor (este es un link al sitio de la SIC)3
+									</option>
+									<option>
+										Otros
 									</option>
 								</select>
 							</div>
@@ -126,13 +168,10 @@
 									Cuántos vehículos tiene?
 								</option>
 								<option>
-									opcion 1
+									Menos de 10
 								</option>
 								<option>
-									opcion 2
-								</option>
-								<option>
-									opcion 3
+									Más de 10
 								</option>
 							</select>
 						</div>
@@ -142,13 +181,10 @@
 									Tipo de Vehículo
 								</option>
 								<option>
-									opcion 1
+									Buses
 								</option>
 								<option>
-									opcion 2
-								</option>
-								<option>
-									opcion 3
+									Camiones
 								</option>
 							</select>
 						</div>
@@ -168,11 +204,11 @@
         				</button>
 					</div>
 					<div class="col-xs-12 col-sm-4 btn-regresar-contacto">
-						<a class="col-xs-12 btn  btn-regresar-contacto2" href="#" title=""><span> <i class="fa fa-angle-left" aria-hidden="true"></i> REGRESAR A CONTÁCTENOS</span></a>
+						<a class="col-xs-12 btn no-padding btn-regresar-contacto2" href="#" title=""><span> <i class="fa fa-angle-left" aria-hidden="true"></i> REGRESAR A CONTÁCTENOS</span></a>
 					</div>		
 				</form>
 
-				<div class="col-xs-12 no-padding contenido1">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 no-padding contenido1">
 					<div class="col-xs-3 col-sm-2 no-padding icono">
 						<span class="col-xs-12">
 							<i class="col-xs-12 no-padding fa fa-envelope"></i>
@@ -189,7 +225,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 no-padding contenido1">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 no-padding contenido1">
 					<div class="col-xs-3 col-sm-2 no-padding icono contacto-icono2">
 						<span class="col-xs-12">
 							<i class="col-xs-12 no-padding fa fa-phone"></i>
@@ -204,7 +240,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 no-padding contenido1 contenido-ubicar">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 no-padding contenido1 contenido-ubicar">
 					<div class="col-xs-3 col-sm-2 no-padding icono">
 						<span class="col-xs-12">
 							<i class="col-xs-12 no-padding fa fa-map-marker"></i>

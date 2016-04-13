@@ -150,8 +150,8 @@ a, button{
 /********************************************
 *********************************************
 				ESTILO HOME
-*********************************************	
-
+*********************************************
+*********************************************/
 
 
 
@@ -1169,9 +1169,6 @@ a, button{
 *********************************************	
 *********************************************/
   	
-	.wrapper-contacto {
-		min-height: 100%;
-	}
 
   	.fondo-contacto {
   		background: url('../img/imagen_fondo_noticias.jpg') no-repeat center center fixed;
@@ -1345,13 +1342,6 @@ a, button{
 			right: 0.5em;
 			pointer-events: none;
 		}
-
-		/*.select:after {
-			position: absolute;
-			top: 7px;
-			right: 0.5em;
-			pointer-events: none;
-		}*/
 
 		.select select {
 			cursor: pointer;
@@ -1804,10 +1794,22 @@ a, button{
 	*********************************************	
 	*********************************************/
 
+		.contenido-contacto {
+			height: 460px;
+			margin-top: 35px;
+			margin-bottom: 35px;
+			padding: 25px 20px;
+		}
+
 		.contenido1 .icono {
 			margin-left: 20px;
 			margin-right: 20px;
 			top: 10px;
+		}
+
+		.contenido1
+		.contacto-icono2 {
+			top: 25px;
 		}
 
 		.contenido1 i {
@@ -1824,10 +1826,11 @@ a, button{
 
 
 		/********************************************
-			ESTILO CONTACTO - CLIENTE
+			ESTILO CONTACTO - CLIENTE - NO CLIENTE
 		*********************************************/		
 
-			.contenido-contacto-cliente {
+			.contenido-contacto-cliente,
+			.contenido-contacto-nocliente {
 				margin-left: 3%;
 			}
 
@@ -1837,8 +1840,40 @@ a, button{
 				padding-left: 10px;
 			}
 
+			.headline-contacto-cliente {
+				margin-bottom: 10px;
+			}
+
+			.headline-contacto-cliente h2 {
+				margin-top: 0px;
+			}
+
+			.contenido-contacto-nocliente
+			.headline-contacto-cliente {
+				margin-bottom: 0px;
+			}
+
+			.contenido-contacto-nocliente
+			.contenido-contacto-cliente1
+			.form-control {
+				height: 25px;
+				font-size: 11px;
+			}
+
 			.filtro-asunto {
 				margin-top: 0px;
+			}
+
+			.contenido-contacto-nocliente
+			.contenido-contacto-cliente1
+			.filtro-asunto {
+				margin-bottom: 5px;
+			}
+
+			.contenido-contacto-nocliente
+			.contenido-contacto-cliente1
+			.select::before {
+				top: 0px;
 			}
 
 			.contenido-contacto-cliente2
