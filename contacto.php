@@ -3,8 +3,7 @@
 	<div class="col-xs-12 wrapper-contacto no-padding fondo-contacto">
 		<div class="col-xs-12 layer-fondo-contacto">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 contenido-contacto">
-				
-				
+							
 				<form class="col-xs-12 no-padding contenido-contacto-cliente">
 					<div class="col-xs-12 headline-contacto-cliente">
 						<h2>Contacto Cliente / Distribuidor</h2>
@@ -218,6 +217,7 @@
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</div>
@@ -235,31 +235,26 @@
 		*********************************************	
 		*********************************************/
 
-		$(".btn-regresar-contacto2").click(function(){
-			$(".contenido-contacto-cliente").fadeOut(1000, function(){
-				$(".contenido1").fadeIn(1000);
-			});	
-		});
-
-		$(".btn-regresar-contacto2").click(function(){
-			$(".contenido-contacto-nocliente").fadeOut(1000, function(){
-				$(".contenido1").fadeIn(1000);				
-			});		
-		});
-
-
-		$(".btn-opcion-si").click(function(){
-			$(".contenido1").fadeOut(1000, function(){
-				$(".contenido-contacto-cliente").fadeIn(1000);		
+			$(".btn-regresar-contacto2").click(function(){
+				$(".contenido-contacto-cliente").fadeOut(1000, function(){
+					$(".contenido1").fadeIn(1000);
+				});
+				$(".contenido-contacto-nocliente").fadeOut(1000, function(){
+					$(".contenido1").fadeIn(1000);				
+				});	
 			});
-		});
 
-		$(".btn-opcion-no").click(function(){
-			$(".contenido1").fadeOut(1000, function(){
-				$(".contenido-contacto-nocliente").fadeIn(1000);
+			$(".btn-opcion-si").click(function(){
+				$(".contenido1").fadeOut(1000, function(){
+					$(".contenido-contacto-cliente").fadeIn(1000);		
+				});
 			});
-		});
 
+			$(".btn-opcion-no").click(function(){
+				$(".contenido1").fadeOut(1000, function(){
+					$(".contenido-contacto-nocliente").fadeIn(1000);
+				});
+			});
 
 
 	</script>
