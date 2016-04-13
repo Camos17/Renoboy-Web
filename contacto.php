@@ -2,7 +2,7 @@
 
 	<div class="col-xs-12 wrapper-contacto no-padding fondo-contacto">
 		<div class="col-xs-12 layer-fondo-contacto">
-			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 contenido-contacto">
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 contenido-contacto">
 							
 				<form class="col-xs-12 no-padding contenido-contacto-cliente">
 					<div class="col-xs-12 headline-contacto-cliente">
@@ -190,7 +190,7 @@
 					</div>
 				</div>
 				<div class="col-xs-12 no-padding contenido1">
-					<div class="col-xs-3 col-sm-2 no-padding icono">
+					<div class="col-xs-3 col-sm-2 no-padding icono contacto-icono2">
 						<span class="col-xs-12">
 							<i class="col-xs-12 no-padding fa fa-phone"></i>
 						</span>
