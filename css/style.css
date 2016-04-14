@@ -1424,14 +1424,28 @@ a, button{
 			resize: none;
 		}
 
+		.checkbox-terminos-condiciones input:focus,
 		.checkbox-promociones input:focus {
 			outline: 0;
 		}
 
 		.checkbox-promociones label {
 			font-size: 12px;
+			font-weight: normal;
+			outline: 0;
+		}
+
+		.checkbox-terminos-condiciones label {
+			font-size: 14px;
 			font-weight: lighter;
-			outline: 0 ;
+			outline: 0;
+		}
+
+		.checkbox-terminos-condiciones label a:hover,
+		.checkbox-terminos-condiciones label a:focus,
+		.checkbox-terminos-condiciones label a:active {
+			text-decoration: none;
+			color: #337ab7;
 		}
 
 		.checkbox-promociones span {
@@ -1879,12 +1893,15 @@ a, button{
 			.contenido-contacto-cliente2
 			.parrafo1 {
 				font-size: 1.2rem;
+				margin-top: 15px;
 			}
 
 			.contenido-contacto-cliente2
 			.parrafo2 {
 				font-size: 1.3rem;
 				margin-left: 41px;
+				margin-top: 5px;
+				margin-bottom: 12px;
 			}
 
 			.checkbox-promociones label {
@@ -1893,7 +1910,7 @@ a, button{
 
 			.btn-regresar-contacto {
 				margin-top: 0px;
-				top: -26px;
+				top: -29px;
 			}
 
 			.btn-regresar-contacto a,
@@ -1902,7 +1919,6 @@ a, button{
 			.btn-regresar-contacto a:focus {
 				font-size: 1.2rem;
 			}
-
 }
 
 @media screen and (min-width: 992px) {
@@ -2257,6 +2273,18 @@ a, button{
 			padding-top: 20%;
 		}
 	
+
+	/********************************************
+	*********************************************
+			ESTILO CONTACTO
+	*********************************************	
+	*********************************************/
+
+		.contenido-contacto {
+			margin-top: 75px;
+			margin-bottom: 75px;	
+		}
+		
 
 	
 	/********************************************

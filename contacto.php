@@ -2,7 +2,7 @@
 
 	<div class="col-xs-12 wrapper-contacto no-padding fondo-contacto">
 		<div class="col-xs-12 layer-fondo-contacto">
-			<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 contenido-contacto">
+			<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 contenido-contacto">
 							
 				<form class="col-xs-12 no-padding contenido-contacto-cliente">
 					<div class="col-xs-12 headline-contacto-cliente">
@@ -51,8 +51,7 @@
 										Otros
 									</option>
 								</select>
-							</div>
-															
+							</div>							
 						</div>									
 						<div class="col-xs-12 no-padding formulario-contacto-cliente">
 							<div class="form-group">
@@ -77,10 +76,16 @@
 							<textarea class="form-control" name="" rows="7" placeholder="MENSAJE"></textarea>
 						</div>
 						<p class="col-xs-12 parrafo1 no-padding">Limite de carácteres 0 a 250</p>
-						<p class="col-xs-12 col-sm-10 parrafo2">Aceptas los <a href="#" title="">terminos y condiciones</a></p>
-						<div class="col-xs-12 checkbox-promociones">
+
+						<div class="col-xs-12 checkbox-terminos-condiciones">
 							<input id="checkbox-4" class="col-xs-1 checkbox-buscar" name="checkbox-4" type="checkbox" checked="">
-        					<label for="checkbox-4" class="col-xs-11 checkbox-custom-label">Deseo recibir, ofertas especiales y noticias <span class="span1">Renoboy</span>.<br>Tu información está protegida por la estricta Política de Privacidad <span class="span2">Renoboy S.A.</span> y no será entregada a terceros bajo ninguna circunstancia.</label>
+        					<label for="checkbox-4" class="col-xs-11 checkbox-custom-label">
+        						Aceptas los <a href="#" title="">terminos y condiciones</a></p>
+        					</label>
+        				</div>
+						<div class="col-xs-12 checkbox-promociones">
+							<input id="checkbox-5" class="col-xs-1 checkbox-buscar" name="checkbox-5" type="checkbox" checked="">
+        					<label for="checkbox-5" class="col-xs-11 checkbox-custom-label">Deseo recibir, ofertas especiales y noticias <span class="span1">Renoboy</span>.<br>Tu información está protegida por la estricta Política de Privacidad <span class="span2">Renoboy S.A.</span> y no será entregada a terceros bajo ninguna circunstancia.</label>
         				</div>
         				<button type="button" class="col-xs-4 col-xs-push-8 col-sm-3 col-sm-push-0 btn btn-default btn-enviar-formulario">
         					Enviar
@@ -193,11 +198,16 @@
 						<div class="col-xs-12 col-sm-10 no-padding">
 							<textarea class="form-control" name="" rows="7" placeholder="MENSAJE"></textarea>
 						</div>
-						<p class="col-xs-12 parrafo1 no-padding">Limite de carácteres 0 a 250</p>
-						<p class="col-xs-12 col-sm-10 parrafo2">Aceptas los <a href="#" title="">terminos y condiciones</a></p>
+						<p class="col-xs-12 parrafo1 no-padding">Limite de carácteres 0 a 250</p>		
+						<div class="col-xs-12 checkbox-terminos-condiciones">
+							<input id="checkbox-6" class="col-xs-1 checkbox-buscar" name="checkbox-6" type="checkbox" checked="">
+        					<label for="checkbox-6" class="col-xs-11 checkbox-custom-label">
+        						Aceptas los <a href="#" title="">terminos y condiciones</a></p>
+        					</label>
+        				</div>
 						<div class="col-xs-12 checkbox-promociones">
-							<input id="checkbox-4" class="col-xs-1 checkbox-buscar" name="checkbox-4" type="checkbox" checked="">
-        					<label for="checkbox-4" class="col-xs-11 checkbox-custom-label">Deseo recibir, ofertas especiales y noticias <span class="span1">Renoboy</span>.<br>Tu información está protegida por la estricta Política de Privacidad <span class="span2">Renoboy S.A.</span> y no será entregada a terceros bajo ninguna circunstancia.</label>
+							<input id="checkbox-7" class="col-xs-1 checkbox-buscar" name="checkbox-7" type="checkbox" checked="">
+        					<label for="checkbox-7" class="col-xs-11 checkbox-custom-label">Deseo recibir, ofertas especiales y noticias <span class="span1">Renoboy</span>.<br>Tu información está protegida por la estricta Política de Privacidad <span class="span2">Renoboy S.A.</span> y no será entregada a terceros bajo ninguna circunstancia.</label>
         				</div>
         				<button type="button" class="col-xs-4 col-xs-push-8 col-sm-3 col-sm-push-0 btn btn-default btn-enviar-formulario">
         					Enviar
