@@ -90,10 +90,14 @@
 				</div>
 				<div id="ancla" class="col-xs-12 hidden-md hidden-lg">			
 					<button id="btn-mas-sedes" class="col-xs-offset-5 btn center-block">
-						<p id="menos-sucursales">Más Sucursales</p>
+						<p id="menos-sucursales">Más Plantas</p>
 						<span class="glyphicon glyphicon-chevron-down"></span>
 						<span class="glyphicon glyphicon-chevron-up"></span>
 					</button>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-sm-offset-4 legalidad">
+					<a class="col-xs-6 no-padding" href="#" title="">Políticas de Privacidad</a>
+					<a class="col-xs-6 no-padding" href="#" title="">Terminos y Condiciones</a>
 				</div>
 			</div>
 		</footer>
@@ -112,9 +116,9 @@
 					$("#btn-mas-sedes .glyphicon-chevron-up").toggle();
 			    	$("#btn-mas-sedes .glyphicon-chevron-down").toggle();
 			    	if (sucursalesabierto) {
-						$("#menos-sucursales").text("Más Sucursales");
+						$("#menos-sucursales").text("Más Plantas");
 			    	} else {
-			    		$("#menos-sucursales").text("Menos Sucursales");
+			    		$("#menos-sucursales").text("Menos Plantas");
 			    	}
 			    	sucursalesabierto = !sucursalesabierto;
 				});

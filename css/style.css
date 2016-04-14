@@ -1465,7 +1465,7 @@ a, button{
 			padding-top: 2px;
 			padding-bottom: 2px;
 			font-size: 16px;
-			margin-top: 20px;
+			margin-top: 25px;
 		}
 
 		.btn-regresar-contacto {
@@ -1487,6 +1487,46 @@ a, button{
 		.btn-regresar-contacto i {
 			margin-right: 10px;
 		}
+
+
+/********************************************
+*********************************************
+		ESTILO LEGALIDAD SITIO
+*********************************************	
+*********************************************/
+
+	.fondo-legalidad {
+  		background: url('../img/imagen_fondo_noticias.jpg') no-repeat center center fixed;
+  		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+  	}
+
+  	.layer-fondo-legalidad {
+  		position: relative;
+  		width: 100%;
+  		height: 100%;
+  		background-color: rgba(30, 30, 30, 0.25);
+  	}
+	
+	.container-legal {
+		background-color: rgba(41, 105, 156, 0.8);
+		padding: 30px 25px;
+		color: #FFF;
+		margin-bottom: 40px;	
+	}
+
+	.headline-legalidad {
+		color: #FFF;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-align: center;
+		font-size: 2.2em;
+		margin-top: 40px;
+		margin-bottom: 25px;
+		text-shadow: 3px 1px 1px rgba(255, 255, 255, 1);
+	}
 
 
 /********************************************
@@ -1635,10 +1675,12 @@ a, button{
 			width: 68px;
 		}
 
-		#btn-mas-sedes {
+		#btn-mas-sedes,
+		#btn-mas-sedes:active {
 			background-color: #1975AA;
 			color: #FFF;
 			font-size: 1.7em;
+			box-shadow: none;
 		}
 
 		#btn-mas-sedes p{
@@ -1648,6 +1690,15 @@ a, button{
 
 		#btn-mas-sedes .glyphicon-chevron-up {
 			display: none;
+		}
+
+		.legalidad {
+			margin-top: 25px;
+		}
+
+		.legalidad a{
+			font-size: 11px;
+			color: #FFF;
 		}
 
 
@@ -1870,8 +1921,8 @@ a, button{
 			.contenido-contacto-nocliente
 			.contenido-contacto-cliente1
 			.form-control {
-				height: 25px;
-				font-size: 11px;
+				height: 27px;
+				font-size: 12px;
 			}
 
 			.filtro-asunto {
@@ -1910,7 +1961,8 @@ a, button{
 
 			.btn-regresar-contacto {
 				margin-top: 0px;
-				top: -29px;
+				top: -28px;
+				left: 10px;
 			}
 
 			.btn-regresar-contacto a,
@@ -2000,6 +2052,29 @@ a, button{
 		.cat-llantas {
 			margin-top: 85px;
 		}
+
+
+	/********************************************
+	*********************************************
+			ESTILO CONTACTO
+	*********************************************	
+	*********************************************/
+
+
+		/********************************************
+			ESTILO CONTACTO - CLIENTE - NO CLIENTE
+		*********************************************/	
+
+			.contenido-contacto-nocliente
+			.contenido-contacto-cliente2
+			.checkbox-terminos-condiciones {
+				margin-top: 20px;
+			}
+
+			.btn-regresar-contacto {
+				top: -28px;
+				left: 10px;
+			}
 
 
 	/********************************************
@@ -2284,8 +2359,12 @@ a, button{
 			margin-top: 75px;
 			margin-bottom: 75px;	
 		}
-		
 
+		.contenido-contacto
+		.contenido-escribenos {
+			margin-top: 30px;
+		}
+		
 	
 	/********************************************
 	*********************************************
@@ -2311,6 +2390,24 @@ a, button{
 
 		.icono-legal {
 			height: 230px;
+		}
+}
+
+@media screen and (min-width: 1300px) {
+
+	/********************************************
+	*********************************************
+			ESTILO CONTACTO
+	*********************************************	
+	*********************************************/
+
+		.contenido-contacto {
+			height: 480px;
+		}
+
+		.contenido-contacto
+		.contenido-escribenos {
+			margin-top: 40px;
 		}
 }
 

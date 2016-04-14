@@ -42,10 +42,7 @@
 										Información de Garantía
 									</option>
 									<option>
-										Contacto Súper Intendencia Industria y Comercio:
-									</option>
-									<option>
-										 http://www.sic.gov.co/drupal/proteccion-del-consumidor (este es un link al sitio de la SIC)3
+										Contacto Súper Intendencia Industria y Comercio: http://www.sic.gov.co/drupal/proteccion-del-consumidor (este es un link al sitio de la SIC)3
 									</option>
 									<option>
 										Otros
@@ -133,10 +130,7 @@
 										Información de Garantía
 									</option>
 									<option>
-										Contacto Súper Intendencia Industria y Comercio:
-									</option>
-									<option>
-										 http://www.sic.gov.co/drupal/proteccion-del-consumidor (este es un link al sitio de la SIC)3
+										Contacto Súper Intendencia Industria y Comercio: http://www.sic.gov.co/drupal/proteccion-del-consumidor (este es un link al sitio de la SIC)3
 									</option>
 									<option>
 										Otros
@@ -218,7 +212,7 @@
 					</div>		
 				</form>
 
-				<div class="col-xs-12 col-sm-10 col-sm-offset-1 no-padding contenido1">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 no-padding contenido1 contenido-escribenos">
 					<div class="col-xs-3 col-sm-2 no-padding icono">
 						<span class="col-xs-12">
 							<i class="col-xs-12 no-padding fa fa-envelope"></i>
@@ -301,6 +295,5 @@
 					$(".contenido-contacto-nocliente").fadeIn(1000);
 				});
 			});
-
 
 	</script>
