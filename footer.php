@@ -46,8 +46,7 @@
 				</a>
 			</div> <!-- Carousel -->
 
-			<div class="col-xs-12 col-md-6 col-lg-6 c2-footer">
-				
+			<div class="col-xs-12 col-md-6 col-lg-6 c2-footer">				
 			
 				<div class="col-xs-12 col-md-4 no-padding texto-sedes2">
 					<p class="text-center"><strong>Planta Renoboy Duitama</strong><br>
@@ -95,9 +94,9 @@
 						<span class="glyphicon glyphicon-chevron-up"></span>
 					</button>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-sm-offset-4 legalidad">
-					<a class="col-xs-6 no-padding text-center" href="#" title="">Políticas de Privacidad</a>
-					<a class="col-xs-6 no-padding text-center" href="#" title="">Terminos y Condiciones</a>
+				<div class="col-xs-12 col-sm-12 col-md-12 legalidad">
+					<a class="col-xs-6 col-sm-4 col-lg-3 col-sm-offset-2 col-md-offset-4 col-lg-offset-6 no-padding text-center" href="legalidadweb.php" title="">Políticas de Privacidad</a>
+					<a class="col-xs-6 col-sm-4 col-lg-3 no-padding text-center" href="legalidadweb.php" title="">Terminos y Condiciones</a>
 				</div>
 			</div>
 		</footer>

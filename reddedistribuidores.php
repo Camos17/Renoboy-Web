@@ -3,7 +3,7 @@
 
 		<div class="col-xs-12 col-sm-12 col-md-12 content-wrapper wrapper-red-distribucion no-padding">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 no-padding wrapper-red-distribucion1">
-				<div class="col-xs-12 col-sm-12 col-md 12 no-padding healine-red-distribucion">	
+				<div class="col-xs-12 col-sm-12 col-md 12 no-padding headline-red-distribucion">	
 					<h2>ENCUENTRE SU PUNTO DE DISTRIBUCIÓN MÁS CERCANO</h2>
 				</div>
 				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-4 buscar-coordenadas">

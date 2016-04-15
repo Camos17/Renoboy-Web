@@ -1009,7 +1009,7 @@ a, button{
 	}
 
 	.wrapper-red-distribucion1
-	.healine-red-distribucion {
+	.headline-red-distribucion {
 		border-bottom: 3px solid #386C9A;
 	}
 
@@ -1161,6 +1161,95 @@ a, button{
 	    background: white;
 	    padding: 10px;
   	}
+
+
+/********************************************
+*********************************************
+		ESTILO KILOMETROS GENERANDO VALOR
+*********************************************	
+*********************************************/
+	
+	.fondo-kilometros-generando-valor {
+  		background: url('../img/imagen_fondo_noticias.jpg') no-repeat center center fixed;
+  		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+  	}
+
+  	.layer-fondo-kilometros-generando-valor {
+  		position: relative;
+  		width: 100%;
+  		height: 100%;
+  		background-color: rgba(30, 30, 30, 0.25);
+  	}
+
+  	.contenido-kilometros-generando-valor {
+  		margin-top: 30px;
+  		margin-bottom: 30px;
+  	}
+
+  	.layer-kilometros {
+  		position: relative;
+  		width: 100%;
+  		height: 100%;
+  		background-color: rgba(7, 120, 188, 0.75);
+  	}
+
+  	.fondo-kilometros1 {
+  		background: url('../img/28_años_generando_valor.jpg') no-repeat 100% 100%;
+		height: 175px;
+  	}
+
+  	.fondo-kilometros1 p {
+  		color: #FFF;
+  		font-size: 1.9rem;
+  		top: 27%;
+  		line-height: 20px;
+  		padding-top: 20px;
+		padding-bottom: 20px;
+  	}
+
+  	.fondo-kilometros1:hover p {
+		background-color: #0170BF;
+  	}
+
+  	.fondo-kilometros1
+	.layer-kilometros:hover {
+  		background-color: transparent;
+	}
+
+	.fondo-kilometros2 {
+		height: 350px;
+	}
+
+  	.layer-kilometros-mision,
+  	.layer-kilometros-certificaciones {
+  		position: relative;
+  		height: 175px;
+  		background-color: rgba(7, 120, 188, 0.75);
+  	}
+
+	.fondo-mision {
+  		background: url('../img/mision_vision_valores.jpg') no-repeat 100% 100%;
+		height: 175px;
+  	}
+
+  	.fondo-mision a {
+  		color: #FFF;
+  		font-size: 1.5rem;
+  		margin-top: 30px;/*
+  		background-color: #0170BF;*/
+  	}
+
+  	
+
+  	.fondo-certificaciones {
+  		background: url('../img/certificaciones.jpg') no-repeat 100% 100%;
+		height: 175px;
+  	}
+	
+
 
 
 /********************************************
@@ -2246,7 +2335,7 @@ a, button{
 
 		.texto-sedes2 {
 			margin-top: 40px;
-			margin-bottom: 20px;
+			margin-bottom: 0px;
 		}
 
 		.texto-sedes2 p{
@@ -2262,6 +2351,20 @@ a, button{
 	
 		.texto-sedes3 {
 			margin-top: 0px;
+		}
+
+		.legalidad {
+			margin-top: 14px;
+		}
+
+		.legalidad a{
+			font-size: 11px;
+			color: #9E9E9E;
+			font-weight: bold;
+		}
+
+		.legalidad a:nth-child(1) {
+			border-right: 1px #9E9E9E solid;
 		}
 }
 
