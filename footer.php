@@ -96,8 +96,8 @@
 					</button>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-sm-offset-4 legalidad">
-					<a class="col-xs-6 no-padding" href="#" title="">Políticas de Privacidad</a>
-					<a class="col-xs-6 no-padding" href="#" title="">Terminos y Condiciones</a>
+					<a class="col-xs-6 no-padding text-center" href="#" title="">Políticas de Privacidad</a>
+					<a class="col-xs-6 no-padding text-center" href="#" title="">Terminos y Condiciones</a>
 				</div>
 			</div>
 		</footer>
