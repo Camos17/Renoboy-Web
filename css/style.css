@@ -1222,6 +1222,7 @@ a, button{
 
 	.fondo-kilometros2 {
 		height: 350px;
+		position: relative;
 	}
 
   	.fondo-kilometros2 p {
@@ -1240,9 +1241,11 @@ a, button{
 		height: 175px;
   	}
 
-  	.fondo-mision a {
+  	.fondo-mision a,
+  	.fondo-certificaciones {
   		color: #FFF;
   		font-size: 1.5rem;
+  		cursor: pointer;
   	}
 
   	.fondo-mision a:hover 
@@ -1269,7 +1272,7 @@ a, button{
   	.fondo-certificaciones p {
   		color: #FFF;
   		font-size: 1.8rem;
-  		top: 30%;
+  		top: 31%;
   		line-height: 18px;
   		padding-top: 20px;
   		padding-bottom: 20px;
@@ -1286,12 +1289,18 @@ a, button{
   	}
 
   	.fondo-kilometros3 {
-  		background: url('../img/visita-virtual.jpg') no-repeat 100% 100%;
+  		background: url('../img/visita_virtual.jpg') no-repeat 100% 100%;
 		height: 175px;
   	}
 
-  	.fondo-kilometros3 p {
-  		
+  	.fondo-kilometros3 p,
+  	.fondo-kilometros4 p {
+  		color: #FFF;
+  		font-size: 1.8rem;
+  		line-height: 18px;
+  		padding-top: 40px;
+  		padding-bottom: 20px;
+  		margin-bottom: 0px;
   	}
 
   	.fondo-kilometros3:hover
@@ -1299,16 +1308,296 @@ a, button{
   		background-color: transparent;
   	}
 
+	.fondo-kilometros3
+  	.contenido-kilometros3,
+  	.fondo-kilometros4
+  	.contenido-kilometros4 {
+  		margin-top: 30px;
+  	}  	
 
+  	.fondo-kilometros3:hover
+  	.contenido-kilometros3 {
+  		background-color: #0170BF;
+  	}
 
-  	.btn-visita-virtual {
+  	.fondo-kilometros3:hover
+  	.contenido-kilometros3 p {
+  		padding-top: 20px;
+  	}
+
+  	.btn-visita-virtual,
+  	.btn-mas-reencauche,
+  	.btn-mas-quienes-confian {
+  		display: none;
 		background-color: transparent;
-		border: 3px solid #FFF;
+		border: 2px solid #FFF;
 		border-radius: 0px;
 		text-transform: uppercase;
 		color: #FFF;
+		margin-bottom: 15px;
 	}
+
+	.fondo-kilometros3:hover
+	.btn-visita-virtual {
+		display: block;
+		color: #FFF;
+		text-decoration: none;
+	}
+
+	.fondo-kilometros4 {
+		height: 350px;
+	}
+
+	.fondo-nuestro-reencauche {
+  		background: url('../img/nuestro_reencauche.jpg') no-repeat 100% 100%;
+		height: 175px;
+  	}
+
+  	.fondo-quienes-confian {
+  		background: url('../img/quienes_confian.jpg') no-repeat 100% 100%;
+		height: 175px;
+  	}
+
+  	.fondo-nuestro-reencauche:hover
+  	.btn-mas-reencauche,
+  	.fondo-quienes-confian:hover
+  	.btn-mas-quienes-confian {
+  		display: block;
+		color: #FFF;
+		text-decoration: none;
+  	}
+
+  	.fondo-nuestro-reencauche:hover
+  	.layer-kilometros,
+  	.fondo-quienes-confian:hover
+  	.layer-kilometros {
+  		background-color: transparent;
+  	}
+
+  	.fondo-nuestro-reencauche:hover
+  	.contenido-kilometros4,
+  	.fondo-quienes-confian:hover
+  	.contenido-kilometros4 {
+  		background-color: #0170BF;
+  	}
+
+  	.fondo-nuestro-reencauche:hover
+  	.contenido-kilometros4 p,
+  	.fondo-quienes-confian:hover
+  	.contenido-kilometros4 p {
+  		padding-top: 20px;
+  	}
+
+  	/********************************************
+		ESTILO VISTA INTERNA MISION
+	*********************************************/
+
+		.vista-mision {
+			position: absolute;
+			display: none;
+			background-color: #FFF;
+			color: #0170BF;
+			height: 350px;
+			top: 175px;
+			z-index: 1;
+			text-align: justify;
+			word-spacing: -1px;
+		}
+
+		.vista-mision
+		.headline-vista-mision h2 {
+			margin-top: 45px;
+			margin-bottom: 35px;
+		}
+
+		.vista-mision p {
+			font-size: 1.6rem;
+		}
+
+		.vista-mision
+		.cerrar-vista-interna {
+			margin-top: 50px;
+		}
+
+		.vista-mision
+		.btn-cerrar-vista-interna,
+		.vista-mision
+		.btn-cerrar-vista-interna:hover {
+			background-color: #0170BF;
+			border-radius: 0px;
+			border: none;
+			color: #FFF;
+			text-decoration: none;
+			font-size: 1.4rem;
+			font-weight: bold;
+		}
+
+	/********************************************
+		ESTILO VISTA INTERNA VISIÓN
+	*********************************************/
+
+		.vista-vision {
+			position: absolute;
+			display: none;
+			background-color: #FFF;
+			color: #0170BF;
+			height: 350px;
+			top: 175px;
+			z-index: 1;
+			text-align: justify;
+			word-spacing: -1px;
+		}
+
+		.vista-vision
+		.headline-vista-vision h2 {
+			margin-top: 45px;
+			margin-bottom: 35px;
+		}
+
+		.vista-vision p {
+			font-size: 1.6rem;
+		}
+
+		.vista-vision
+		.cerrar-vista-interna {
+			margin-top: 95px;
+		}
+
+		.vista-vision
+		.btn-cerrar-vista-interna,
+		.vista-vision
+		.btn-cerrar-vista-interna:hover {
+			background-color: #0170BF;
+			border-radius: 0px;
+			border: none;
+			color: #FFF;
+			text-decoration: none;
+			font-size: 1.4rem;
+			font-weight: bold;
+		}
+
+	/********************************************
+		ESTILO VISTA INTERNA VALORES
+	*********************************************/
+
+		.vista-valores {
+			position: absolute;
+			display: none;
+			background-color: #FFF;
+			color: #0170BF;
+			height: 350px;
+			top: 175px;
+			z-index: 1;
+			text-align: justify;
+			word-spacing: -1px;
+		}
+
+		.vista-valores
+		.headline-vista-valores h2 {
+			margin-top: 25px;
+			margin-bottom: 15px;
+		}
+
+		.vista-valores p {
+			font-size: 1.6rem;
+		}
+
+		.vista-valores ul {
+			list-style: none;
+		}
+
+		.vista-valores ul li:before {
+			content: "-";
+			padding-right: 5px;
+		}
+
+		.vista-valores
+		.cerrar-vista-interna {
+			margin-top: 0px;
+		}
+
+		.vista-valores
+		.btn-cerrar-vista-interna,
+		.vista-valores
+		.btn-cerrar-vista-interna:hover {
+			background-color: #0170BF;
+			border-radius: 0px;
+			border: none;
+			color: #FFF;
+			text-decoration: none;
+			font-size: 1.4rem;
+			font-weight: bold;
+		}
 	
+	/********************************************
+		ESTILO VISTA INTERNA CERTIFICACIONES
+	*********************************************/
+
+		.vista-certificaciones {
+			position: absolute;
+			display: none;
+			background-color: #FFF;
+			color: #FFF;
+			height: 525px;
+			top: 350px;
+			z-index: 1;
+			text-align: justify;
+			word-spacing: -1px;
+		}
+
+		.vista-certificaciones
+		.headline-vista-certificaciones h2 {
+			margin-top: 35px;
+			margin-bottom: 25px;
+			font-size: 2.2rem;
+			color: #0170BF;
+		}
+
+		.vista-certificaciones
+		.contenido-certificaciones {
+			background-color: #0170BF;
+			padding: 20px 0px;
+		}
+
+		.vista-certificaciones
+		.contenido-certificaciones img {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		.vista-certificaciones p,
+		.vista-certificaciones ul li {
+			font-size: 1.2rem;
+			text-transform: uppercase;
+		}
+
+		.vista-certificaciones ul {
+			list-style: none;
+		}
+
+		.vista-certificaciones ul li:before,
+		.vista-certificaciones p:before {
+			content: "-";
+			padding-right: 5px;
+		}
+
+		.vista-certificaciones
+		.cerrar-vista-interna {
+			margin-top: 10px;
+		}
+
+		.vista-certificaciones
+		.btn-cerrar-vista-interna,
+		.vista-certificaciones
+		.btn-cerrar-vista-interna:hover {
+			background-color: #0170BF;
+			border-radius: 0px;
+			border: none;
+			color: #FFF;
+			text-decoration: none;
+			font-size: 1.4rem;
+			font-weight: bold;
+		}
 
 
 
@@ -2004,6 +2293,39 @@ a, button{
 
 	/********************************************
 	*********************************************
+			ESTILO KILOMETROS GENERANDO VALOR
+	*********************************************	
+	*********************************************/
+
+		.fondo-kilometros1 {
+			height: 350px;
+		}
+
+		.fondo-kilometros1 p {
+			top: 40%;
+		}
+
+		.fondo-kilometros3 {
+			height: 350px;
+		}
+
+		.contenido-kilometros3 {
+			top: 23%;
+		}
+
+		/********************************************
+		ESTILO VISTA INTERNA CERTIFICACIONES
+		*********************************************/
+
+			.vista-certificaciones {
+				height: 575px;
+				top: 0px;
+				right: 369px;
+			}
+
+
+	/********************************************
+	*********************************************
 			ESTILO CONTACTO
 	*********************************************	
 	*********************************************/
@@ -2143,7 +2465,6 @@ a, button{
 		}
 
 
-
 	/********************************************
 	*********************************************
 					ESTILO HOME
@@ -2173,7 +2494,6 @@ a, button{
 			top:0;
 			z-index: -1;
 		}
-
 
 
 	/********************************************
@@ -2291,6 +2611,60 @@ a, button{
 			font-size: 1.2rem;
 
 		}
+
+	/********************************************
+	*********************************************
+			ESTILO KILOMETROS GENERANDO VALOR
+	*********************************************	
+	*********************************************/
+
+		.contenido-kilometros-generando-valor {
+			margin-top: 60px;
+			margin-bottom: 60px;
+		}
+
+
+		/********************************************
+			ESTILO VISTA INTERNA MISION
+		*********************************************/
+
+			.vista-mision {
+				width: 200%;
+				left: 201px;
+				top: 0px;
+			}
+
+		/********************************************
+			ESTILO VISTA INTERNA VISIÓN
+		*********************************************/
+
+			.vista-vision {
+				width: 200%;
+				left: 201px;
+				top: 0px;
+			}
+
+		/********************************************
+			ESTILO VISTA INTERNA VALORES
+		*********************************************/
+
+			.vista-valores {
+				width: 200%;
+				left: 201px;
+				top: 0px;
+			}
+
+		/********************************************
+			ESTILO VISTA INTERNA CERTIFICACIONES
+		*********************************************/
+
+			.vista-certificaciones {
+				width: 200%;
+				right: 0px;
+				top: 0px;
+				left: 201px;
+			}
+
 
 
 	
@@ -2511,6 +2885,19 @@ a, button{
 			padding-top: 20%;
 		}
 	
+
+	/********************************************
+	*********************************************
+			ESTILO KILOMETROS GENERANDO VALOR
+	*********************************************	
+	*********************************************/
+
+		.contenido-kilometros-generando-valor {
+			margin-top: 80px;
+			margin-bottom: 80px;
+		}
+
+
 
 	/********************************************
 	*********************************************

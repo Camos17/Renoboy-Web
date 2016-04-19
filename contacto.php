@@ -280,7 +280,7 @@
 					$(".contenido1").fadeIn(1000);
 				});
 				$(".contenido-contacto-nocliente").fadeOut(1000, function(){
-					$(".contenido1").fadeIn(1000);				
+					$(".contenido1").fadeIn(1000);		
 				});	
 			});
 
