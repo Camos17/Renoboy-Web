@@ -1543,6 +1543,7 @@ a, button{
 			z-index: 1;
 			text-align: justify;
 			word-spacing: -1px;
+			box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
 		}
 
 		.vista-certificaciones
@@ -1599,7 +1600,149 @@ a, button{
 			font-weight: bold;
 		}
 
+	/************************************************
+		ESTILO VISTA INTERNA 28 AÑOS GENERANDO VALOR
+	*************************************************/
 
+		.fondo-generando-valor {
+	  		background: url('../img/imagen_fondo_noticias.jpg') no-repeat center center fixed;
+	  		-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+	  	}
+
+	  	.layer-fondo-generando-valor {
+	  		position: relative;
+	  		width: 100%;
+	  		height: 100%;
+	  		background-color: rgba(30, 30, 30, 0.25);
+	  	}
+
+	  	.contenido-generando-valor {
+	  		margin-top: 30px;
+	  		margin-bottom: 30px;
+	  	}
+
+	  	.headline-generando-valor h2 {
+	  		margin-top: 25px;
+	  		margin-bottom: 20px;
+	  		color: #FFF;
+	  		font-size: 2.5rem;
+	  		font-weight: bold;
+	  	}
+
+	  	.contenido-generando-valor1 {
+	  		background-color: #FFF;
+	  		padding-bottom: 20px;
+	  		margin-right: 20px;
+	  	}
+
+	  	.contenido-generando-valor1
+	  	.imagen-titulo {
+	  		margin-top: 20px;
+	  		margin-bottom: 20px;
+	  	}
+
+	  	.contenido-generando-valor1 p {
+	  		color: #0170BF;
+	  		text-align: justify;
+	  		word-spacing: 1px;
+	  	}
+
+	  	.layer-imagen-trayectoria {
+	  		background-color: rgba(33, 28, 25, 0.45);
+	  		padding-top: 15px;
+			padding-bottom: 15px;
+	  	}
+
+	/****************************************************
+		ESTILO VISTA INTERNA MAS SOBRE NUESTRO REENCAUCHE
+	******************************************************/
+
+		.fondo-mas-reencauche {
+	  		background: url('../img/fondo_masreencacuhe.jpg') no-repeat center center fixed;
+	  		-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+	  	}
+
+	  	.layer-fondo-kilometros-generando-valor {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(30, 30, 30, 0.25);
+		}
+
+		.contenido-mas-reencauche {
+			background-color: #FFF;
+			margin-top: 35px;
+			margin-bottom: 35px;
+		}
+
+		.contenido-mas-reencauche1
+		.headline-mas-reencauche1 {
+			background-color: #005290;
+			padding: 25px 35px;
+		}
+
+		.contenido-mas-reencauche1
+		.headline-mas-reencauche1 h2 {
+			font-size: 1.9rem;
+			color: #FFF;
+			margin: 0px;
+		}
+
+		.contenido-mas-reencauche1 p {
+			color: #000;
+			padding: 30px;
+			margin-top: 92px;
+			text-align: justify;
+			word-spacing: 1px;
+		}
+
+		.fondo-mas-reencauche2 {
+			margin-top: 25px;
+			margin-bottom: 25px;
+		}
+
+		.contenido-mas-reencauche2 {
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+		.headline-mas-reencauche2 h2 {
+			font-size: 2rem;
+			color: #0D73BB;
+			margin-bottom: 0px;		
+		}
+
+		.headline-mas-reencauche2 hr {
+			border: 1px #CDCDCD solid;
+			margin: 10px;
+		}
+
+		.img-proceso-reencauche {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+		.frame-carretera {
+			position: absolute;
+			top: 0px;
+			background-color: #CCCCCC;
+			height: 5.05%;
+			z-index: -1;
+		}
+
+		.ubicacion-camion-carretera {
+			position: absolute;
+			width: 40px;
+			left: 135px;
+			top: 5%;
+			background-color: transparent;
+		}
 
 /********************************************
 *********************************************
@@ -1923,7 +2066,7 @@ a, button{
 		}
 
 		.btn-regresar-contacto i {
-			margin-right: 10px;
+			margin-right: 5px;
 		}
 
 
@@ -2323,6 +2466,13 @@ a, button{
 				right: 369px;
 			}
 
+		/****************************************************
+			ESTILO VISTA INTERNA MAS SOBRE NUESTRO REENCAUCHE
+		******************************************************/
+
+			.img-proceso-reencauche {
+				margin-bottom: 65px;
+			}
 
 	/********************************************
 	*********************************************
@@ -2432,8 +2582,7 @@ a, button{
 
 			.btn-regresar-contacto {
 				margin-top: 0px;
-				top: -28px;
-				left: 10px;
+				top: 3px;
 			}
 
 			.btn-regresar-contacto a,
@@ -2538,11 +2687,6 @@ a, button{
 			.contenido-contacto-cliente2
 			.checkbox-terminos-condiciones {
 				margin-top: 20px;
-			}
-
-			.btn-regresar-contacto {
-				top: -28px;
-				left: 10px;
 			}
 
 
@@ -2666,8 +2810,6 @@ a, button{
 			}
 
 
-
-	
 	/********************************************
 	*********************************************
 					ESTILO ICONOS FIJOS
@@ -2733,7 +2875,6 @@ a, button{
 			width: 45px;
 			height: 40px;
 		}
-
 
 
 	/********************************************
@@ -2975,5 +3116,6 @@ a, button{
 			padding-left: 5%;
 		}
 }
+
 
 

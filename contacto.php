@@ -10,11 +10,6 @@
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 no-padding contenido-contacto-cliente1">
 						<div class="col-xs-12 no-padding dropdown filtro-asunto">
-							<!-- <button class="col-xs-12 no-padding btn dropdown-toggle btn-filtro-asunto" type="button" data-toggle="dropdown"><p class="col-xs-4">Asunto</p>
-								<span class="col-xs-2 col-xs-push-6">
-									<i class="fa fa-caret-down"></i>
-								</span>
-							</button> -->
 							<div class="col-xs-12 select">
 								<select class="col-xs-6 form-control">
 									<option>
@@ -98,11 +93,6 @@
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 no-padding contenido-contacto-cliente1">
 						<div class="col-xs-12 no-padding dropdown filtro-asunto">
-							<!-- <button class="col-xs-12 no-padding btn dropdown-toggle btn-filtro-asunto" type="button" data-toggle="dropdown"><p class="col-xs-4">Asunto</p>
-								<span class="col-xs-2 col-xs-push-6">
-									<i class="fa fa-caret-down"></i>
-								</span>
-							</button> -->
 							<div class="col-xs-12 select">
 								<select class="col-xs-6 form-control">
 									<option>

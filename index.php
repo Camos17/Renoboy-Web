@@ -27,7 +27,7 @@
 					<div class="item">
 						<img class="hidden-md hidden-lg img-responsive" src="img/fondo_home.jpg" alt="...">
 						<div class="carousel-caption">
-							<p class="text-center texto1"><strong>my tyre care <br> program</strong></p>
+							<p class="text-center texto1"><strong>seguimiento en línea de la flota</strong></p>
 							<p class="text-center texto2">2.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
 							<a class="btn btn-default btn-carousel-contenido">
 								<strong>ver más</strong>
@@ -60,7 +60,8 @@
 					
 					<a class="col-xs-12 col-sm-4 col-md-4" href="#" title="">
 						<img class="img-responsive" src="img/botónimagen1.jpg" alt="">
-						<p class="text-center"><strong>TU LLANTA NUEVA DE NUEVO MICHELIN</strong><br>
+						<p class="text-center"><strong>
+						</strong><br>
 						Tres vidas de tu llanta MICHELIN	
 						</p>
 					</a>
