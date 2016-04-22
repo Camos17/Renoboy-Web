@@ -3212,6 +3212,7 @@ a, button{
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 	border:none;
+	padding: 4px 10px;
 }
 
 .interactiveplanta #button1{
@@ -3262,4 +3263,7 @@ a, button{
 .interactiveplanta #button10{
 	top: 31%;
 	left: 17%;
+	height: 28px;
+	width: 28px;
+	padding: 0;
 }
