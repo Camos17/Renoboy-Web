@@ -1728,20 +1728,39 @@ a, button{
 			margin-bottom: 20px;
 		}
 
+		.fondo-camino-reencauche {
+			overflow: hidden;
+		}
+
+		.img-fondo-camino-reencauche {
+			z-index: 1;
+			top: 12px;
+		}
+
+		.camino-reencauche {
+			position: absolute;
+			z-index: 2;
+		}
+
 		.frame-carretera {
 			position: absolute;
 			top: 0px;
 			background-color: #CCCCCC;
-			height: 5.05%;
-			z-index: -1;
+			height: 7%;
+			z-index: 0;
 		}
 
 		.ubicacion-camion-carretera {
 			position: absolute;
-			width: 40px;
-			left: 135px;
 			top: 5%;
+			z-index: 3;
 			background-color: transparent;
+		}
+
+		.btn-modal-reencauche {
+			position: absolute;
+			z-index: 3;
+			top: 80%;
 		}
 
 /********************************************
