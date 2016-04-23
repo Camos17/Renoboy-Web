@@ -99,7 +99,7 @@
 					<div class="col-xs-12 no-padding layer-kilometros">
 						<div class="col-xs-12 no-padding contenido-kilometros3">
 							<p class="col-xs-12 text-center">VISITA VIRTUAL <br> A LA PLANTA</p>
-							<a class="col-xs-4 col-xs-offset-4 no-padding text-center btn-visita-virtual" id="ver-mas-visita-virtual" href="#" title="">ver más</a>
+							<a class="col-xs-4 col-xs-offset-4 no-padding text-center btn-visita-virtual" id="ver-mas-visita-virtual" href="visitavirtual.php" title="">ver más</a>
 						</div>						
 					</div>
 				</div>
@@ -182,3 +182,6 @@
 			});
 
 	</script>
+
+	</body>	
+</html>	

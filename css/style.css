@@ -1218,11 +1218,6 @@ a, button{
   	.fondo-kilometros1:hover 
 	.layer-kilometros {
   		background-color: transparent;
-  		-webkit-transition: all 0.4s ease-in-out;
-		-moz-transition: all 0.4s ease-in-out;
-		-ms-transition: all 0.4s ease-in-out;
-		-o-transition: all 0.4s ease-in-out;
-		transition: all 0.4s ease-in-out;
 	}
 
 	.fondo-kilometros2 {
@@ -1256,21 +1251,11 @@ a, button{
   	.fondo-mision a:hover 
   	.layer-kilometros-mision {
   		background-color: transparent;
-  		-webkit-transition: all 0.4s ease-in-out;
-  		-moz-transition: all 0.4s ease-in-out;
-  		-ms-transition: all 0.4s ease-in-out;
-  		-o-transition: all 0.4s ease-in-out;
-  		transition: all 0.4s ease-in-out;
   	}
 
 	.fondo-mision a:hover 
 	.layer-kilometros-mision p {
 		background-color: #0170BF;
-		-webkit-transition: all 0.4s ease-in-out;
-		-moz-transition: all 0.4s ease-in-out;
-		-ms-transition: all 0.4s ease-in-out;
-		-o-transition: all 0.4s ease-in-out;
-		transition: all 0.4s ease-in-out;
 	}
 
   	.layer-kilometros-certificaciones {
@@ -1296,21 +1281,11 @@ a, button{
   	.fondo-certificaciones:hover
   	.layer-kilometros-certificaciones {
   		background-color: transparent;
-  		-webkit-transition: all 0.4s ease-in-out;
-  		-moz-transition: all 0.4s ease-in-out;
-  		-ms-transition: all 0.4s ease-in-out;
-  		-o-transition: all 0.4s ease-in-out;
-  		transition: all 0.4s ease-in-out;
   	}
 
   	.fondo-certificaciones:hover
   	.layer-kilometros-certificaciones p {
   		background-color: #0170BF;
-  		-webkit-transition: all 0.4s ease-in-out;
-  		-moz-transition: all 0.4s ease-in-out;
-  		-ms-transition: all 0.4s ease-in-out;
-  		-o-transition: all 0.4s ease-in-out;
-  		transition: all 0.4s ease-in-out;
   	}
 
   	.fondo-kilometros3 {
@@ -1331,11 +1306,6 @@ a, button{
   	.fondo-kilometros3:hover
   	.layer-kilometros {
   		background-color: transparent;
-  		-webkit-transition: all 0.4s ease-in-out;
-  		-moz-transition: all 0.4s ease-in-out;
-  		-ms-transition: all 0.4s ease-in-out;
-  		-o-transition: all 0.4s ease-in-out;
-  		transition: all 0.4s ease-in-out;
   	}
 
 	.fondo-kilometros3
@@ -1348,11 +1318,6 @@ a, button{
   	.fondo-kilometros3:hover
   	.contenido-kilometros3 {
   		background-color: #0170BF;
-  		-webkit-transition: all 0.4s ease-in-out;
-  		-moz-transition: all 0.4s ease-in-out;
-  		-ms-transition: all 0.4s ease-in-out;
-  		-o-transition: all 0.4s ease-in-out;
-  		transition: all 0.4s ease-in-out;
   	}
 
   	.fondo-kilometros3:hover
@@ -1400,11 +1365,6 @@ a, button{
   		display: block;
 		color: #FFF;
 		text-decoration: none;
-		-webkit-transition: all 0.4s ease-in-out;
-		-moz-transition: all 0.4s ease-in-out;
-		-ms-transition: all 0.4s ease-in-out;
-		-o-transition: all 0.4s ease-in-out;
-		transition: all 0.4s ease-in-out;
   	}
 
   	.fondo-nuestro-reencauche:hover
@@ -1412,11 +1372,6 @@ a, button{
   	.fondo-quienes-confian:hover
   	.layer-kilometros {
   		background-color: transparent;
-  		-webkit-transition: all 0.4s ease-in-out;
-		-moz-transition: all 0.4s ease-in-out;
-		-ms-transition: all 0.4s ease-in-out;
-		-o-transition: all 0.4s ease-in-out;
-		transition: all 0.4s ease-in-out;
   	}
 
   	.fondo-nuestro-reencauche:hover
@@ -1424,11 +1379,6 @@ a, button{
   	.fondo-quienes-confian:hover
   	.contenido-kilometros4 {
   		background-color: #0170BF;
-  		-webkit-transition: all 0.4s ease-in-out;
-		-moz-transition: all 0.4s ease-in-out;
-		-ms-transition: all 0.4s ease-in-out;
-		-o-transition: all 0.4s ease-in-out;
-		transition: all 0.4s ease-in-out;
   	}
 
   	.fondo-nuestro-reencauche:hover
@@ -1436,11 +1386,6 @@ a, button{
   	.fondo-quienes-confian:hover
   	.contenido-kilometros4 p {
   		padding-top: 20px;
-  		-webkit-transition: all 0.4s ease-in-out;
-		-moz-transition: all 0.4s ease-in-out;
-		-ms-transition: all 0.4s ease-in-out;
-		-o-transition: all 0.4s ease-in-out;
-		transition: all 0.4s ease-in-out;
   	}
 
   	/********************************************
@@ -1789,7 +1734,7 @@ a, button{
 
 		.img-fondo-camino-reencauche {
 			z-index: 1;
-			top: 12px;
+			top: 14px;
 		}
 
 		.camino-reencauche {
@@ -1812,11 +1757,125 @@ a, button{
 			background-color: transparent;
 		}
 
+		.modal-reencauche
+		.modal-content {
+			border-radius: 0px;
+		}
+
 		.btn-modal-reencauche {
 			position: absolute;
 			z-index: 3;
 			top: 80%;
 		}
+
+		.btn-modal-reencauche a,
+		.btn-modal-reencauche a:hover,
+		.btn-modal-reencauche a:active,
+		.btn-modal-reencauche a:focus {
+			border: none;
+			border-radius: 0px;
+			background-color: #0170BF;
+			color: #FFF;
+		}
+
+		.headline-modal-reencauche {
+			background-color: #007AC5;
+			border: none;
+		}
+
+		.headline-modal-reencauche 
+		.cerrar-modal,
+		.headline-modal-reencauche
+		.cerrar-modal {
+			margin-top: 0px;
+			opacity: 1;
+		}
+
+		.headline-modal-reencauche i {
+			font-size: 32px;
+			color: #FFF;
+		}
+
+		.modal-reencauche
+		.modal-mas-reencauche-iconos-legal img {
+			margin-top: 10px;
+		}
+
+		.modal-reencauche
+		.texto-cartel p {
+			color: #7A7A7A;
+			text-align: justify;
+			word-spacing: 1px;
+			font-size: 1.3rem;
+		}
+
+		.modal-reencauche
+		.cartel-mas-seguro {
+			margin-top: 15px;
+		}
+
+		.modal-reencauche
+		.cartel-mas-seguro
+		.img-cartel {
+			margin-bottom: 15px;
+		}
+
+		.modal-reencauche
+		.cartel-inversion
+		.img-cartel {
+			margin-bottom: 15px;
+		}
+
+		.modal-reencauche
+		.cartel-cliente
+		.img-cartel {
+			margin-bottom: 15px;
+		}
+
+		.modal-reencauche
+		.cartel-proceso
+		.img-cartel {
+			margin-bottom: 15px;
+		}
+
+		.modal-reencauche
+		.cartel-ahorra
+		.img-cartel {
+			margin-bottom: 15px;
+		}
+
+		.cartel-proceso
+		.btn-cartel,
+		.cartel-ahorra
+		.btn-cartel {
+			background-color: #007AC5;
+			color: #FFF;
+			text-align: center;
+			text-decoration: none;
+			font-size: 1.3rem;
+			padding: 5px;
+			border-radius: 0px;
+			border: none;
+			margin-top: 15px;
+		}
+
+		.cartel-proceso
+		.btn-cartel:hover,
+		.cartel-ahorra
+		.btn-cartel:hover {
+			text-decoration: none;
+		}
+
+		.btn-cerrar-modal-reencauche,
+		.btn-cerrar-modal-reencauche:hover,
+		.btn-cerrar-modal-reencauche:active,
+		.btn-cerrar-modal-reencauche:focus {
+			background-color: #007AC5;
+			border: none;
+			border-radius: 0px;
+			color: #FFF;
+		}
+
 
 /********************************************
 *********************************************
@@ -2541,12 +2600,36 @@ a, button{
 			}
 
 		/****************************************************
-			ESTILO VISTA INTERNA MAS SOBRE NUESTRO REENCAUCHE
+			ESTILO VISTA INTERNA MÁS SOBRE NUESTRO REENCAUCHE
 		******************************************************/
 
 			.img-proceso-reencauche {
-				margin-bottom: 65px;
+				margin-bottom: 85px;
 			}
+
+			.fondo-camino-reencauche {
+				height: 845px;
+			}
+
+			.contenido-mas-reencauche2 {
+				padding-bottom: 40px;
+			}
+
+			.btn-modal-reencauche a {
+				font-size: 2rem;
+			}
+
+			.modal-reencauche 
+			.cartel-mas-seguro {
+			    margin-top: 40px;
+			}
+
+			.modal-reencauche 
+			.texto-cartel p {
+				font-size: 1.5rem;
+			}
+
+
 
 	/********************************************
 	*********************************************
@@ -2884,6 +2967,78 @@ a, button{
 			}
 
 
+		/****************************************************
+			ESTILO VISTA INTERNA MÁS SOBRE NUESTRO REENCAUCHE
+		******************************************************/
+
+			.contenido-mas-reencauche2 {
+				padding: 30px;
+			}
+
+			.contenido-mas-reencauche1
+			.headline-mas-reencauche1 {
+				background-color: #005290;
+				padding: 25px 25px;
+			}
+			
+			.fondo-camino-reencauche {
+				height: 1124px;
+			}
+
+			.img-fondo-camino-reencauche {
+				top: 18px;
+			}
+
+			.marco-cartel-mas-reencauche {
+				background-color: #542908;
+				position: absolute;
+				z-index: 2;
+				padding: 15px;
+				top: 100px;
+				left: 10%;
+			}
+
+			.marco-cartel-mas-reencauche:before {
+				content: "";
+				width: 7px;
+				height: 30px;
+				background-color: #542908;
+				bottom: -29px;
+				position: absolute;
+				right: 65px;
+			}
+
+			.marco-cartel-mas-reencauche:after {
+				content: "";
+				width: 7px;
+				height: 30px;
+				background-color: #542908;
+				bottom: -29px;
+				position: absolute;
+				left: 65px;
+			}
+
+			.contenido-cartel-mas-reencauche {
+				background-color: #FFF;
+				padding: 15px;
+			}
+
+			.contenido-cartel-mas-reencauche
+			.texto-cartel p {
+				color: #7A7A7A;
+				text-align: justify;
+				word-spacing: 1px;
+				font-size: 1.1rem;
+			}
+
+			.soporte-cartel-mas-reencauche {
+				border-right: 3px solid #542908;
+				border-left: 3px solid #542908;
+			}
+
+
+
+
 	/********************************************
 	*********************************************
 					ESTILO ICONOS FIJOS
@@ -3112,6 +3267,13 @@ a, button{
 			margin-bottom: 80px;
 		}
 
+		/****************************************************
+			ESTILO VISTA INTERNA MÁS SOBRE NUESTRO REENCAUCHE
+		******************************************************/
+
+			.fondo-camino-reencauche {
+				height: 1124px;
+			}
 
 
 	/********************************************
@@ -3193,96 +3355,4 @@ a, button{
 
 
 
-/********************************************
-		ESTILO VISITA VIRTUAL
-*********************************************/
-.visitavirtual{
-	background-color: rgba(255,255,255,0.6);
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-.videocolumn {
-	background-color: #FFF;	
-	height:100%;
-}
-
-.videocolumn h2{
-	color: #2B80B8;
-	text-transform: uppercase;
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-.videocolumn p{
-	padding: 0 20px ;
-	margin-bottom: 30px;
-}
-
-.videocolumn video{
-	margin-bottom: 110px;
-}
-
-.interactiveplanta button{
-	position: absolute;
-	color:#FFF;
-	background-color: #0D7ABF;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	border:none;
-	padding: 4px 10px;
-}
-
-.interactiveplanta #button1{
-	top: 65%;
-	left: 55%;
-}
-
-.interactiveplanta #button2{
-	top: 57%;
-	left: 64%;
-}
-
-.interactiveplanta #button3{
-	top: 48%;
-	left: 72%;
-}
-
-.interactiveplanta #button4{
-	top: 41%;
-	left: 79%;
-}
-
-.interactiveplanta #button5{
-	top: 24%;
-	left: 64%;
-}
-
-.interactiveplanta #button6{
-	top: 15%;
-	left: 43%;
-}
-
-.interactiveplanta #button7{
-	top: 34%;
-	left: 48%;
-}
-
-.interactiveplanta #button8{
-	top: 39%;
-	left: 30%;
-}
-
-.interactiveplanta #button9{
-	top: 24%;
-	left: 26%;
-}
-
-.interactiveplanta #button10{
-	top: 31%;
-	left: 17%;
-	height: 28px;
-	width: 28px;
-	padding: 0;
-}
+ 

@@ -82,11 +82,8 @@
 			</div>
 		</div>
 		
-		<?php include "menu-fijo.php";?>
-
-		
+		<?php include "menu-fijo.php";?>		
 		<?php include "footer.php";?>
-
 		
 		<script src="js/jquery.vide.js"></script>
 		
