@@ -116,7 +116,7 @@
 						<div class="col-xs-12 no-padding layer-kilometros">
 							<div class="col-xs-12 no-padding contenido-kilometros4">
 								<p class="col-xs-12 text-center">¿QUIÉNES CONFIAN EN <br> RENOBOY?</p>
-								<a class="col-xs-4 col-xs-offset-4 no-padding text-center btn-mas-quienes-confian" id="ver-mas-quiene-confian" href="#" title="">ver más</a>
+								<a class="col-xs-4 col-xs-offset-4 no-padding text-center btn-mas-quienes-confian" id="ver-mas-quiene-confian" href="quienes_confian.php" title="">ver más</a>
 							</div>					
 						</div>
 					</div>

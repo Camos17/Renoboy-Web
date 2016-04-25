@@ -2,7 +2,7 @@
 
 			<div class="col-xs-12 no-padding fondo-mas-reencauche">
 				<div class="col-xs-12 layer-fondo-mas-reencauche">
-					<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1 contenido-mas-reencauche no-padding">
+					<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 contenido-mas-reencauche no-padding">
 						<div class="col-xs-12 col-md-4 no-padding contenido-mas-reencauche1">
 							<div class="col-xs-12 no-padding headline-mas-reencauche1">
 								<h2>MÁS SOBRE NUESTRO REEENCAUCHE</h2>
@@ -47,10 +47,11 @@
 						
 					</div>
 					<div class="col-xs-2 col-xs-offset-5 no-padding ubicacion-camion-carretera">
-						<div class="col-xs-6 col-xs-offset-3 no-padding">
+						<div class="col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-4 no-padding">
 							<img class="img-responsive" src="img/camion.svg" alt="">
 						</div>
 					</div>
+					
 					<div class="col-xs-4 col-lg-3 marco-cartel-mas-reencauche hidden-xs hidden-sm">
 						<div class="col-xs-12 contenido-cartel-mas-reencauche">
 							<div class="col-xs-9 no-padding cartel-mas-seguro">
@@ -62,13 +63,89 @@
 								</div>
 							</div>
 							<div class="col-xs-3 no-padding modal-mas-reencauche-iconos-legal">
-								<img  class="col-xs-11 col-sm-10" src="img/iqnet-2.svg" alt="">
-								<img  class="col-xs-11 col-sm-10" src="img/certificaciondeprocesos.svg" alt="">
-								<img  class="col-xs-11 col-sm-10" src="img/iso14001-2.svg" alt="">
-								<img  class="col-xs-11 col-sm-10" src="img/iso9001-2.svg" alt="">
+								<img  class="col-xs-11 col-sm-10 col-lg-11" src="img/iqnet-2.svg" alt="">
+								<img  class="col-xs-11 col-sm-10 col-lg-11" src="img/certificaciondeprocesos.svg" alt="">
+								<img  class="col-xs-11 col-sm-10 col-lg-11" src="img/iso14001-2.svg" alt="">
+								<img  class="col-xs-11 col-sm-10 col-lg-11" src="img/iso9001-2.svg" alt="">
 							</div>	
 						</div>					
 					</div>
+					<div class="col-xs-4 col-lg-3 marco-cartel-mas-reencauche2 hidden-xs hidden-sm">
+						<div class="col-xs-12 contenido-cartel-mas-reencauche">
+							<div class="col-xs-12 img-cartel">
+								<img class="img-responsive" src="img/esunainversion.svg" alt="">
+							</div>
+							<div class="col-xs-12 texto-cartel">
+								<p>Con el reencuahe usted aprovecha al máximo el valor de la llanta, porque le permite optimizar el costo por kilómetro, del buen tratamiento  en el proceso de reencauche también depende que la llanta sea apta para ser reencauchada nuevamente.</p>
+							</div>
+						</div>					
+					</div>
+					<div class="col-xs-4 col-lg-3 marco-cartel-mas-reencauche3 hidden-xs hidden-sm">
+						<div class="col-xs-12 contenido-cartel-mas-reencauche">
+							<div class="col-xs-12 img-cartel">
+								<img class="img-responsive" src="img/elclientenocompra.svg" alt="">
+							</div>
+							<div class="col-xs-12 texto-cartel">
+								<p>El 80% del valor se concentra en la carcasa, que es la parte fundamental de la llanta, el cuidado de este le permite sacar el máximo provecho  de la llanta. El 20% restante corresponde a la banda de rodamiento, que es la que se reemplaza en el proceso de reencauche.</p>
+							</div>
+						</div>					
+					</div>
+					<div class="col-xs-4 col-lg-3 marco-cartel-mas-reencauche4 hidden-xs hidden-sm">
+						<div class="col-xs-12 contenido-cartel-mas-reencauche">
+							<div class="col-xs-12 img-cartel">
+								<img class="img-responsive" src="img/elprocesoesflexible.svg" alt="">
+							</div>
+							<div class="col-xs-12 texto-cartel">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="col-xs-10 col-xs-offset-2 col-sm-8 col-sm-offset-4">
+								<a class="btn btn-block btn-cartel" href="#" title="" >
+								<i  class="fa fa-mouse-pointer"></i>
+									¿Cómo lo hacemos?
+								</a>
+							</div>
+						</div>					
+					</div>
+					<div class="col-xs-4 col-lg-3 marco-cartel-mas-reencauche5 hidden-xs hidden-sm">
+						<div class="col-xs-12 contenido-cartel-mas-reencauche">
+							<div class="col-xs-12 img-cartel">
+								<img class="img-responsive" src="img/leahorradinero.svg" alt="">
+							</div>
+							<div class="col-xs-12 texto-cartel">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. <br> Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur.</p>
+							</div>
+							<div class="col-xs-10 col-xs-offset-2 col-sm-8 col-sm-offset-4">
+								<a class=" btn btn-block btn-cartel" href="#" title="" >
+									<i  class="fa fa-mouse-pointer"></i>
+									¿Cuánto podría ahorrar?
+								</a>
+							</div>
+						</div>					
+					</div>
+
+					<div class="col-md-2 hidden-xs hidden-sm arbol-reencauche">
+						<img class="img-responsive" 	 src="img/arbol_reencauche.svg" alt="">						
+					</div>
+
+					<div class="col-md-2 hidden-xs hidden-sm arbol-reencauche1">
+						<img class="img-responsive" 	 src="img/arbol_reencauche.svg" alt="">
+					</div>
+
+					<div class="col-md-2 hidden-xs hidden-sm arbol-reencauche2">
+						<img class="img-responsive" src="img/arbol_reencauche.svg" alt="">
+					</div>
+
+					<div class="hidden-xs hidden-sm btn-regreso-arriba" id="ir-arriba">
+						<a class="btn btn-block" href="#" title="">
+							<i class="fa fa-caret-up" aria-hidden="true"></i>
+						</a>
+					</div>
+
 					<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 btn-modal-reencauche hidden-md hidden-lg">
 						<a class="btn btn-block" data-toggle="modal" data-target="#reencaucheModal">
 						Conoce más de <br> nuestro reencauche
@@ -89,7 +166,7 @@
 							</button>
 						</div>
 						<div class="modal-body">
-						<div class="row"> 
+						<div class="row">
 							<div class="col-xs-9 cartel-mas-seguro">
 								<div class="col-xs-12 no-padding img-cartel">
 							    	<img class="img-responsive" src="img/esseguro.svg" alt="">
@@ -119,7 +196,7 @@
 							    	<img class="img-responsive" src="img/elclientenocompra.svg" alt="">
 							    </div>
 							    <div class="col-xs-12 texto-cartel">
-							    	<p>El 80% del valor se concentra en la carcasa, que es la parte fundamental de la llanta, el cuidado de este permite sacar...</p>
+							    	<p>El 80% del valor se concentra en la carcasa, que es la parte fundamental de la llanta, el cuidado de este le permite sacar el máximo provecho  de la llanta. El 20% restante corresponde a la banda de rodamiento, que es la que se reemplaza en el proceso de reencauche.</p>
 								</div>
 							</div>
 							<hr class="col-xs-12 no-padding">
@@ -161,7 +238,7 @@
 						</div>
 						</div>
 						<div class="modal-footer">
-							<button type="button" class="btn btn-cerrar-modal-reencauche" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-cerrar-modal-reencauche" data-dismiss="modal">Cerrar</button>
 						</div>
 					</div>
 				</div>			
@@ -169,6 +246,33 @@
 
 		<?php include "menu-fijo.php";?>		
 		<?php include "footer.php";?>
+
+		<script type="text/javascript">
+	
+			/********************************************
+			*********************************************
+							EVENTS
+			*********************************************	
+			*********************************************/
+				$(document).ready(function(){
+
+					$(window).scroll(function(){
+						if ($(this).scrollTop() > 800) {
+							$('#ir-arriba').fadeIn();
+							// $(".btn-regreso-arriba").css({"bottom": "250px"});
+						} else {
+							$('#ir-arriba').fadeOut();
+						}
+					});
+
+					$('#ir-arriba').click(function(){
+						$('html, body').animate({scrollTop : 0},800);
+						return false;
+					});
+					
+				});
+
+		</script>
 
 	</body>	
 </html>	

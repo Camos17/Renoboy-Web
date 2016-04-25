@@ -1218,6 +1218,10 @@ a, button{
   	.fondo-kilometros1:hover 
 	.layer-kilometros {
   		background-color: transparent;
+  		-webkit-transition: all 1s ease-in-out;
+		-moz-transition: all 1s ease-in-out;
+		-o-transition: all 1s ease-in-out;
+		transition: all 1s ease-in-out;
 	}
 
 	.fondo-kilometros2 {
@@ -1251,6 +1255,10 @@ a, button{
   	.fondo-mision a:hover 
   	.layer-kilometros-mision {
   		background-color: transparent;
+  		-webkit-transition: all 1s ease-in-out;
+		-moz-transition: all 1s ease-in-out;
+		-o-transition: all 1s ease-in-out;
+		transition: all 1s ease-in-out;
   	}
 
 	.fondo-mision a:hover 
@@ -1281,6 +1289,10 @@ a, button{
   	.fondo-certificaciones:hover
   	.layer-kilometros-certificaciones {
   		background-color: transparent;
+  		-webkit-transition: all 1s ease-in-out;
+		-moz-transition: all 1s ease-in-out;
+		-o-transition: all 1s ease-in-out;
+		transition: all 1s ease-in-out;
   	}
 
   	.fondo-certificaciones:hover
@@ -1306,6 +1318,10 @@ a, button{
   	.fondo-kilometros3:hover
   	.layer-kilometros {
   		background-color: transparent;
+  		-webkit-transition: all 1s ease-in-out;
+		-moz-transition: all 1s ease-in-out;
+		-o-transition: all 1s ease-in-out;
+		transition: all 1s ease-in-out;
   	}
 
 	.fondo-kilometros3
@@ -1372,6 +1388,10 @@ a, button{
   	.fondo-quienes-confian:hover
   	.layer-kilometros {
   		background-color: transparent;
+  		-webkit-transition: all 1s ease-in-out;
+		-moz-transition: all 1s ease-in-out;
+		-o-transition: all 1s ease-in-out;
+		transition: all 1s ease-in-out;
   	}
 
   	.fondo-nuestro-reencauche:hover
@@ -1656,7 +1676,7 @@ a, button{
 			padding-bottom: 15px;
 	  	}
 
-	/****************************************************
+	/*****************************************************
 		ESTILO VISTA INTERNA MAS SOBRE NUESTRO REENCAUCHE
 	******************************************************/
 
@@ -1875,6 +1895,108 @@ a, button{
 			border-radius: 0px;
 			color: #FFF;
 		}
+
+	/****************************************************
+		ESTILO VISTA INTERNA QUIENES CONFIAN EN RENOBOY
+	*****************************************************/
+
+		.fondo-quienes-confian-renoboy {
+	  		background: url('../img/fondo_noticias.jpg') no-repeat center center fixed;
+	  		-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+	  	}
+
+	  	.layer-fondo-quienes-confian-renoboy {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(30, 30, 30, 0.45);
+		}
+
+		.contenido-quienes-confian-renoboy {
+			background-color: rgba(255, 255, 255, 0.80);
+			margin-bottom: 35px;
+			padding-top: 15px;
+		}
+
+		.contenido-quienes-confian-renoboy
+		.iconos-quienes-confian {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+		.contenido-quienes-confian-renoboy
+		.icono-quienes-confian {
+			margin-top: 20px;
+		}
+		
+		.rueda-quienes-confian p {
+			position: absolute;
+			color: #0A7AC2;
+			font-size: 8.5rem;
+			top: 40px;
+			right: 46px;
+		}
+
+		.rueda-quienes-confian-5 p {
+			position: absolute;
+			color: #0A7AC2;
+			font-size: 8.5rem;
+			top: 40px;
+			right: 72px;
+		}
+
+		.icono-quienes-confian2 {
+			margin-top: 4px;
+			margin-bottom: 3px;
+		}
+
+		.iconos-quienes-confian
+		.leyenda-quienes-confian {
+			background-color: #109CE2;
+			color: #FFF;
+			font-size: 1.3rem;
+			font-weight: bold;
+			text-align: center;
+			border-radius: 5px;
+			padding-top: 15px;
+			padding-bottom: 10px;
+		}
+
+		.footer-quienes-confian {
+			background-color: #0A7AC2;
+			bottom: 0px;
+		}
+
+		.btn-porque-confian {
+			background-color: #0A7AC2;
+			padding: 5px;
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+
+		.btn-porque-confian a,
+		.btn-porque-confian:hover a {
+			color: #FFF;
+			font-size: 1.1rem;
+		}
+
+		.footer-quienes-confian p {
+			color: #FFF;
+			font-size: 1.5rem;
+			text-align: justify;
+			padding: 20px 10px;
+			margin: 0px;
+			word-spacing: -2px;
+		}
+
+
+
+
+
+
 
 
 /********************************************
@@ -2998,7 +3120,58 @@ a, button{
 				left: 10%;
 			}
 
-			.marco-cartel-mas-reencauche:before {
+			.marco-cartel-mas-reencauche
+			.modal-mas-reencauche-iconos-legal img:nth-child(1),
+			.marco-cartel-mas-reencauche
+			.modal-mas-reencauche-iconos-legal img:nth-child(2),
+			.marco-cartel-mas-reencauche
+			.modal-mas-reencauche-iconos-legal img:nth-child(3),
+			.marco-cartel-mas-reencauche
+			.modal-mas-reencauche-iconos-legal img:nth-child(4) {
+				margin-top: 5px;
+			}
+
+			.marco-cartel-mas-reencauche2 {
+				background-color: #542908;
+				position: absolute;
+				z-index: 2;
+				padding: 15px;
+				top: 300px;
+				left: 57%;
+			}
+
+			.marco-cartel-mas-reencauche3 {
+				background-color: #542908;
+				position: absolute;
+				z-index: 2;
+				padding: 15px;
+				top: 470px;
+				left: 10%;
+			}
+
+			.marco-cartel-mas-reencauche4 {
+				background-color: #542908;
+				position: absolute;
+				z-index: 2;
+				padding: 15px;
+				top: 700px;
+				left: 57%;
+			}
+
+			.marco-cartel-mas-reencauche5 {
+				background-color: #542908;
+				position: absolute;
+				z-index: 2;
+				padding: 15px;
+				top: 800px;
+				left: 8%;
+			}
+
+			.marco-cartel-mas-reencauche:before,
+			.marco-cartel-mas-reencauche2:before,
+			.marco-cartel-mas-reencauche3:before,
+			.marco-cartel-mas-reencauche4:before,
+			.marco-cartel-mas-reencauche5:before {
 				content: "";
 				width: 7px;
 				height: 30px;
@@ -3008,7 +3181,11 @@ a, button{
 				right: 65px;
 			}
 
-			.marco-cartel-mas-reencauche:after {
+			.marco-cartel-mas-reencauche:after,
+			.marco-cartel-mas-reencauche2:after,
+			.marco-cartel-mas-reencauche3:after,
+			.marco-cartel-mas-reencauche4:after,
+			.marco-cartel-mas-reencauche5:after {
 				content: "";
 				width: 7px;
 				height: 30px;
@@ -3021,6 +3198,29 @@ a, button{
 			.contenido-cartel-mas-reencauche {
 				background-color: #FFF;
 				padding: 15px;
+			}
+
+			.marco-cartel-mas-reencauche4
+			.btn-cartel,
+			.marco-cartel-mas-reencauche5
+			.btn-cartel {
+				background-color: #007AC5;
+				color: #FFF;
+				text-align: center;
+				text-decoration: none;
+				font-size: 1.3rem;
+				padding: 3px;
+				border-radius: 0px;
+				border: none;
+				margin-top: 15px;
+				position: absolute;
+				right: -55px;
+				top: -7px;
+			}
+
+			.contenido-cartel-mas-reencauche
+			.img-cartel {
+				margin-bottom: 5px;
 			}
 
 			.contenido-cartel-mas-reencauche
@@ -3036,7 +3236,45 @@ a, button{
 				border-left: 3px solid #542908;
 			}
 
+			.arbol-reencauche {
+				position: absolute;
+				z-index: 2;
+				top: 70px;
+				right: 8%;
+			}
+			.arbol-reencauche1 {
+				position: absolute;
+				z-index: 2;
+				bottom: 35px;
+				right: 5%;
+			}
 
+			.arbol-reencauche2 {
+				position: absolute;
+				z-index: 2;
+				top: 302px;
+				left: -1%;
+			}
+
+			.btn-regreso-arriba {
+				background-color: #007AC5;
+				position: absolute;
+				z-index: 2;
+				bottom: 250px;
+				right: 10px;
+				display: none;
+				position: fixed;
+				right: 70px;
+			}
+
+			.btn-regreso-arriba a {
+				padding: 2px 10px 5px 10px;
+			}
+
+			.btn-regreso-arriba i {
+				color: #FFF;
+				font-size: 3.5rem;
+			}
 
 
 	/********************************************
@@ -3272,9 +3510,54 @@ a, button{
 		******************************************************/
 
 			.fondo-camino-reencauche {
-				height: 1124px;
+				height:  1384px;
 			}
 
+			.img-fondo-camino-reencauche {
+				top: 26px;
+			}
+
+			.marco-cartel-mas-reencauche {
+				left: 18%;
+				top: 150px;
+			}
+
+			.modal-mas-reencauche-iconos-legal {
+				margin-top: 10px;
+			}
+
+			.marco-cartel-mas-reencauche
+			.modal-mas-reencauche-iconos-legal img:nth-child(1),
+			.marco-cartel-mas-reencauche
+			.modal-mas-reencauche-iconos-legal img:nth-child(2),
+			.marco-cartel-mas-reencauche
+			.modal-mas-reencauche-iconos-legal img:nth-child(3),
+			.marco-cartel-mas-reencauche
+			.modal-mas-reencauche-iconos-legal img:nth-child(4) {
+				margin-top: 5px;
+			}
+
+			.marco-cartel-mas-reencauche2 {
+				top: 360px;
+			}
+
+			.marco-cartel-mas-reencauche3 {
+				left: 18%;
+				top: 570px;
+			}
+
+			.marco-cartel-mas-reencauche4 {
+				top: 850px;
+			}
+
+			.marco-cartel-mas-reencauche5 {
+				left: 17%;
+				top: 990px;
+			}
+
+			.btn-regreso-arriba {
+				bottom: 270px;
+			}
 
 	/********************************************
 	*********************************************
@@ -3336,6 +3619,52 @@ a, button{
 		.contenido-escribenos {
 			margin-top: 40px;
 		}
+
+	/********************************************
+	*********************************************
+			ESTILO KILOMETROS GENERANDO VALOR
+	*********************************************	
+	*********************************************/
+
+		/****************************************************
+			ESTILO VISTA INTERNA MÁS SOBRE NUESTRO REENCAUCHE
+		******************************************************/
+
+			.fondo-camino-reencauche {
+				height:  1569px;
+			}
+			
+			.marco-cartel-mas-reencauche {
+				left: 18%;
+				top: 200px;
+			}
+
+			.marco-cartel-mas-reencauche,
+			.cartel-mas-seguro {
+				margin-top: 20px;
+			}
+
+			.modal-mas-reencauche-iconos-legal {
+				margin-top: 0px;
+			}
+
+			.marco-cartel-mas-reencauche2 {
+				top: 420px;
+			}
+
+			.marco-cartel-mas-reencauche3 {
+				left: 18%;
+				top: 670px;
+			}
+
+			.marco-cartel-mas-reencauche4 {
+				top: 930px;
+			}
+
+			.marco-cartel-mas-reencauche5 {
+				left: 17%;
+				top: 1090px;
+			}
 }
 
 @media screen and (min-width: 1600px) {
